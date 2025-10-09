@@ -1,0 +1,31 @@
+.profile-pic {
+      display: flex;
+    flex-direction: column;
+    align-items: center;
+    .img-wrap {
+      width: 200px!important;
+      height: 200px!important;
+      img {
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
+        object-fit: cover;
+      }
+    }
+}
+
+.display-name {
+      text-align: center;
+    font-size: 2.5rem;
+}
+
+.email {
+      overflow-wrap: break-word;
+    width: 100%;
+    text-align: center;
+}
+
+
+ion-footer {
+  background-color: #fff;
+}

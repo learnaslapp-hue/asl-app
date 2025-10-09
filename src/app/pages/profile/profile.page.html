@@ -1,0 +1,26 @@
+<ion-header [translucent]="true" [ngClass]="{ 'no-shadow': !showShadow }">
+  <ion-toolbar >
+    <ion-buttons slot="start">
+      <ion-back-button default-href="/home"></ion-back-button>
+    </ion-buttons>
+    <ion-title>Profile</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true" class="ion-padding">
+  <div class="profile-pic">
+    <div class="img-wrap">
+      <img src="assets/images/male-profile.jpg" alt="">
+    </div>
+    <h1 class="display-name">{{displayName || ''}}</h1>
+    <h3 class="email">{{email || ''}}</h3>
+  </div>
+</ion-content>
+
+<ion-footer class="no-shadow ion-padding">
+  <ion-toolbar>
+      <ion-button class="regular" color="danger" fill="outline" expand="block" (click)="onLogout()">
+        Logout
+      </ion-button>
+  </ion-toolbar>
+</ion-footer>

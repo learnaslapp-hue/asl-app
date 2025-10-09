@@ -1,0 +1,67 @@
+<ion-header [translucent]="true" [ngClass]="{ 'no-shadow': (scrollService.scrollTop$ | async) === 0 }">
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-button (click)="close()">
+        <ion-icon name="arrow-back" slot="icon-only"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+    <ion-title style="text-align: center;">Scan</ion-title>
+    <div slot="end" style="width: 48px;"></div>
+  </ion-toolbar>
+  <ion-toolbar>
+    <ion-title style="text-align: center;"><h1 style="margin: 0;">{{targetLetter}}</h1></ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <div class="stage fullscreen">
+    <div class="video-wrap">
+      <!-- HUD (hidden when preview is showing) -->
+      <canvas #canvasEl [hidden]="!!previewSrc"></canvas>
+
+      <!-- Black splash shown only while waiting for camera & when no preview -->
+      <div class="video-splash" *ngIf="showSplash && !previewSrc"></div>
+
+      <!-- Video feed (hidden when preview is showing) -->
+      <video #videoEl autoplay playsinline muted [hidden]="!!previewSrc"></video>
+
+      <!-- Unsupported message -->
+      <div *ngIf="unsupportedMsg" class="unsupported-msg">{{ unsupportedMsg }}</div>
+
+      <!-- Tap overlay if autoplay blocked -->
+      <button *ngIf="needsTapToStart && !previewSrc && !unsupportedMsg"
+              class="tap-start" (click)="onTapToStart()">
+        Tap to start camera
+      </button>
+
+      <!-- Preview still captured at decision time -->
+      <img *ngIf="previewSrc" [src]="previewSrc" alt="ASL snapshot" class="preview-img" />
+
+      <!-- Live label + confidence -->
+      <div class="live-pill safe-botom" *ngIf="isScanning && liveLabel">
+        <span class="cls">{{ liveLabel }}</span>
+        <span class="pct">{{ (liveConfidence * 100) | number:'1.0-1' }}%</span>
+      </div>
+
+      <!-- Result text -->
+      <span class="result safe-botom" [ngClass]="{ 'correct': resultText.toLowerCase().includes('correct') }" *ngIf="resultText">{{ resultText }}</span>
+
+      <!-- Bottom-centered: spinner while scanning, Retry after result -->
+      <div class="bottom-ctr safe-botom">
+        <div *ngIf="isScanning" class="spinner-scan" aria-label="scanning..."></div>
+
+        <ion-button *ngIf="showRetry" class="retry-btn" (click)="onRetry()"
+                    size="large" shape="round" fill="solid">
+          <ion-icon name="repeat"></ion-icon>
+        </ion-button>
+      </div>
+
+      <!-- Camera Switch -->
+      <ion-fab *ngIf="hasMultipleCams" class="fab-switch" vertical="bottom" horizontal="end">
+        <ion-fab-button size="small" (click)="switchCamera()" aria-label="Switch camera">
+          <ion-icon name="camera-reverse"></ion-icon>
+        </ion-fab-button>
+      </ion-fab>
+    </div>
+  </div>
+</ion-content>

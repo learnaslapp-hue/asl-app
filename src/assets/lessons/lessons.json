@@ -1,0 +1,688 @@
+[
+  {
+    "category": "Animals",
+    "slug": "animals",
+    "image": "assets/lessons/images/animals.png",
+    "items": [
+      {
+        "name": "Bear",
+        "slug": "bear",
+        "image": "assets/lessons/images/bear.png",
+        "video": "1IvNzFn-Jz7lpqcdb2pqdOD3g_IO3GCi7"
+      },
+      {
+        "name": "Bird",
+        "slug": "bird",
+        "image": "assets/lessons/images/bird.png",
+        "video": "1tFmXjq1v8xvOtGp1YxQzuR9qxGeyHjO7"
+      },
+      {
+        "name": "Cat",
+        "slug": "cat",
+        "image": "assets/lessons/images/cat.png",
+        "video": "1EnHRUbtPocATqCXlfrz2upvdetISy2pu"
+      },
+      {
+        "name": "Cow",
+        "slug": "cow",
+        "image": "assets/lessons/images/cow.png",
+        "video": "1DIRkN1Fx0tWivRmm3_qyYtimu9HCexHG"
+      },
+      {
+        "name": "Dog",
+        "slug": "dog",
+        "image": "assets/lessons/images/dog.png",
+        "video": "1T2cKe2xEBWkOvVy5kyE1_MSLspUYLJ8p"
+      },
+      {
+        "name": "Elephant",
+        "slug": "elephant",
+        "image": "assets/lessons/images/elephant.png",
+        "video": "1uAHty_rdE8lo25OrBgpjgMpN3gg4wXUx"
+      },
+      {
+        "name": "Fish",
+        "slug": "fish",
+        "image": "assets/lessons/images/fish.png",
+        "video": "1yOCmvoTzpKIaAcA-vCZ16-85RaIQVh3q"
+      },
+      {
+        "name": "Horse",
+        "slug": "horse",
+        "image": "assets/lessons/images/horse.png",
+        "video": "1hUJ0Y5gfvZKGMeYUJ750eWdIVK9andB3"
+      },
+      {
+        "name": "Lion",
+        "slug": "lion",
+        "image": "assets/lessons/images/lion.png",
+        "video": "1jZUa5y4UDKu0C4C5c0KLvdqA0ovUmsia"
+      },
+      {
+        "name": "Monkey",
+        "slug": "monkey",
+        "image": "assets/lessons/images/monkey.png",
+        "video": "1wmihNnf9z-Tkzqthp9eW6MdGK_VW_c4v"
+      },
+      {
+        "name": "Pig",
+        "slug": "pig",
+        "image": "assets/lessons/images/pig.png",
+        "video": "11Ag48sa_zd3ui8rUaGwnGWljovkTt170"
+      },
+      {
+        "name": "Rabbit",
+        "slug": "rabbit",
+        "image": "assets/lessons/images/rabbit.png",
+        "video": "1yWPg2mGffsSl_Pn3i3txl1dXF1SpRaIh"
+      }
+    ]
+  },
+  {
+    "category": "Basic Words",
+    "slug": "basic_words",
+    "image": "assets/lessons/images/basic_words.png",
+    "items": [
+      {
+        "name": "Hello",
+        "slug": "hello",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1QK5Be3YHOAOh1JDmJ9Gvoh1_y4TNMdVq"
+      },
+      {
+        "name": "No",
+        "slug": "no",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1Lh99KrkoU-uKrsk_eNVheVMLGL2jYKBk"
+      },
+      {
+        "name": "Please",
+        "slug": "please",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1LltKitGiyzMrdCxkiIxaX6MbbFsRlfGX"
+      },
+      {
+        "name": "Sorry",
+        "slug": "sorry",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1B_DCWCBc8fIKdboyIEp9xQtSFQeNsT-S"
+      },
+      {
+        "name": "Thank you",
+        "slug": "thank_you",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1eF5Ofv3jGp5cwRUGAWyts6Aq4j4QxqL7"
+      },
+      {
+        "name": "Yes",
+        "slug": "yes",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "17zA0i2SMncQNpbhbJhLNr87_YQTbMT9C"
+      }
+    ]
+  },
+  {
+    "category": "Color",
+    "slug": "color",
+    "image": "assets/lessons/images/color.png",
+    "items": [
+      {
+        "name": "Black",
+        "slug": "black",
+        "backgroundColor": "#000",
+        "fontColor": "#fff",
+        "video": "1olWa9cQxlZo4GBAyolWyMBrvANv1_cQZ"
+      },
+      {
+        "name": "Blue",
+        "slug": "blue",
+        "backgroundColor": "#0D47A1",
+        "fontColor": "#fff",
+        "video": "1J7AZM8uCWrmWqidYkaXHBQBouxqlpoxv"
+      },
+      {
+        "name": "Brown",
+        "slug": "brown",
+        "backgroundColor": "#3E2723",
+        "fontColor": "#fff",
+        "video": "15aA1XZWawqqHgsbDOpHC7lBfEI1qsJBw"
+      },
+      {
+        "name": "Gray",
+        "slug": "gray",
+        "backgroundColor": "#616161",
+        "fontColor": "#fff",
+        "video": "1TIn7e6bYLPa9aA0_Ae_J-4KXolIIbFEb"
+      },
+      {
+        "name": "Green",
+        "slug": "green",
+        "backgroundColor": "#00796B",
+        "fontColor": "#fff",
+        "video": "1UgD0G28dWVMPE8uGIxChQkGZeUrdReER"
+      },
+      {
+        "name": "Orange",
+        "slug": "orange",
+        "backgroundColor": "#E65100",
+        "fontColor": "#fff",
+        "video": "1dyZF5D7SlPFCf1CULFmotN1DIGgUtfUA"
+      },
+      {
+        "name": "Pink",
+        "slug": "pink",
+        "backgroundColor": "#F50057",
+        "fontColor": "#fff",
+        "video": "1Rs3T3sfdFjvT9TnOtTE0CEI69RcOs1_9"
+      },
+      {
+        "name": "Purple",
+        "slug": "purple",
+        "backgroundColor": "#4A148C",
+        "fontColor": "#fff",
+        "video": "1_jrB_bNy_TvkGtJ6DI1-hzsNP0HuqJMV"
+      },
+      {
+        "name": "Red",
+        "slug": "red",
+        "backgroundColor": "#B71C1C",
+        "fontColor": "#fff",
+        "video": "1BdDXznQOHu3HgelaNnzfpqG5eN66S6o8"
+      },
+      {
+        "name": "White",
+        "slug": "white",
+        "backgroundColor": "#fff",
+        "fontColor": "#000",
+        "video": "1DPV3gz6ttwR8mros4x0BQaEKJLOvBVh3"
+      },
+      {
+        "name": "Yellow",
+        "slug": "yellow",
+        "backgroundColor": "#FBC02D",
+        "fontColor": "#fff",
+        "image": "assets/lessons/images/yellow.png",
+        "video": "19lStFtxMxo_wn9X2smfeTW4arbl4MoiA"
+      }
+    ]
+  },
+  {
+    "category": "Day",
+    "slug": "day",
+    "image": "assets/lessons/images/day.png",
+    "items": [
+      {
+        "name": "Friday",
+        "slug": "friday",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1t7TSAcs1no8e9uGXX215Z5GFVqFTyLlQ"
+      },
+      {
+        "name": "Monday",
+        "slug": "monday",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1F72Tnxt4JunpI-PV3NJyTPiTwRNV2epD"
+      },
+      {
+        "name": "Saturday",
+        "slug": "saturday",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1RuzOzopu1RiAtQ9zB-hB5g5VxA8xJSUg"
+      },
+      {
+        "name": "Sunday",
+        "slug": "sunday",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1gfT1_hTie6pLpDt7VKvWz_TZJ0R09Sno"
+      },
+      {
+        "name": "Thursday",
+        "slug": "thursday",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1frq4T4IOrbUjWiFOR6brr6JTQf2gSt05"
+      },
+      {
+        "name": "Tuesday",
+        "slug": "tuesday",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1Ac2h7lGwyLXKvuMhOVlpCUMx5hhUFcC-"
+      },
+      {
+        "name": "Wednesday",
+        "slug": "wednesday",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1NJqArxcIUgcuAURiQ4_hxbEKhAZYQvtL"
+      }
+    ]
+  },
+  {
+    "category": "Emotions",
+    "slug": "emotions",
+    "image": "assets/lessons/images/emotions.png",
+    "items": [
+      {
+        "name": "Angry",
+        "slug": "angry",
+        "content": "😠",
+        "video": "1tMeT1UstNpdcbqIsnl2Fdy0MO06CQXDr"
+      },
+      {
+        "name": "Confused",
+        "slug": "confused",
+        "content": "😕",
+        "video": "1A_92nvpf2SyGq04e5NlJxpKHvS8MmXiy"
+      },
+      {
+        "name": "Excited",
+        "slug": "excited",
+        "content": "🤩",
+        "video": "131IB_vn3BYk-cTC4zQ4fuwZRUP8WKDTF"
+      },
+      {
+        "name": "Happy",
+        "slug": "happy",
+        "content": "😄",
+        "video": "1rem0wQvRIGPplA9TcGH_BVVjdqCNBP5R"
+      },
+      {
+        "name": "Loved",
+        "slug": "loved",
+        "content": "🥰",
+        "video": "1x7AaQ7RAYZJNydxKz21UDdW96DlJ4VNc"
+      },
+      {
+        "name": "Proud",
+        "slug": "proud",
+        "content": "🥹",
+        "video": "1gz_Js5n0t-DOpet2o-hvbPbGXrSeCFQ9"
+      },
+      {
+        "name": "Sad",
+        "slug": "sad",
+        "content": "😢",
+        "video": "1H5q7-iXiqxi7a_tU_v5b-Oarth6mkScg"
+      },
+      {
+        "name": "Surprised",
+        "slug": "surprised",
+        "content": "😮",
+        "video": "1Gs0304tLqyue_7tiNuAXeS1Uu5tm4BmU"
+      },
+      {
+        "name": "Tired",
+        "slug": "tired",
+        "content": "😫",
+        "video": "1KJoIXk9t3p7rHMrtbcRWV7AShFFPuW_H"
+      },
+      {
+        "name": "Worried",
+        "slug": "worried",
+        "content": "😟",
+        "video": "1vnn-aazXHmFroOJIZbt07AQdbNjQq82L"
+      }
+    ]
+  },
+  {
+    "category": "Months",
+    "slug": "months",
+    "image": "assets/lessons/images/months.png",
+    "items": [
+      {
+        "name": "January",
+        "slug": "january",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1nRAfiNrKZWj-Rbslq72j5X3ACHM7SqiW"
+      },
+      {
+        "name": "February",
+        "slug": "february",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1TOYedYZX0ZjQfe6YLLMdw5OZTrW3lUSX"
+      },
+      {
+        "name": "March",
+        "slug": "march",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1OBWyEqHOS8-yjwnQykPOnx1CTquoVkUH"
+      },
+      {
+        "name": "April",
+        "slug": "april",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1IMimjpINBqy03j1C5u2w0swnibMyWzto"
+      },
+      {
+        "name": "May",
+        "slug": "may",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1Nc0IBvVGcOQtu_2z3x68iUIk-Ej8S9P9"
+      },
+      {
+        "name": "June",
+        "slug": "june",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1OYYcd9eusBzzYfP-lYaoam2FYIs8bIQj"
+      },
+      {
+        "name": "July",
+        "slug": "july",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1akEgfXhuyNy2E4ic-WcTMRfyvXnwBAVu"
+      },
+      {
+        "name": "August",
+        "slug": "august",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1qh4fBhm-pCDtV4Ux6-WuaXTHjCYrDn03"
+      },
+      {
+        "name": "September",
+        "slug": "september",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "17NBrmywoAeg55aDluj1HeTzz0VxuuR1D"
+      },
+      {
+        "name": "October",
+        "slug": "october",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1nEjCr25ZVLJbaOezCKDoeva2RlqmL9mv"
+      },
+      {
+        "name": "November",
+        "slug": "november",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1Twf9F4WAGFrFMGyfNp823LmOn7XObC-N"
+      },
+      {
+        "name": "December",
+        "slug": "december",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1xcfv7LnNzz1SwGvAaTWjQpsHnFU91iuI"
+      }
+    ]
+  },
+  {
+    "category": "Numbers",
+    "slug": "numbers",
+    "image": "assets/lessons/images/numbers.png",
+    "items": [
+      {
+        "name": "1",
+        "slug": "1",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1XIezO-ucUP9qugih1BD62qhQ8maE1MOB"
+      },
+      {
+        "name": "2",
+        "slug": "2",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1R8eeWIs-tUwsUeO_fNSEZV8C7AtXdm6n"
+      },
+      {
+        "name": "3",
+        "slug": "3",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1G4gxOE1fmaPpzZWPtZ6DNBKdaY9tNm3d"
+      },
+      {
+        "name": "4",
+        "slug": "4",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1WoOXcI3TDauFGEtj_ZfSwVO2OmoV5_en"
+      },
+      {
+        "name": "5",
+        "slug": "5",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1XNxkXfyfdUluV2ngqo9BDykVO7j48cwj"
+      },
+      {
+        "name": "6",
+        "slug": "6",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "12KnsyN0VX6J-8Vbfz1dY1v5JolB2ne9R"
+      },
+      {
+        "name": "7",
+        "slug": "7",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1BhXbvlEHvSF7GyXUCJW4Yz4pEi4Nervh"
+      },
+      {
+        "name": "8",
+        "slug": "8",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1ls5lZHxSbM3wHkmE8RGs6ilYFYfj20Ru"
+      },
+      {
+        "name": "9",
+        "slug": "9",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1mdfQCna7v1du_-K1xcLXlpjWNR90i2fZ"
+      },
+      {
+        "name": "10",
+        "slug": "10",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1E5fpPvl0ZXlA872-CRvSPg3CekpLjL1t"
+      }
+    ]
+  },
+  {
+    "category": "Places and Directions",
+    "slug": "places_and_directions",
+    "image": "assets/lessons/images/places_and_directions.png",
+    "items": [
+      {
+        "name": "Down",
+        "slug": "down",
+        "content": "👇",
+        "video": "1BNwiCW-B-JXEEsomRUWPNtUNU8vJNvFb"
+      },
+      {
+        "name": "Home",
+        "slug": "home",
+        "content": "🏠",
+        "video": "1Zmmtm5g6qePUPp6vjEuquxfnbr5Ggb9H"
+      },
+      {
+        "name": "Hospital",
+        "slug": "hospital",
+        "content": "🏥",
+        "video": "19DA3G950s1w8SRmJgk1Cj0NIftlshyn4"
+      },
+      {
+        "name": "Left",
+        "slug": "left",
+        "content": "👈",
+        "video": "1CqiJBezqEcf-leOrB_ird1p_TEx6ckaW"
+      },
+      {
+        "name": "Library",
+        "slug": "library",
+        "content": "😠",
+        "video": "1-ydn3feO4r7e0iGl5jqEurTqWLuj5FIt"
+      },
+      {
+        "name": "Park",
+        "slug": "park",
+        "content": "🛝",
+        "video": "1o_eSZsUzHEBkw-UcUga5IYCrPKduv-HB"
+      },
+      {
+        "name": "Restaurant",
+        "slug": "restaurant",
+        "content": "🍴",
+        "video": "1KbrP7c_zBmTS5zRQvn-vJlti2T7WM9MK"
+      },
+      {
+        "name": "Right",
+        "slug": "right",
+        "content": "👉",
+        "video": "12UycrGjXoXUSS46vXBccNUyl84eAeQML"
+      },
+      {
+        "name": "School",
+        "slug": "school",
+        "content": "🏫",
+        "video": "10Evx0PBUSRw6VVRj2bTgumK6e55DTDPP"
+      },
+      {
+        "name": "Store",
+        "slug": "store",
+        "content": "🏪",
+        "video": "1USLNadckJVIZ3WhxDG0ncMcNTaRkViU9"
+      },
+      {
+        "name": "Up",
+        "slug": "up",
+        "content": "☝️",
+        "video": "1LriFY8x7L6h7RJIkaEgGCqwod6OeI47B"
+      }
+    ]
+  },
+  {
+    "category": "Relationships",
+    "slug": "relationships",
+    "image": "assets/lessons/images/relationships.png",
+    "items": [
+      {
+        "name": "Brother",
+        "slug": "brother",
+        "content": "👦🏻",
+        "video": "1119WJbw7L6odXFb97K8MoVnx3TzDu578"
+      },
+      {
+        "name": "Doctor",
+        "slug": "doctor",
+        "content": "👨🏻‍⚕️",
+        "video": "1S1hFwgtJNTAWx0ctc31L4tdEP7IABiXY"
+      },
+      {
+        "name": "Family",
+        "slug": "family",
+        "content": "👨🏻‍👩🏻‍👧🏻",
+        "video": "1axBJbcbXC8Ymlo8xrSrthDrlh1tSiiJC"
+      },
+      {
+        "name": "Father",
+        "slug": "father",
+        "content": "👨🏻",
+        "video": "1hYLk7nslCnyCC8p2ixfrMgv-6HLbpfwW"
+      },
+      {
+        "name": "Friend",
+        "slug": "friend",
+        "content": "👫🏻",
+        "video": "1cte-cFb-KhFxVXpec4mr8VFCwjEeBM2k"
+      },
+      {
+        "name": "Grandfather",
+        "slug": "grandfather",
+        "content": "👴🏻",
+        "video": "1gF_sB7EffUwd3SOy8YREU5CPToaHvQ0h"
+      },
+      {
+        "name": "Grandmother",
+        "slug": "grandmother",
+        "content": "👵🏻",
+        "video": "14zdwwcMS4xhMl2gCOeQR-fM68SOijn7e"
+      },
+      {
+        "name": "Mother",
+        "slug": "mother",
+        "content": "👩🏻",
+        "video": "1VQDJF1F52izJuQNWTX4KULqWmVdftNl3"
+      },
+      {
+        "name": "Sister",
+        "slug": "sister",
+        "content": "👧🏻",
+        "video": "1xmdLhrW23kSJp2kZcqEqD3QECR9GIe6H"
+      },
+      {
+        "name": "Teacher",
+        "slug": "teacher",
+        "content": "🧑🏻‍🏫",
+        "video": "13RWaYTqxCuWhAfLFXdVhdkjMqySsvMjb"
+      }
+    ]
+  },
+  {
+    "category": "Verbs",
+    "slug": "verbs",
+    "image": "assets/lessons/images/verbs.png",
+    "items": [
+      {
+        "name": "Eat",
+        "slug": "eat",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "10HqJFSemQoVdTyA6EQwxS00xgm6pdJ5l"
+      },
+      {
+        "name": "Jump",
+        "slug": "jump",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1k_DfJs1lcX4CiwWkKXXFjmpnbP3R_EsZ"
+      },
+      {
+        "name": "Run",
+        "slug": "run",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1ogYUwMS6h0H0JtjsnILyEk5JOM90kpiq"
+      },
+      {
+        "name": "Sleep",
+        "slug": "sleep",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1ZWIPT5RmayAYC09zn_FgogH_khk1JP8Y"
+      },
+      {
+        "name": "Write",
+        "slug": "write",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "171DmR7oztMLIO4pqD51dOE94UU6GHRt2"
+      }
+    ]
+  }
+]

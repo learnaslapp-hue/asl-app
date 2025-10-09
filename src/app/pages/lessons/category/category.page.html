@@ -1,0 +1,115 @@
+<ion-header [translucent]="true" [ngClass]="{ 'no-shadow': !showShadow }">
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button default-href="/lessons"></ion-back-button>
+    </ion-buttons>
+    <ion-title>
+      <ng-container *ngIf="category$ | async as cat; else loading">{{cat.category}}</ng-container></ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding modal-safe-botom">
+  <ng-container *ngIf="category$ | async as cat; else loading">
+    <ng-container *ngIf="cat?.items?.length; else empty">
+
+      @if(cat?.slug === "animals") {
+      <div class="cards grid">
+        <ng-container *ngFor="let item of cat.items">
+          <div class="card-holder" (click)="onShowVideoPlayer(item, cat)">
+            <ion-card>
+              <img [src]="item.image" alt="{{item.name}}" />
+            </ion-card>
+            <div class="card-action animals">
+              <h4 class="card-title">{{ item.name }}</h4>
+              <ion-button shape="round">
+                <ion-icon name="play" slot="icon-only"></ion-icon>
+              </ion-button>
+            </div>
+            <ion-icon color="success" size="large" *ngIf="isItemDone(cat.slug, item.slug)" name="checkmark-circle"
+              class="done"></ion-icon>
+          </div>
+        </ng-container>
+      </div>
+      }
+      @else if(cat?.slug === "basic_words" || cat?.slug === "day" || cat?.slug === "months" || cat?.slug === "numbers"
+      || cat?.slug === "verbs")
+      {
+      <div class="cards list">
+        <ng-container *ngFor="let item of cat.items">
+          <div class="card-holder" (click)="onShowVideoPlayer(item, cat)">
+            <ion-card>
+              <ion-card-content>
+                <ion-card-title>{{ item.name }}
+                  <ion-icon color="success" size="large" *ngIf="isItemDone(cat.slug, item.slug)" name="checkmark-circle"
+                    class="done"></ion-icon>
+                  </ion-card-title>
+                <ion-button shape="round">
+                  <ion-icon name="play" slot="icon-only"></ion-icon>
+                </ion-button>
+              </ion-card-content>
+            </ion-card>
+          </div>
+        </ng-container>
+      </div>
+      }
+      @else if(cat?.slug === "color") {
+      <div class="cards list">
+        <ng-container *ngFor="let item of cat.items">
+          <div class="card-holder" (click)="onShowVideoPlayer(item, cat)">
+            <ion-card>
+              <ion-card-content style="background-color: {{item.backgroundColor}};">
+                <ion-card-title style="color: {{item.fontColor}};">{{ item.name }}
+                  <ion-icon [color]="item?.slug !== 'white' ? 'light' : 'dark'" size="large" *ngIf="isItemDone(cat.slug, item.slug)" name="checkmark-circle"
+                    class="done"></ion-icon>
+                  </ion-card-title>
+                @if(item?.slug !== "white") {
+                <ion-button shape="round" color="light" fill="outline">
+                  <ion-icon name="play" slot="icon-only"></ion-icon>
+                </ion-button>
+                } @else {
+                <ion-button shape="round" color="dark" fill="outline">
+                  <ion-icon name="play" slot="icon-only"></ion-icon>
+                </ion-button>
+                }
+              </ion-card-content>
+            </ion-card>
+          </div>
+        </ng-container>
+      </div>
+      }
+      @else if(cat?.slug === "emotions" || cat?.slug === "places_and_directions" || cat?.slug === "relationships") {
+      <div class="cards grid">
+        <ng-container *ngFor="let item of cat.items">
+          <div class="card-holder" (click)="onShowVideoPlayer(item, cat)">
+            <ion-card>
+              <ion-card-content><span class="emoji">{{item?.content}}</span>
+                  <ion-icon color="success" size="large" *ngIf="isItemDone(cat.slug, item.slug)" name="checkmark-circle"
+                    class="done"></ion-icon>
+                  </ion-card-content>
+            </ion-card>
+            <div class="card-action emotions">
+              <h4 class="card-title">{{ item.name }}</h4>
+              <ion-button shape="round">
+                <ion-icon name="play" slot="icon-only"></ion-icon>
+              </ion-button>
+            </div>
+          </div>
+        </ng-container>
+      </div>
+      }
+    </ng-container>
+
+  </ng-container>
+
+  <ng-template #loading>
+    <p>Loading…</p>
+  </ng-template>
+
+  <ng-template #empty>
+    <p>No items yet for this category.</p>
+  </ng-template>
+</ion-content>
+
+
+<ion-footer class="no-shadow modal-safe-botom">
+</ion-footer>

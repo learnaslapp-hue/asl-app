@@ -1,0 +1,68 @@
+<ion-header [ngClass]="{ 'no-shadow': (scrollService.scrollTop$ | async) === 0 }">
+  <ion-toolbar class="transparent-toolbar">
+
+    <!-- Back arrow first (left side) -->
+    <ion-buttons slot="start">
+      <ion-button routerLink="/landing-page" fill="clear">
+        <ion-icon slot="icon-only" name="arrow-back"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+
+    <!-- Title directly after button, still aligned left -->
+    <ion-title slot="start">Signup</ion-title>
+
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true" class="ion-padding page">
+  <div class="wrap">
+    <ion-card class="card no-shadow">
+      <ion-card-header>
+        <ion-card-subtitle>Sign up to continue practicing ASL and build skills that will open doors to meaningful conversations and connections.</ion-card-subtitle>
+      </ion-card-header>
+
+      <ion-card-content>
+        <form [formGroup]="form" (ngSubmit)="onSubmit()">
+          <!-- Name (outlined) -->
+          <ion-input errorText="{{
+            name?.hasError('required') ? 'Name is required' :
+            name?.hasError('minlength') ? 'Name must be at least 2 characters long' :
+            name?.hasError('maxlength') ? 'Name cannot be more than 50 characters long' : ''
+          }}" class="mb" formControlName="name" label="Name" labelPlacement="stacked" fill="outline"
+            inputmode="text" placeholder="Name" clearInput="true">
+          </ion-input>
+
+          <br>
+
+          <!-- Email (outlined) -->
+          <ion-input errorText="{{
+            email?.hasError('required') ? 'Email is required' :
+            email?.hasError('email') ? 'Please enter a valid email address' :
+            email?.hasError('userExists') ? 'An account with this email already exists' : ''
+          }}" class="mb" formControlName="email" label="Email" labelPlacement="stacked" fill="outline"
+            inputmode="email" placeholder="you@example.com" clearInput="true">
+          </ion-input>
+
+          <br>
+
+          <!-- Password (outlined) with toggle -->
+          <ion-input errorText="{{
+            password?.hasError('required') ? 'Password is required' :
+            password?.hasError('minlength') ? 'Password must be at least 6 characters long' : ''
+          }}" class="mb" formControlName="password" [type]="showPassword ? 'text' : 'password'" label="Password"
+            placeholder="Enter your password" labelPlacement="stacked" fill="outline" autocomplete="off">
+            <ion-button slot="end" fill="clear" size="small" type="button" (click)="showPassword = !showPassword">
+              <ion-icon [name]="showPassword ? 'eye-off' : 'eye'"></ion-icon>
+            </ion-button>
+          </ion-input>
+
+
+          <br>
+          <ion-button class="regular" expand="block" type="submit" [disabled]="form.invalid">
+            Signup
+          </ion-button>
+        </form>
+      </ion-card-content>
+    </ion-card>
+  </div>
+</ion-content>

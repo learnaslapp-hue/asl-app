@@ -1,0 +1,100 @@
+/* Remove header bg */
+ion-header,
+ion-toolbar {
+  --background: #f8fafb  !important;
+  background: #f8fafb  !important;
+}
+
+/* Full page background */
+.page-content {
+  --background: url('/assets/images/bg.png') no-repeat center center / cover !important;
+  background: url('/assets/images/bg.png') no-repeat center center / cover !important;
+}
+
+/* Cards layout */
+.cards {
+  display: flex;
+  flex-direction: row;
+}
+
+.image-card {
+  width: 50%;
+  text-align: center;
+  display: inline-block;
+  transition: transform 0.15s ease-in-out;
+  cursor: pointer;
+}
+
+.image-card:first-child {
+  padding-right: 5px !important;
+}
+
+.image-card:last-child {
+  padding-left: 5px !important;
+}
+
+.image-card:focus,
+.image-card:active {
+  transform: scale(0.95);
+  /* shrink effect on press */
+}
+
+ion-card {
+  width: 100%;
+  height: 240px;
+  margin: 0 !important;
+  --background: transparent;
+  background: transparent;
+  border: none !important;
+
+  border-radius: 12px;
+  box-shadow: 0px 8px 16px 0px #00000014, 0px 0px 4px 0px #0000000A !important;
+}
+
+ion-card-content {
+  width: 100%;
+  height: 100%;
+  padding: 0 !important;
+}
+
+ion-card-content img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+.card-title {
+  margin-top: 10px !important;
+  margin-bottom: 10px !important;
+}
+
+
+.progress-wrap {
+  box-sizing: border-box;
+  position: absolute;
+  bottom: 5px;
+  width: 100%;
+  padding: 0 5px;
+
+  .progress-label-wrap {
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    left: 0;
+    top: 5px;
+
+    .progress-label {
+      color: #000;;
+      font-size: 1rem;
+    }
+  }
+
+  ion-progress-bar {
+    height: 30px !important;
+    border-radius: 30px;
+    --background: #e0fff8;
+    --progress-background: #5debca;
+  }
+
+}

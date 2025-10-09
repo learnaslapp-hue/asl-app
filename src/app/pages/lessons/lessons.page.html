@@ -1,0 +1,28 @@
+<ion-header [translucent]="true" [ngClass]="{ 'no-shadow': !showShadow }">
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button default-href="/home"></ion-back-button>
+    </ion-buttons>
+    <ion-title>Lessons</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="false" class="ion-padding">
+  <div class="cards modal-safe-botom">
+    <div *ngFor="let c of (categories$ | async)" class="image-card" [routerLink]="['/lessons', c.slug]">
+      <ion-card class="card">
+        <ion-card-content>
+          <img [src]="c.image" alt="">
+          <ng-container *ngIf="progressMap$ | async as pm">
+            <div class="badge">{{ pm[c.slug]?.done }}/{{ pm[c.slug]?.total }}</div>
+            <ion-icon *ngIf="pm[c.slug]?.complete" name="star" class="star"></ion-icon>
+          </ng-container>
+        </ion-card-content>
+      </ion-card>
+      <h4 class="card-title">{{c.category}}</h4>
+    </div>
+  </div>
+</ion-content>
+
+<ion-footer class="no-shadow modal-safe-botom">
+</ion-footer>

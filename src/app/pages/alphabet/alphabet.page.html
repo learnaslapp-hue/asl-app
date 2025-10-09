@@ -1,0 +1,80 @@
+<ion-header [translucent]="true" [ngClass]="{ 'no-shadow': !showShadow }">
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button default-href="/home"></ion-back-button>
+    </ion-buttons>
+    <ion-title>Alphabet</ion-title>
+    <ion-buttons slot="end" class="keypadbutton">
+      <ion-button fill="clear" (click)="showKeyPad= !showKeyPad">
+        <ion-icon name="keypad"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="false" class="page">
+  <div class="wrapper">
+    <div class="preview-frame">
+      @if(isComplted) {
+        <div style="position: absolute;">
+          <ion-icon color="success" name="checkmark-circle" slot="icon-only" class="done"></ion-icon>
+        </div>
+      }
+      <img *ngIf="imgSrc" [src]="imgSrc" [alt]="'ASL letter ' + selected" />
+    </div>
+    <ng-container *ngTemplateOutlet="letterButtons"></ng-container>
+
+    <ion-fab #moreFab slot="fixed" vertical="bottom" horizontal="end">
+      <ion-fab-button (click)="onShowScanner(selected)">
+        <ion-icon name="scan"></ion-icon>
+      </ion-fab-button>
+    </ion-fab>
+  </div>
+</ion-content>
+
+<ion-footer>
+  <ion-toolbar>
+    <div class="alphabet-controls">
+      <div class="slide-control">
+        <!-- PREV -->
+        <ion-button class="next-prev" size="large" shape="round" fill="outline" aria-label="Previous letter"
+          (click)="prev();moreFab.activated = false">
+          <ion-icon slot="icon-only" name="arrow-back"></ion-icon>
+        </ion-button>
+
+        <!-- TOGGLE KEYPAD -->
+        <div class="current">
+          <ion-button shape="round" fill="clear" size="small"
+            (click)="showKeyPad = !showKeyPad;moreFab.activated = false">
+            @if(showKeyPad) {
+            <ion-icon slot="icon-only" name="chevron-down"></ion-icon>
+            } @else {
+            <ion-icon slot="icon-only" name="chevron-up"></ion-icon>
+            }
+          </ion-button>
+          <h1>{{ selected }}</h1>
+        </div>
+
+        <!-- NEXT -->
+        <ion-button class="next-prev" size="large" shape="round" fill="outline" aria-label="Next letter"
+          (click)="next();moreFab.activated = false">
+          <ion-icon slot="icon-only" name="arrow-forward"></ion-icon>
+        </ion-button>
+      </div>
+
+      <ng-container *ngTemplateOutlet="letterButtons"></ng-container>
+    </div>
+  </ion-toolbar>
+</ion-footer>
+<ng-template #letterButtons>
+  <div [ngClass]="{ 'show': showKeyPad }" class="keypad" role="group" aria-label="ASL Alphabet">
+    <ng-container *ngIf="showKeyPad">
+
+      <ion-button *ngFor="let l of letters" size="small" shape="round" class="key" [class.active]="selected === l"
+        [attr.aria-pressed]="selected === l" (click)="selectLetter(l);moreFab.activated = false">
+        {{ l }}
+      </ion-button>
+    </ng-container>
+
+  </div>
+</ng-template>

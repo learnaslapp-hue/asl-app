@@ -161,6 +161,7 @@
                                 |-- lessons.jpg
                                 |-- male-profile.jpg
                                 |-- quiz.png
+                                |-- text-to-sign.png
                                 |-- text-to-speech.jpg
                             |-- lessons
                                 |-- images
@@ -188,20 +189,21 @@
                                     |-- relationships.png
                                     |-- verbs.png
                                 |-- lessons.json
+                        |-- chunk-2AF5FOAA.js
                         |-- chunk-2Z5IYBOR.js
                         |-- chunk-33HYKEDK.js
                         |-- chunk-34VEE2YD.js
-                        |-- chunk-3BFOI2QZ.js
                         |-- chunk-3GUSW6XS.js
                         |-- chunk-3MEUGWN3.js
                         |-- chunk-3NTGT44D.js
+                        |-- chunk-3T6SOJS6.js
                         |-- chunk-42C7ZIID.js
                         |-- chunk-4D37LEBH.js
                         |-- chunk-4U6PRYVA.js
                         |-- chunk-4V62HSRN.js
-                        |-- chunk-52T76MZR.js
                         |-- chunk-572LLHHX.js
                         |-- chunk-5HKGP5UB.js
+                        |-- chunk-5NPJNAPJ.js
                         |-- chunk-64PZ3OSN.js
                         |-- chunk-6GO5ISOD.js
                         |-- chunk-6NUEBUYE.js
@@ -210,14 +212,15 @@
                         |-- chunk-7ISF44PN.js
                         |-- chunk-7NECM6LW.js
                         |-- chunk-7PW2J7O2.js
+                        |-- chunk-7QRA6HYT.js
                         |-- chunk-7R5ZNXBG.js
                         |-- chunk-A4LS7W3H.js
+                        |-- chunk-ABE2ZHUL.js
                         |-- chunk-ADUYDX2F.js
                         |-- chunk-AELO4X7F.js
                         |-- chunk-AEYCIGNT.js
                         |-- chunk-AIVXN2Q3.js
                         |-- chunk-AVK743VZ.js
-                        |-- chunk-B32UY5DK.js
                         |-- chunk-B4ILG2SA.js
                         |-- chunk-BAKXBSD2.js
                         |-- chunk-BFQC47ZY.js
@@ -227,7 +230,6 @@
                         |-- chunk-CHV7RLFB.js
                         |-- chunk-CIAJI3TA.js
                         |-- chunk-CJUYLGXA.js
-                        |-- chunk-CKJ2A6CT.js
                         |-- chunk-CKP3SGE2.js
                         |-- chunk-CQ5ACUU7.js
                         |-- chunk-CSG5OQLY.js
@@ -242,30 +244,29 @@
                         |-- chunk-E7ZOKENL.js
                         |-- chunk-EC3ROJCR.js
                         |-- chunk-EGXNOGJG.js
+                        |-- chunk-EISBDRUG.js
+                        |-- chunk-EONRAGQT.js
+                        |-- chunk-EQDY4UTP.js
+                        |-- chunk-F2UIML2F.js
                         |-- chunk-FPOZYJOD.js
                         |-- chunk-FUHXKBJ3.js
                         |-- chunk-FXFZIWDD.js
                         |-- chunk-G2476464.js
                         |-- chunk-GGIMTWXW.js
-                        |-- chunk-GUGUD54R.js
                         |-- chunk-HB7LWLH6.js
-                        |-- chunk-HEOIPJ2Y.js
-                        |-- chunk-IEDRKMVW.js
+                        |-- chunk-HZKMSCS6.js
                         |-- chunk-INVJSEV7.js
-                        |-- chunk-IQND2NOX.js
                         |-- chunk-ITLHFZ6N.js
                         |-- chunk-IXDQAI5U.js
+                        |-- chunk-J6UEISPL.js
                         |-- chunk-JDHAWVXT.js
-                        |-- chunk-JFBDDWUD.js
                         |-- chunk-JHV7MXM5.js
                         |-- chunk-JIPUQH57.js
-                        |-- chunk-K3RRVMZ6.js
                         |-- chunk-KFC3XH7K.js
                         |-- chunk-KORF5WCM.js
                         |-- chunk-LBMIQEU6.js
                         |-- chunk-LCGHQR5P.js
                         |-- chunk-LJUJT4LQ.js
-                        |-- chunk-LMFMKQU7.js
                         |-- chunk-LRBG2F7K.js
                         |-- chunk-MTUXJE3Z.js
                         |-- chunk-N4H74X2N.js
@@ -273,11 +274,10 @@
                         |-- chunk-ND7XFFT4.js
                         |-- chunk-NSVKGIVU.js
                         |-- chunk-O4PCMGUI.js
-                        |-- chunk-O57VFSZL.js
                         |-- chunk-P754K45D.js
                         |-- chunk-PDCHILEE.js
                         |-- chunk-PLFY2CTQ.js
-                        |-- chunk-PYK2I2I7.js
+                        |-- chunk-PTQLIENT.js
                         |-- chunk-QIBKRVRZ.js
                         |-- chunk-QIOGLRFT.js
                         |-- chunk-QLTHRXJP.js
@@ -286,23 +286,22 @@
                         |-- chunk-QUJFQN2Y.js
                         |-- chunk-RD3XSXCJ.js
                         |-- chunk-RSIQOUEQ.js
-                        |-- chunk-S5ULKTYV.js
                         |-- chunk-SF2KXOZL.js
-                        |-- chunk-SPWCHKWA.js
                         |-- chunk-T2Z3RKML.js
                         |-- chunk-T3OQMFWT.js
+                        |-- chunk-T7KAZKAB.js
                         |-- chunk-TFKMKZEA.js
                         |-- chunk-TG6FTS4O.js
                         |-- chunk-THMYXG5Y.js
-                        |-- chunk-TQBNAFKU.js
                         |-- chunk-TSCAUGJG.js
-                        |-- chunk-UAKYHZSN.js
                         |-- chunk-UDA7EHOH.js
                         |-- chunk-UEWK5YSD.js
+                        |-- chunk-UJODM2NG.js
                         |-- chunk-UUODALZH.js
                         |-- chunk-V4MQCQ7K.js
                         |-- chunk-V7EWGBEE.js
                         |-- chunk-V7RZZWEO.js
+                        |-- chunk-VDDTTITY.js
                         |-- chunk-VMHM3MLJ.js
                         |-- chunk-VZBGHXQK.js
                         |-- chunk-W34T4BFF.js
@@ -314,6 +313,7 @@
                         |-- chunk-WLIQIJ56.js
                         |-- chunk-WPAANKQE.js
                         |-- chunk-WPRTUFAF.js
+                        |-- chunk-WTL2ZXBE.js
                         |-- chunk-WWLKLYXQ.js
                         |-- chunk-WXPWNLLQ.js
                         |-- chunk-XRAFHYBU.js
@@ -323,14 +323,16 @@
                         |-- chunk-YPOD3FIG.js
                         |-- chunk-Z2KPFZMZ.js
                         |-- chunk-Z2XIGH2N.js
+                        |-- chunk-ZA7FMUXH.js
                         |-- chunk-ZIPAPM4J.js
+                        |-- chunk-ZRUO2QN7.js
                         |-- chunk-ZSRSMIC3.js
                         |-- chunk-ZUMA5K4X.js
                         |-- chunk-ZV7S2JV6.js
                         |-- cordova.js
                         |-- cordova_plugins.js
                         |-- index.html
-                        |-- main-UNZSF3XQ.js
+                        |-- main-DYD2UFYS.js
                         |-- media
                             |-- Poppins-Bold-QAA2AGZS.ttf
                             |-- Poppins-Regular-JNHL4IDV.ttf
@@ -591,6 +593,11 @@
                 |-- send-verification.page.scss
                 |-- send-verification.page.spec.ts
                 |-- send-verification.page.ts
+            |-- text-to-sign
+                |-- text-to-sign.page.html
+                |-- text-to-sign.page.scss
+                |-- text-to-sign.page.spec.ts
+                |-- text-to-sign.page.ts
             |-- video-player
                 |-- video-player.page.html
                 |-- video-player.page.scss
@@ -673,6 +680,7 @@
             |-- lessons.jpg
             |-- male-profile.jpg
             |-- quiz.png
+            |-- text-to-sign.png
             |-- text-to-speech.jpg
         |-- lessons
             |-- images
@@ -781,6 +789,7 @@
             |-- lessons.jpg
             |-- male-profile.jpg
             |-- quiz.png
+            |-- text-to-sign.png
             |-- text-to-speech.jpg
         |-- lessons
             |-- images
@@ -808,20 +817,21 @@
                 |-- relationships.png
                 |-- verbs.png
             |-- lessons.json
+    |-- chunk-2AF5FOAA.js
     |-- chunk-2Z5IYBOR.js
     |-- chunk-33HYKEDK.js
     |-- chunk-34VEE2YD.js
-    |-- chunk-3BFOI2QZ.js
     |-- chunk-3GUSW6XS.js
     |-- chunk-3MEUGWN3.js
     |-- chunk-3NTGT44D.js
+    |-- chunk-3T6SOJS6.js
     |-- chunk-42C7ZIID.js
     |-- chunk-4D37LEBH.js
     |-- chunk-4U6PRYVA.js
     |-- chunk-4V62HSRN.js
-    |-- chunk-52T76MZR.js
     |-- chunk-572LLHHX.js
     |-- chunk-5HKGP5UB.js
+    |-- chunk-5NPJNAPJ.js
     |-- chunk-64PZ3OSN.js
     |-- chunk-6GO5ISOD.js
     |-- chunk-6NUEBUYE.js
@@ -830,14 +840,15 @@
     |-- chunk-7ISF44PN.js
     |-- chunk-7NECM6LW.js
     |-- chunk-7PW2J7O2.js
+    |-- chunk-7QRA6HYT.js
     |-- chunk-7R5ZNXBG.js
     |-- chunk-A4LS7W3H.js
+    |-- chunk-ABE2ZHUL.js
     |-- chunk-ADUYDX2F.js
     |-- chunk-AELO4X7F.js
     |-- chunk-AEYCIGNT.js
     |-- chunk-AIVXN2Q3.js
     |-- chunk-AVK743VZ.js
-    |-- chunk-B32UY5DK.js
     |-- chunk-B4ILG2SA.js
     |-- chunk-BAKXBSD2.js
     |-- chunk-BFQC47ZY.js
@@ -847,7 +858,6 @@
     |-- chunk-CHV7RLFB.js
     |-- chunk-CIAJI3TA.js
     |-- chunk-CJUYLGXA.js
-    |-- chunk-CKJ2A6CT.js
     |-- chunk-CKP3SGE2.js
     |-- chunk-CQ5ACUU7.js
     |-- chunk-CSG5OQLY.js
@@ -862,30 +872,29 @@
     |-- chunk-E7ZOKENL.js
     |-- chunk-EC3ROJCR.js
     |-- chunk-EGXNOGJG.js
+    |-- chunk-EISBDRUG.js
+    |-- chunk-EONRAGQT.js
+    |-- chunk-EQDY4UTP.js
+    |-- chunk-F2UIML2F.js
     |-- chunk-FPOZYJOD.js
     |-- chunk-FUHXKBJ3.js
     |-- chunk-FXFZIWDD.js
     |-- chunk-G2476464.js
     |-- chunk-GGIMTWXW.js
-    |-- chunk-GUGUD54R.js
     |-- chunk-HB7LWLH6.js
-    |-- chunk-HEOIPJ2Y.js
-    |-- chunk-IEDRKMVW.js
+    |-- chunk-HZKMSCS6.js
     |-- chunk-INVJSEV7.js
-    |-- chunk-IQND2NOX.js
     |-- chunk-ITLHFZ6N.js
     |-- chunk-IXDQAI5U.js
+    |-- chunk-J6UEISPL.js
     |-- chunk-JDHAWVXT.js
-    |-- chunk-JFBDDWUD.js
     |-- chunk-JHV7MXM5.js
     |-- chunk-JIPUQH57.js
-    |-- chunk-K3RRVMZ6.js
     |-- chunk-KFC3XH7K.js
     |-- chunk-KORF5WCM.js
     |-- chunk-LBMIQEU6.js
     |-- chunk-LCGHQR5P.js
     |-- chunk-LJUJT4LQ.js
-    |-- chunk-LMFMKQU7.js
     |-- chunk-LRBG2F7K.js
     |-- chunk-MTUXJE3Z.js
     |-- chunk-N4H74X2N.js
@@ -893,11 +902,10 @@
     |-- chunk-ND7XFFT4.js
     |-- chunk-NSVKGIVU.js
     |-- chunk-O4PCMGUI.js
-    |-- chunk-O57VFSZL.js
     |-- chunk-P754K45D.js
     |-- chunk-PDCHILEE.js
     |-- chunk-PLFY2CTQ.js
-    |-- chunk-PYK2I2I7.js
+    |-- chunk-PTQLIENT.js
     |-- chunk-QIBKRVRZ.js
     |-- chunk-QIOGLRFT.js
     |-- chunk-QLTHRXJP.js
@@ -906,23 +914,22 @@
     |-- chunk-QUJFQN2Y.js
     |-- chunk-RD3XSXCJ.js
     |-- chunk-RSIQOUEQ.js
-    |-- chunk-S5ULKTYV.js
     |-- chunk-SF2KXOZL.js
-    |-- chunk-SPWCHKWA.js
     |-- chunk-T2Z3RKML.js
     |-- chunk-T3OQMFWT.js
+    |-- chunk-T7KAZKAB.js
     |-- chunk-TFKMKZEA.js
     |-- chunk-TG6FTS4O.js
     |-- chunk-THMYXG5Y.js
-    |-- chunk-TQBNAFKU.js
     |-- chunk-TSCAUGJG.js
-    |-- chunk-UAKYHZSN.js
     |-- chunk-UDA7EHOH.js
     |-- chunk-UEWK5YSD.js
+    |-- chunk-UJODM2NG.js
     |-- chunk-UUODALZH.js
     |-- chunk-V4MQCQ7K.js
     |-- chunk-V7EWGBEE.js
     |-- chunk-V7RZZWEO.js
+    |-- chunk-VDDTTITY.js
     |-- chunk-VMHM3MLJ.js
     |-- chunk-VZBGHXQK.js
     |-- chunk-W34T4BFF.js
@@ -934,6 +941,7 @@
     |-- chunk-WLIQIJ56.js
     |-- chunk-WPAANKQE.js
     |-- chunk-WPRTUFAF.js
+    |-- chunk-WTL2ZXBE.js
     |-- chunk-WWLKLYXQ.js
     |-- chunk-WXPWNLLQ.js
     |-- chunk-XRAFHYBU.js
@@ -943,12 +951,14 @@
     |-- chunk-YPOD3FIG.js
     |-- chunk-Z2KPFZMZ.js
     |-- chunk-Z2XIGH2N.js
+    |-- chunk-ZA7FMUXH.js
     |-- chunk-ZIPAPM4J.js
+    |-- chunk-ZRUO2QN7.js
     |-- chunk-ZSRSMIC3.js
     |-- chunk-ZUMA5K4X.js
     |-- chunk-ZV7S2JV6.js
     |-- index.html
-    |-- main-UNZSF3XQ.js
+    |-- main-DYD2UFYS.js
     |-- media
         |-- Poppins-Bold-QAA2AGZS.ttf
         |-- Poppins-Regular-JNHL4IDV.ttf

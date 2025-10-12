@@ -51,12 +51,16 @@ export const routes: Routes = [
     loadComponent: () => import('./pages/lessons/category/category.page').then(m => m.CategoryPage)
   },
   {
+    path: 'category',
+    loadComponent: () => import('./pages/lessons/category/category.page').then( m => m.CategoryPage)
+  },
+  {
+    path: 'text-to-sign',
+    loadComponent: () => import('./pages/text-to-sign/text-to-sign.page').then( m => m.TextToSignPage)
+  },
+  {
     path: 'reset-password',
     loadComponent: () => import('./pages/reset-password/reset-password.page').then( m => m.ResetPasswordPage)
   },
   { path: '**', redirectTo: '' },
-  {
-    path: 'category',
-    loadComponent: () => import('./pages/lessons/category/category.page').then( m => m.CategoryPage)
-  },
 ];

@@ -1,0 +1,119 @@
+.wrap {
+  min-height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.box {
+  background: var(--ion-color-step-50, #fff);
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+
+  h1 { font-weight: 700; }
+}
+
+.translate-result-modal { --height: 100%;
+  .translate-result {}
+}
+
+.carousel {
+  --card-gap: 16px;
+  position: relative;
+  width: 100%;
+  padding-block: 6px;
+  touch-action: pan-y;
+  outline: none;
+}
+
+.track {
+  display: flex;
+  gap: var(--card-gap);
+  will-change: transform;
+  transform: translate3d(0, 0, 0);
+}
+
+.slide-card {
+  position: relative;
+
+  /* default (mid) */
+  flex: 0 0 60vw;
+  max-width: 520px;
+  aspect-ratio: 1 / 1;
+  background: #d9f4f4;
+  border-radius: 16px;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.06);
+  display: grid;
+  place-items: center;
+  user-select: none;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+/* ≥ 720px: exactly 4 cards visible */
+@media (min-width: 720px) {
+  .slide-card {
+    max-width: none;
+    flex-basis: calc((100% - 3 * var(--card-gap)) / 4); /* 4 cols, 3 gaps */
+  }
+}
+
+/* ≤ 360px: ~1.5 cards */
+@media (max-width: 360px) {
+  .slide-card { flex-basis: 66.6667vw; }
+}
+
+.slide-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  pointer-events: none;
+}
+
+.slide-card .letter-tag {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 1;
+  color: #111;
+}
+
+/* LETTER PAGER */
+.pager {
+  margin-top: 12px;
+  display: flex;
+  gap: 8px;
+  overflow-x: auto;
+  padding-bottom: 6px;
+  scroll-snap-type: x proximity;
+
+  &::-webkit-scrollbar { display: none; }
+}
+
+.pager .chip {
+  scroll-snap-align: center;
+  border: 1px solid #7C4DFF;
+  background: #fff;
+  color: #7C4DFF;
+  border-radius: 999px;
+  padding: 10px 20px;
+  line-height: 1;
+  font-weight: 700;
+  font-size: 1rem;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  min-width: 42px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+}
+
+.pager .chip.on {
+  background: #6370ff;
+  color: #fff;
+}

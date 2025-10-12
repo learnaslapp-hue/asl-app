@@ -1,0 +1,77 @@
+<ion-header [translucent]="true" [ngClass]="{ 'no-shadow': !showShadow }">
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button default-href="/home"></ion-back-button>
+    </ion-buttons>
+    <ion-title>Text to Sign</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="false" class="ion-padding">
+  <div class="wrap">
+    <div class="box ion-padding">
+      <h1>Translate text to Sign Language</h1>
+
+      <ion-textarea
+        inputmode="search"
+        [formControl]="inputTranslate"
+        fill="outline"
+        labelPlacement="stacked"
+        placeholder="Type something"
+        clearInput="true">
+      </ion-textarea>
+
+      <ion-button class="regular" expand="block" [disabled]="!inputTranslate.value" (click)="onShowResult()">
+        Translate
+      </ion-button>
+    </div>
+  </div>
+
+  <!-- RESULT MODAL -->
+  <ion-modal #translateResultModal class="translate-result-modal modal-safe-botom">
+    <ng-template>
+      <ion-header [translucent]="true" [ngClass]="{ 'no-shadow': !showShadow }">
+        <ion-toolbar>
+          <ion-buttons slot="start">
+            <ion-button (click)="translateResultModal.dismiss()">
+              <ion-icon name="arrow-back" size="large" slot="icon-only"></ion-icon>
+            </ion-button>
+          </ion-buttons>
+          <ion-title>{{ inputTranslate?.value }}</ion-title>
+        </ion-toolbar>
+      </ion-header>
+
+      <ion-content [fullscreen]="false" class="ion-padding translate-result">
+        <!-- Carousel -->
+        <div
+          #carousel
+          class="carousel"
+          tabindex="0"
+          (keyup.arrowLeft)="onKeyLeft()"
+          (keyup.arrowRight)="onKeyRight()">
+
+          <div #track class="track">
+            <div class="slide-card" *ngFor="let s of slides; let i = index" [class.active]="i === active" (mousedown)="goTo(i)">
+              <div class="letter-tag">{{ s.ch }}</div>
+              <img [src]="s.src" alt="{{s.ch}} sign" />
+            </div>
+          </div>
+        </div>
+
+        <!-- Pager (letters) -->
+        <div #pager class="pager" *ngIf="slides.length > 1">
+          <button
+            class="chip"
+            *ngFor="let s of slides; let i = index"
+            [class.on]="i === active"
+            (click)="goTo(i)"
+            [attr.aria-label]="'Go to ' + s.ch">
+            {{ s.ch }}
+          </button>
+        </div>
+      </ion-content>
+    </ng-template>
+  </ion-modal>
+</ion-content>
+
+<ion-footer class="no-shadow modal-safe-botom"></ion-footer>

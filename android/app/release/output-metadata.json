@@ -4,7 +4,7 @@
     "type": "APK",
     "kind": "Directory"
   },
-  "applicationId": "com.doctracker.app",
+  "applicationId": "com.aslapp.app",
   "variantName": "release",
   "elements": [
     {

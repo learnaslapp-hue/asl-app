@@ -1,15 +1,19 @@
+import { APIKeyManagement } from './../../model/api-key-management';
 import 'webrtc-adapter';
 import { Component, ElementRef, OnDestroy, OnInit, ViewChild } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import {
   IonContent, IonHeader, IonTitle, IonToolbar, IonButton,
-  ModalController, IonButtons, IonIcon, IonFab, IonFabButton
+  ModalController, IonButtons, IonIcon, IonFab, IonFabButton,
+  AlertButton
 } from '@ionic/angular/standalone';
 import { ScrollService } from '../../services/scroll.service';
 import { arrowBack, repeat, cameraReverse } from 'ionicons/icons';
 import { addIcons } from 'ionicons';
 import { StorageService } from '../../services/storage.service';
 import { User } from '../model/user';
+import { APIKeyManagementService } from 'src/app/services/api-key-management.service';
+import { AlertController } from '@ionic/angular';
 
 type RFClassPrediction = { class: string; confidence: number };
 type RFResponseSingleLabel = {
@@ -36,15 +40,15 @@ export class ScanPage implements OnInit, OnDestroy {
   // Roboflow
   private readonly MODEL_SLUG = 'asl-alphabet-recognition';
   private readonly MODEL_VERSION = '7';
-  private readonly API_KEY = 'EqFTjiqhfpdUYDL1N9UG';
+  private API_KEY: string | undefined;
 
   // Target
   targetLetter = 'A';
 
   // Sampling config
-  private readonly frameIntervalMs = 250;   // how often we send frames
-  private readonly minVoteConfidence = 0.45; // confidence threshold to accept a single hit
-  private readonly maxWaitMs = 30000;        // optional: auto-timeout if nothing is found in 30s
+  private readonly frameIntervalMs = 1000;
+  private readonly minVoteConfidence = 0.45;
+  private readonly maxWaitMs = 30000;
 
   // Timers/state
   private frameTimer: any;
@@ -54,6 +58,7 @@ export class ScanPage implements OnInit, OnDestroy {
 
   // UI state
   isScanning = false;
+  isWaiting = false;
   showRetry = false;
   resultText = '';
   liveLabel = '';
@@ -70,16 +75,22 @@ export class ScanPage implements OnInit, OnDestroy {
   currentFacing: 'user' | 'environment' = 'environment';
   hasMultipleCams = false;
 
+  // --- NEW: avoid repeated reloads when Forbidden ---
+  private apiKeyReloadInFlight = false;
+  private lastForbiddenAt = 0;
+
   constructor(
     private readonly modalCtrl: ModalController,
     public scrollService: ScrollService,
-    public storageService: StorageService,
+    private readonly storageService: StorageService,
+    private readonly apiKeyManagementService: APIKeyManagementService,
+    private readonly alertController: AlertController,
   ) {
     addIcons({ arrowBack, repeat, cameraReverse });
   }
 
-  // ---------- Lifecycle ----------
   async ngOnInit() {
+    this.loadAPIKey();
     this.captureCanvas = document.createElement('canvas');
 
     if (!this.ensureGetUserMedia()) {
@@ -87,14 +98,13 @@ export class ScanPage implements OnInit, OnDestroy {
       return;
     }
 
-    // restore facing if you persist it
     const savedFacing = await this.storageService.getCameraFacing();
     if (savedFacing === 'user' || savedFacing === 'environment') {
       this.currentFacing = savedFacing;
     }
 
     await this.startCamera();
-    this.startScanningUntilHit(); // <— new “wait-until-detected” logic
+    this.startScanningUntilHit();
 
     new ResizeObserver(() => this.fitCanvasToWrapper()).observe(
       document.querySelector('.video-wrap') as Element
@@ -112,7 +122,6 @@ export class ScanPage implements OnInit, OnDestroy {
     }
   }
 
-  // ---------- WebRTC helpers ----------
   private ensureGetUserMedia(): boolean {
     const navAny: any = navigator;
     if (!('mediaDevices' in navigator)) navAny.mediaDevices = {};
@@ -160,7 +169,6 @@ export class ScanPage implements OnInit, OnDestroy {
       });
       if (labeled) return labeled.deviceId;
 
-      // heuristic: first ~ front, last ~ back
       return (facing === 'environment' ? cams[cams.length - 1] : cams[0]).deviceId;
     } catch {
       return null;
@@ -197,13 +205,11 @@ export class ScanPage implements OnInit, OnDestroy {
       try {
         this.stream = await tryWithFacing();
       } catch {
-        // fallback for WebViews that ignore facingMode
         this.stream = await tryWithDeviceId();
       }
 
       video.srcObject = this.stream;
 
-      // multi-cam?
       try {
         const devs = await navigator.mediaDevices.enumerateDevices();
         this.hasMultipleCams = devs.filter(d => d.kind === 'videoinput').length > 1;
@@ -247,7 +253,6 @@ export class ScanPage implements OnInit, OnDestroy {
     await this.startCamera();
   }
 
-  // ---------- NEW: scan-until-single-hit ----------
   private startScanningUntilHit() {
     if (this.running) return;
     this.running = true;
@@ -259,10 +264,8 @@ export class ScanPage implements OnInit, OnDestroy {
     this.showRetry = false;
     this.isScanning = true;
 
-    // continuously sample
     this.frameTimer = setInterval(() => this.captureAndPredictOnce().catch(console.error), this.frameIntervalMs);
 
-    // optional safety timeout
     this.timeoutTimer = setTimeout(() => {
       if (!this.running) return;
       this.stopScanning();
@@ -277,61 +280,122 @@ export class ScanPage implements OnInit, OnDestroy {
     if (this.frameTimer) { clearInterval(this.frameTimer); this.frameTimer = null; }
     if (this.timeoutTimer) { clearTimeout(this.timeoutTimer); this.timeoutTimer = null; }
     this.isScanning = false;
+    this.isWaiting = false;
   }
 
+  // ----------------- UPDATED: main loop with robust error handling -----------------
   private async captureAndPredictOnce() {
-    const video = this.videoEl.nativeElement;
-    if (video.videoWidth === 0 || video.videoHeight === 0 || video.readyState < 2) return;
+    // throttle: if a request is in flight, skip this tick
+    if (this.isWaiting) return;
 
-    const cap = this.captureCanvas;
-    cap.width = video.videoWidth;
-    cap.height = video.videoHeight;
-    const ctx = cap.getContext('2d');
-    if (!ctx) return;
+    try {
+      const video = this.videoEl.nativeElement;
+      if (video.videoWidth === 0 || video.videoHeight === 0 || video.readyState < 2) return;
 
-    // draw current frame
-    ctx.drawImage(video, 0, 0, cap.width, cap.height);
-    const base64 = cap.toDataURL('image/jpeg', 0.9).split(',')[1];
+      const cap = this.captureCanvas;
+      cap.width = video.videoWidth;
+      cap.height = video.videoHeight;
+      const ctx = cap.getContext('2d');
+      if (!ctx) return;
 
-    // Roboflow classify
-    const url = `https://classify.roboflow.com/${this.MODEL_SLUG}/${this.MODEL_VERSION}?api_key=${this.API_KEY}`;
-    const res = await fetch(url, {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
-      body: base64,
-    });
-    if (!res.ok) return;
+      ctx.drawImage(video, 0, 0, cap.width, cap.height);
+      const base64 = cap.toDataURL('image/jpeg', 0.9).split(',')[1];
 
-    const json = (await res.json()) as RFResponseSingleLabel;
+      this.isWaiting = true;
+      const url = `https://classify.roboflow.com/${this.MODEL_SLUG}/${this.MODEL_VERSION}?api_key=${this.API_KEY ?? ''}`;
+      const res = await fetch(url, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+        body: base64,
+      });
 
-    // Update live HUD with the best label (for user feedback)
-    if (json.predictions?.length) {
-      const best = [...json.predictions].sort((a, b) => b.confidence - a.confidence)[0];
-      this.liveLabel = best.class.toUpperCase();
-      this.liveConfidence = best.confidence;
-    } else {
-      this.liveLabel = '';
-      this.liveConfidence = 0;
+      // If HTTP not ok, try to parse the body and decide if it's auth-related
+      if (!res.ok) {
+        await this.handleRoboflowError(res);
+        this.isWaiting = false;
+        return;
+      }
+
+      // Happy path
+      const json = (await res.json()) as RFResponseSingleLabel;
+
+      if (json.predictions?.length) {
+        const best = [...json.predictions].sort((a, b) => b.confidence - a.confidence)[0];
+        this.liveLabel = best.class.toUpperCase();
+        this.liveConfidence = best.confidence;
+      } else {
+        this.liveLabel = '';
+        this.liveConfidence = 0;
+      }
+
+      const expected = this.targetLetter.toUpperCase();
+      const found = (json.predictions || []).some(p =>
+        p.class?.toUpperCase() === expected && p.confidence >= this.minVoteConfidence
+      );
+
+      if (found) {
+        console.log('found image', cap.toDataURL('image/jpeg', 0.9));
+        this.stopScanning();
+        this.resultText = 'Correct!';
+        this.capturePreview();
+        this.showRetry = true;
+        this.logCompleted();
+      }
+
+      this.isWaiting = false;
+      this.drawOverlay();
+    } catch (e) {
+      // Network or parsing errors – just release the throttle; do not spam alerts
+      this.isWaiting = false;
+      // Optional: console for diagnostics
+      console.warn('captureAndPredictOnce error:', e);
+    }
+  }
+
+  // ----------------- NEW: central handler for 401/403/Forbidden -----------------
+  private async handleRoboflowError(res: Response) {
+    let isAuthOrForbidden = res.status === 401 || res.status === 403;
+
+    // Try to infer from body, some edges return JSON { message: "Forbidden" } or text
+    try {
+      const contentType = res.headers.get('content-type') || '';
+      if (contentType.includes('application/json')) {
+        const data = await res.json().catch(() => null) as any;
+        if (data?.message && typeof data.message === 'string') {
+          if (data.message.toLowerCase().includes('forbidden') || data.message.toLowerCase().includes('unauthorized')) {
+            isAuthOrForbidden = true;
+          }
+        }
+      } else {
+        const text = await res.text().catch(() => '');
+        if (text.toLowerCase().includes('forbidden')) {
+          isAuthOrForbidden = true;
+        }
+      }
+    } catch {
+      // ignore body parsing errors
     }
 
-    // Single-hit decision: if expected appears ONCE above threshold, we’re done
-    const expected = this.targetLetter.toUpperCase();
-    const found = (json.predictions || []).some(p =>
-      p.class?.toUpperCase() === expected && p.confidence >= this.minVoteConfidence
-    );
-
-    if (found) {
-      console.log("found image", cap.toDataURL('image/jpeg', 0.9))
-      this.stopScanning();
-      this.resultText = 'Correct!';
-      this.capturePreview();
-      this.showRetry = true;
-      this.logCompleted();
-
+    if (isAuthOrForbidden) {
+      if(this.apiKeyManagementService?.currentAPIKey?.id) {
+          await this.apiKeyManagementService.markAsExpired(this.apiKeyManagementService?.currentAPIKey?.id).toPromise();
+      }
+      const now = Date.now();
+      // debounce: only trigger a reload at most once per 3 seconds
+      if (!this.apiKeyReloadInFlight && now - this.lastForbiddenAt > 3000) {
+        this.apiKeyReloadInFlight = true;
+        this.lastForbiddenAt = now;
+        // silently refresh key (alerts already handled inside loadAPIKey on hard failures)
+        try {
+          this.storageService.saveAPIKey(null);
+          this.apiKeyManagementService.setCurrentAPIKey(null);
+          this.loadAPIKey(true);
+        } finally {
+          // give it a short breathing room before allowing another refresh attempt
+          setTimeout(() => (this.apiKeyReloadInFlight = false), 1500);
+        }
+      }
     }
-
-    // keep the HUD dashed guide refreshed
-    this.drawOverlay();
   }
 
   // ---------- HUD / Preview ----------
@@ -358,7 +422,6 @@ export class ScanPage implements OnInit, OnDestroy {
 
     ctx.clearRect(0, 0, displayW, displayH);
 
-    // dashed guide
     const gw = Math.floor(displayW * 0.55);
     const gh = Math.floor(displayH * 0.55);
     const gx = Math.floor((displayW - gw) / 2);
@@ -399,7 +462,6 @@ export class ScanPage implements OnInit, OnDestroy {
       ctx.drawImage(video, dx, dy, dw, dh);
     }
 
-    // guide
     ctx.save();
     ctx.lineWidth = 3;
     ctx.setLineDash([8, 6]);
@@ -435,5 +497,50 @@ export class ScanPage implements OnInit, OnDestroy {
     }
     this.currentProfile.progress.alphabet.compeleted = completed;
     this.storageService.saveProfile(this.currentProfile);
+  }
+
+  // (unchanged) — used by our error flow
+  private loadAPIKey(refresh = false) {
+    if (this.apiKeyManagementService?.currentAPIKey?.apiKey) {
+      this.API_KEY = this.apiKeyManagementService.currentAPIKey.apiKey;
+    } else {
+      this.apiKeyManagementService.get(refresh).subscribe(res => {
+        if (res && res.data && res.data.apiKey) {
+          this.storageService.saveAPIKey(res.data);
+          this.apiKeyManagementService.setCurrentAPIKey(res.data);
+          this.API_KEY = res.data.apiKey;
+        } else {
+          this.presentAlertMessage('Error', 'Failed to load API key. Please try again later.', [{
+            text: 'OK',
+            role: '',
+            cssClass: 'alert-button-ok',
+            handler: async () => { this.close(); }
+          }]);
+        }
+      }, () => {
+        this.presentAlertMessage('Error', 'Failed to load API key. Please try again later.', [{
+          text: 'OK',
+          role: '',
+          cssClass: 'alert-button-ok',
+          handler: async () => { this.close(); }
+        }]);
+      });
+    }
+  }
+
+  private async presentAlertMessage(header: string, message: string, buttons: (string | AlertButton)[]) {
+    if (!buttons || buttons.length === 0) {
+      buttons = [{
+        text: 'OK',
+        role: 'cancel',
+        cssClass: 'alert-button-ok',
+      }];
+    }
+    const alert = await this.alertController.create({
+      header,
+      message,
+      buttons,
+    });
+    await alert.present();
   }
 }

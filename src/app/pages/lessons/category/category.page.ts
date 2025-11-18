@@ -7,17 +7,18 @@ import {
   IonContent, IonFab, IonFabButton, IonFabList, IonFooter, IonHeader, IonIcon, IonTitle, IonToolbar,
   ModalController
 } from '@ionic/angular/standalone';
-import { LessonCategory, LessonItem, LessonsService } from 'src/app/services/lessons.service';
 import { addIcons } from 'ionicons';
 import { arrowBack, checkmarkCircle, play } from 'ionicons/icons';
 import { Observable, map, switchMap } from 'rxjs';
 import { ScrollService } from 'src/app/services/scroll.service';
-import { VideoPlayerPage } from '../../video-player/video-player.page';
 import { DomSanitizer } from '@angular/platform-browser';
 import { StatusBarService } from 'src/app/services/status-bar.service';
 import { Style } from '@capacitor/status-bar';
 import { User } from 'src/app/model/user';
 import { StorageService } from 'src/app/services/storage.service';
+import { VideoPlayerModal } from 'src/app/components/video-player-modal/video-player-modal';
+import { LessonCategory, LessonItem } from 'src/app/model/lessons';
+import { LessonsService } from 'src/app/services/lessons.service';
 
 @Component({
   selector: 'app-category',
@@ -81,7 +82,7 @@ export class CategoryPage implements OnInit {
 
   async onShowVideoPlayer(lessonItem: LessonItem, category: LessonCategory) {
     const modal = await this.modalCtrl.create({
-      component: VideoPlayerPage,
+      component: VideoPlayerModal,
       cssClass: 'modal-fullscreen',
       backdropDismiss: false,
       canDismiss: true,

@@ -1,0 +1,89 @@
+/* src/app/quiz/quiz.page.scss */
+.hero {
+  padding: 16px;
+
+  .banner {
+    background: linear-gradient(298deg, #5E35B1, #7E57C2);
+    color: #fff;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, .15);
+
+    .heading {
+      font-size: 20px;
+      font-weight: 700;
+    }
+
+    .sub {
+      opacity: .9;
+      margin: 8px 0 12px;
+    }
+  }
+}
+
+.level-section {
+  padding: 10px 16px 0;
+
+  h2 {
+    margin: 18px 0 10px;
+    font-weight: 800;
+    letter-spacing: .5px;
+  }
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px 12px;
+}
+
+.card {
+  position: relative;
+  border: none;
+  text-align: left;
+  color: #fff;
+  border-radius: 18px;
+  padding: 16px;
+  height: 120px;
+  box-shadow: 0 6px 14px rgba(0, 0, 0, .18);
+  background: linear-gradient(298deg, #4854e0, #6370ff);
+  .lock-icon {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+  }
+
+  .title {
+    font-weight: 700;
+    font-size: 15px;
+  }
+
+  .subtitle {
+    opacity: .8;
+    margin-top: 6px;
+    font-size: 12px;
+  }
+
+  &.locked {
+    background: #2b2b2b;
+    background: linear-gradient(298deg, #282a3d, #5e6185);
+    opacity: .55;
+    pointer-events: none;
+  }
+}
+
+.badge {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: #10b981;
+  color: #052e1a;
+  font-weight: 800;
+  padding: 4px 8px;
+  border-radius: 999px;
+  font-size: 11px;
+}
+
+.points {
+  font-weight: 800;
+}

@@ -1,0 +1,45 @@
+<!-- src/app/quiz/quiz.page.html -->
+<ion-header class="ion-no-border">
+  <ion-toolbar >
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="/"></ion-back-button>
+    </ion-buttons>
+    <ion-title>Quiz</ion-title>
+    <ion-buttons slot="end">
+      <ion-chip class="points">
+        <ion-label>{{ points }} point{{ points === 1 ? '' : 's' }}</ion-label>
+      </ion-chip>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <div class="hero">
+    <div class="banner">
+      <div class="heading">Level {{ status?.currentLevel }}</div>
+      <br>
+      <div class="heading">High score: {{ status?.currentHighScore }}</div>
+      <br>
+      <ion-button expand="block" shape="round" style="height: 56px;" (click)="startNext()">Continue</ion-button>
+    </div>
+  </div>
+
+  <ng-container *ngIf="!loading">
+    <div *ngFor="let lvl of levels" class="level-section">
+      <h2>LEVEL {{ lvl }}</h2>
+      <div class="grid">
+        <button
+          class="card"
+          *ngFor="let item of itemsByLevel.get(lvl)!"
+          [class.locked]="!canOpen(lvl)"
+          (click)="canOpen(lvl) && openQuiz(item.id)"
+        >
+          <div class="badge" *ngIf="status?.completedQuiz.includes(item.id)">✓</div>
+          <div class="title">{{ item.group }}</div>
+          <div class="subtitle">{{ item.category }}</div>
+          <div *ngIf="!canOpen(lvl)" class="lock-icon">🔐</div>
+        </button>
+      </div>
+    </div>
+  </ng-container>
+</ion-content>

@@ -9,6 +9,7 @@ import { StorageService } from './storage.service';
 import { Router } from '@angular/router';
 import { ApiResponse } from '../model/api-response.model';
 import { User } from '../model/user';
+import { APIKeyManagementService } from './api-key-management.service';
 
 @Injectable({ providedIn: 'root' })
 export class AuthService {
@@ -22,6 +23,7 @@ export class AuthService {
   constructor(
     private http: HttpClient,
     private storageService: StorageService,
+    private apiKeyManagementService: APIKeyManagementService,
     private router: Router
   ) {
     // seed from storage once
@@ -33,6 +35,10 @@ export class AuthService {
 
   setCurrentLogin(user: User | null) {
     this.userSubject.next(user);
+  }
+
+  get currentUser(): User | null {
+    return this.userSubject.value;
   }
 
   login(data: { email: string; password: string }): Observable<ApiResponse<User>> {
@@ -83,6 +89,8 @@ export class AuthService {
     await this.storageService.saveAccessToken(null);
     await this.storageService.saveRefreshToken(null);
     await this.storageService.saveProfile(null);
+    await this.storageService.saveAPIKey(null);
+    await this.apiKeyManagementService.setCurrentAPIKey(null);
     this.userSubject.next(null);
     this.isLoggedIn = false;
     this.router.navigateByUrl('/landing-page');

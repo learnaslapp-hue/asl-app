@@ -3,29 +3,8 @@ import { Injectable, inject } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { map, shareReplay, Observable } from 'rxjs';
 import { User } from '../model/user';
+import { LessonCategory, CategoryProgress } from '../model/lessons';
 
-export type LessonItem = {
-  name: string;
-  slug: string;
-  image: string;
-  video: string;
-  backgroundColor?: string;
-  fontColor?: string;
-  content?: string;
-};
-
-export type LessonCategory = {
-  category: string;
-  slug: string;
-  image: string;
-  items: LessonItem[];
-};
-
-export type CategoryProgress = {
-  done: number;
-  total: number;
-  complete: boolean;
-};
 
 export const lessonKey = (categorySlug: string, itemSlug: string) =>
   `${categorySlug}::${itemSlug}`;
@@ -40,7 +19,9 @@ export class LessonsService {
 
   getCategories() { return this.data$; }
   getCategory(slug: string) {
-    return this.data$.pipe(map(cats => cats.find(c => c.slug === slug)));
+    return this.data$.pipe(map(cats => {
+      return cats.find(c => c.slug === slug);
+    }));
   }
   getItem(categorySlug: string, itemSlug: string) {
     return this.data$.pipe(

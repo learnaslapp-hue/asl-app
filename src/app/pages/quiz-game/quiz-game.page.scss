@@ -1,0 +1,50 @@
+/* src/app/quiz-game/quiz-game.page.scss */
+.card {
+  background: #0b1220;
+  color: #e5edff;
+  box-shadow: 0 8px 24px rgba(0,0,0,.18);
+}
+.prompt .caption { font-size: 16px; font-weight: 700; margin-bottom: 10px; }
+.grid-video {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); // 4 equal columns
+  gap: 8px;
+}
+.media-wrapper {
+  position: relative;
+}
+.media {
+  width: 100%; height: 200px; background: #000;
+}
+.prompt-text { font-size: 16px; font-weight: 600; }
+
+.options {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 12px;
+  margin-top: 16px;
+}
+.option {
+  border: none;
+  text-align: left;
+  background: #111827;
+  color: #fff;
+  border-radius: 16px;
+  padding: 12px;
+  display: grid;
+  grid-template-columns: 88px 1fr;
+  gap: 10px;
+  align-items: center;
+  box-shadow: 0 6px 14px rgba(0,0,0,.2);
+  img, video { width: 88px; height: 64px; object-fit: cover; border-radius: 10px; background:#000; }
+  .label { font-weight: 700; }
+  &.selected { outline: 2px solid #60a5fa; }
+  &.correct  { background: #064e3b; }
+  &.incorrect{ background: #7f1d1d; }
+}
+.footer { margin-top: 20px; }
+
+app-video-player video {
+  height: 100%!important;
+  position: relative;
+}

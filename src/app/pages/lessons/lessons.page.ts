@@ -16,12 +16,9 @@ import { StatusBarService } from 'src/app/services/status-bar.service';
 import { Style } from '@capacitor/status-bar';
 import { RouterModule } from '@angular/router';
 
-import {
-  LessonsService,
-  LessonCategory,
-  CategoryProgress
-} from 'src/app/services/lessons.service';
 import { AuthService } from 'src/app/services/auth.service';
+import { LessonCategory, CategoryProgress } from 'src/app/model/lessons';
+import { LessonsService } from 'src/app/services/lessons.service';
 
 @Component({
   selector: 'app-lessons',

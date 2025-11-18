@@ -10,6 +10,8 @@ import { StorageService } from '../../services/storage.service';
 import { User } from '../model/user';
 import { AuthService } from '../../services/auth.service';
 import { Router } from '@angular/router';
+import { APIKeyManagementService } from 'src/app/services/api-key-management.service';
+import { Subscription } from 'rxjs';
 
 @Component({
   selector: 'app-alphabet',
@@ -22,6 +24,7 @@ import { Router } from '@angular/router';
 export class AlphabetPage {
   currentProfile: User;
   letters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'.split('');
+  private apiKeySub?: Subscription;
 
   @ViewChild(IonContent, { static: true }) content!: IonContent;
 
@@ -45,7 +48,8 @@ export class AlphabetPage {
   constructor(public scrollService: ScrollService,
     private readonly modalCtrl: ModalController,
     private readonly authService: AuthService,
-    private readonly storageService: StorageService
+    private readonly storageService: StorageService,
+    private readonly apiKeyManagementService: APIKeyManagementService,
   ) {
     this.storageService.getCameraFacing().then(res => {
       this.cameraFacing = res || "environment";
@@ -60,8 +64,8 @@ export class AlphabetPage {
     //Called after the constructor, initializing input properties, and the first call to ngOnChanges.
     //Add 'implements OnInit' to the class.
 
+    this.loadAPIKey();
     await this.loadProfile();
-
     await this.saveLastOpened(this.selected);
   }
 
@@ -154,5 +158,16 @@ export class AlphabetPage {
     }
     this.currentProfile.progress.alphabet.compeleted = completed;
     this.storageService.saveProfile(this.currentProfile);
+  }
+
+  private loadAPIKey() {
+    if(!this.apiKeyManagementService?.currentAPIKey?.apiKey) {
+      this.apiKeySub = this.apiKeyManagementService.get().subscribe(res=> {
+        if(res && res.data) {
+          this.storageService.saveAPIKey(res.data);
+          this.apiKeyManagementService.setCurrentAPIKey(res.data);
+        }
+      });
+    }
   }
 }

@@ -2,86 +2,308 @@
   {
     "category": "Animals",
     "slug": "animals",
-    "image": "assets/lessons/images/animals.png",
+    "image": "assets/lessons/images/animals/animals.png",
     "items": [
+      {
+        "name": "Ant",
+        "slug": "ant",
+        "image": "assets/lessons/images/animals/ant.png",
+        "video": "1iKb2HdpO_ripbtBrIJdaQr_7Y-W4DrPc"
+      },
+      {
+        "name": "Bat",
+        "slug": "bat",
+        "image": "assets/lessons/images/animals/bat.png",
+        "video": "17JlIt7M6tq4dTRWnRv2vnIVKhPAmuVcm"
+      },
+      {
+        "name": "Bee",
+        "slug": "bee",
+        "image": "assets/lessons/images/animals/bee.png",
+        "video": "1GoAURo10BPXA0NuX7PDgYvoMyFZMBe8Z"
+      },
+      {
+        "name": "Butterfly",
+        "slug": "butterfly",
+        "image": "assets/lessons/images/animals/butterfly.png",
+        "video": "1G31fDxX2LGkHfhNSpCa4WTlJ6-7iTeSj"
+      },
+      {
+        "name": "Camel",
+        "slug": "camel",
+        "image": "assets/lessons/images/animals/camel.png",
+        "video": "1y0Eydtis-wTqtKRY6b9tEzED0EgC4seu"
+      },
+      {
+        "name": "Chicken",
+        "slug": "chicken",
+        "image": "assets/lessons/images/animals/chicken.png",
+        "video": "1853xYbMOXhW_0ak4do8ikkT9J0b4i9lD"
+      },
+      {
+        "name": "Crab",
+        "slug": "crab",
+        "image": "assets/lessons/images/animals/crab.png",
+        "video": "1dNECpjpg3jgRLX6f3Gyb6IqCxiJRdXrv"
+      },
+      {
+        "name": "Crocodile",
+        "slug": "crocodile",
+        "image": "assets/lessons/images/animals/crocodile.png",
+        "video": "1CUfVStvY8SeIaxdapZ1z8zFlDqrNp_0R"
+      },
+      {
+        "name": "Deer",
+        "slug": "deer",
+        "image": "assets/lessons/images/animals/deer.png",
+        "video": "1pSOkjlLyuHgN8NDnfRwZWO_IaVmTHqV0"
+      },
+      {
+        "name": "Dolphin",
+        "slug": "dolphin",
+        "image": "assets/lessons/images/animals/dolphin.png",
+        "video": "1cWWq51C7XwfzebDeUBmqHHwiR93ABVhz"
+      },
+      {
+        "name": "Duck",
+        "slug": "duck",
+        "image": "assets/lessons/images/animals/duck.png",
+        "video": "17DTPTDhn9HgpF96aeMF15jODssfKLrPt"
+      },
+      {
+        "name": "Eagle",
+        "slug": "eagle",
+        "image": "assets/lessons/images/animals/eagle.png",
+        "video": "1-L_TbWNo-ON2LFUnPhHZHgjoQzCBEL0t"
+      },
+      {
+        "name": "Fox",
+        "slug": "fox",
+        "image": "assets/lessons/images/animals/fox.png",
+        "video": "1j3qWJY8fApwaLcdSUGq7Pvy9eBOO0mGC"
+      },
+      {
+        "name": "Frog",
+        "slug": "frog",
+        "image": "assets/lessons/images/animals/frog.png",
+        "video": "1nrrcUG0OQWwo842FZTgt4mpfxgK6bCiS"
+      },
+      {
+        "name": "Giraffe",
+        "slug": "giraffe",
+        "image": "assets/lessons/images/animals/giraffe.png",
+        "video": "1bY9PVFFAgxNU4Iur_A4JmyNCzdmlDcF5"
+      },
+      {
+        "name": "Goat",
+        "slug": "goat",
+        "image": "assets/lessons/images/animals/goat.png",
+        "video": "1o_-TIR0_VBWK6xbZNCgXJmB3rqoTnQxD"
+      },
+      {
+        "name": "Hedgehog",
+        "slug": "hedgehog",
+        "image": "assets/lessons/images/animals/hedgehog.png",
+        "video": "1vOxXP0XY5_t8TvufjH_TJQt3_VRS06B5"
+      },
+      {
+        "name": "Hippopotamus",
+        "slug": "hippopotamus",
+        "image": "assets/lessons/images/animals/hippopotamus.png",
+        "video": "1Cr4WbPzALM895GVHcEKcY9tVr3HipTl-"
+      },
+      {
+        "name": "Kangaroo",
+        "slug": "kangaroo",
+        "image": "assets/lessons/images/animals/kangaroo.png",
+        "video": "1OfEEdpYsQ6Cq_Y0_ZXTMIUu_9-74wBVR"
+      },
+      {
+        "name": "Koala",
+        "slug": "koala",
+        "image": "assets/lessons/images/animals/koala.png",
+        "video": "1-BGPDtkIACRVHsDbcO8b6U4lviyNeLcY"
+      },
+      {
+        "name": "Lizard",
+        "slug": "lizard",
+        "image": "assets/lessons/images/animals/lizard.png",
+        "video": "1ivGAaJV8ZesT-rg1XP0wJh1UoT3C1TyT"
+      },
+      {
+        "name": "Octopus",
+        "slug": "octopus",
+        "image": "assets/lessons/images/animals/octopus.png",
+        "video": "1kXhQy9xd2BFRtzMGCnuAwFVfbaVKdmIl"
+      },
+      {
+        "name": "Owl",
+        "slug": "owl",
+        "image": "assets/lessons/images/animals/owl.png",
+        "video": "1XWdjI4x3ssy6ilExDpNiOCqxHJp5VNLu"
+      },
+      {
+        "name": "Panda",
+        "slug": "panda",
+        "image": "assets/lessons/images/animals/panda.png",
+        "video": "1bGx7q_6yCeyWC3KriSv0rDSi8pAMMWZy"
+      },
+      {
+        "name": "Penguin",
+        "slug": "penguin",
+        "image": "assets/lessons/images/animals/penguin.png",
+        "video": "1-po9926_o7dXPQX01NGJCAWRAmru4hgc"
+      },
+      {
+        "name": "Rhinoceros",
+        "slug": "rhinoceros",
+        "image": "assets/lessons/images/animals/rhinoceros.png",
+        "video": "1gzeTz3exVN6BIAs0doLt-xb1DOrziTH4"
+      },
+      {
+        "name": "Seal",
+        "slug": "seal",
+        "image": "assets/lessons/images/animals/seal.png",
+        "video": "1u3DdrbWZ8WFwZXUATmzUMahyWe1ZrIyu"
+      },
+      {
+        "name": "Shark",
+        "slug": "shark",
+        "image": "assets/lessons/images/animals/shark.png",
+        "video": "1wRBf_-cIyQhX01jKcHGqpeFJ7eKD3eOr"
+      },
+      {
+        "name": "Sheep",
+        "slug": "sheep",
+        "image": "assets/lessons/images/animals/sheep.png",
+        "video": "1wMsCHEPeR7Nc6Gpc4xVyggKTFYyNO14N"
+      },
+      {
+        "name": "Snake",
+        "slug": "snake",
+        "image": "assets/lessons/images/animals/snake.png",
+        "video": "1lWq9u6YwhV7wn0NyPTianbmKrwY--8BO"
+      },
+      {
+        "name": "Spider",
+        "slug": "spider",
+        "image": "assets/lessons/images/animals/spider.png",
+        "video": "1B9cxbIwoPyAV1TgJ5y9YNv_1AF3aXIry"
+      },
+      {
+        "name": "Squirrel",
+        "slug": "squirrel",
+        "image": "assets/lessons/images/animals/squirrel.png",
+        "video": "1e9VZrEwrG-G8-VnBPrZxOwlgt4JF6tkP"
+      },
+      {
+        "name": "Tiger",
+        "slug": "tiger",
+        "image": "assets/lessons/images/animals/tiger.png",
+        "video": "1IRKC8IHXzuE0bPhJEEr7hMRKoZ4AoTn7"
+      },
+      {
+        "name": "Turtle",
+        "slug": "turtle",
+        "image": "assets/lessons/images/animals/turtle.png",
+        "video": "1NDFnJIo2yX2_qHffW_IRXcc8v64EtYT4"
+      },
+      {
+        "name": "Whale",
+        "slug": "whale",
+        "image": "assets/lessons/images/animals/whale.png",
+        "video": "1pLQisdzVheApJsJKUiW8hmFnXeCgQt6B"
+      },
+      {
+        "name": "Wolf",
+        "slug": "wolf",
+        "image": "assets/lessons/images/animals/wolf.png",
+        "video": "1l378-i6ZxKM4Nveo_nwjm4_4Rz0xkasn"
+      },
+      {
+        "name": "Zebra",
+        "slug": "zebra",
+        "image": "assets/lessons/images/animals/zebra.png",
+        "video": "1FQwU0CtEg07OYmbERJLdbfoMiV6RPmb6"
+      },
       {
         "name": "Bear",
         "slug": "bear",
-        "image": "assets/lessons/images/bear.png",
+        "image": "assets/lessons/images/animals/bear.png",
         "video": "1IvNzFn-Jz7lpqcdb2pqdOD3g_IO3GCi7"
       },
       {
         "name": "Bird",
         "slug": "bird",
-        "image": "assets/lessons/images/bird.png",
+        "image": "assets/lessons/images/animals/bird.png",
         "video": "1tFmXjq1v8xvOtGp1YxQzuR9qxGeyHjO7"
       },
       {
         "name": "Cat",
         "slug": "cat",
-        "image": "assets/lessons/images/cat.png",
+        "image": "assets/lessons/images/animals/cat.png",
         "video": "1EnHRUbtPocATqCXlfrz2upvdetISy2pu"
       },
       {
         "name": "Cow",
         "slug": "cow",
-        "image": "assets/lessons/images/cow.png",
+        "image": "assets/lessons/images/animals/cow.png",
         "video": "1DIRkN1Fx0tWivRmm3_qyYtimu9HCexHG"
       },
       {
         "name": "Dog",
         "slug": "dog",
-        "image": "assets/lessons/images/dog.png",
+        "image": "assets/lessons/images/animals/dog.png",
         "video": "1T2cKe2xEBWkOvVy5kyE1_MSLspUYLJ8p"
       },
       {
         "name": "Elephant",
         "slug": "elephant",
-        "image": "assets/lessons/images/elephant.png",
+        "image": "assets/lessons/images/animals/elephant.png",
         "video": "1uAHty_rdE8lo25OrBgpjgMpN3gg4wXUx"
       },
       {
         "name": "Fish",
         "slug": "fish",
-        "image": "assets/lessons/images/fish.png",
+        "image": "assets/lessons/images/animals/fish.png",
         "video": "1yOCmvoTzpKIaAcA-vCZ16-85RaIQVh3q"
       },
       {
         "name": "Horse",
         "slug": "horse",
-        "image": "assets/lessons/images/horse.png",
+        "image": "assets/lessons/images/animals/horse.png",
         "video": "1hUJ0Y5gfvZKGMeYUJ750eWdIVK9andB3"
       },
       {
         "name": "Lion",
         "slug": "lion",
-        "image": "assets/lessons/images/lion.png",
+        "image": "assets/lessons/images/animals/lion.png",
         "video": "1jZUa5y4UDKu0C4C5c0KLvdqA0ovUmsia"
       },
       {
         "name": "Monkey",
         "slug": "monkey",
-        "image": "assets/lessons/images/monkey.png",
+        "image": "assets/lessons/images/animals/monkey.png",
         "video": "1wmihNnf9z-Tkzqthp9eW6MdGK_VW_c4v"
       },
       {
         "name": "Pig",
         "slug": "pig",
-        "image": "assets/lessons/images/pig.png",
+        "image": "assets/lessons/images/animals/pig.png",
         "video": "11Ag48sa_zd3ui8rUaGwnGWljovkTt170"
       },
       {
         "name": "Rabbit",
         "slug": "rabbit",
-        "image": "assets/lessons/images/rabbit.png",
+        "image": "assets/lessons/images/animals/rabbit.png",
         "video": "1yWPg2mGffsSl_Pn3i3txl1dXF1SpRaIh"
       }
     ]
   },
   {
-    "category": "Basic Words",
-    "slug": "basic_words",
-    "image": "assets/lessons/images/basic_words.png",
+    "category": "Basic words",
+    "slug": "basic-words",
+    "image": "assets/lessons/images/basic-words/basic-words.png",
     "items": [
       {
         "name": "Hello",
@@ -124,14 +346,1465 @@
         "backgroundColor": "#fff",
         "fontColor": "#212121",
         "video": "17zA0i2SMncQNpbhbJhLNr87_YQTbMT9C"
+      },
+      {
+        "name": "Afternoon",
+        "slug": "afternoon",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1xpTLiv9MrDITCVKa9Kew6QZ_XRwnp2vw"
+      },
+      {
+        "name": "Again",
+        "slug": "again",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1p3By4ZJ1P-XvxmJgXhoEDdgmVhz4AlYH"
+      },
+      {
+        "name": "Always",
+        "slug": "always",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1lqqfNiFPsNoSln7ctaLPLOdCX1KsvwXc"
+      },
+      {
+        "name": "Answer",
+        "slug": "answer",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1r0kJS7DQjosEM0Ys4amDRbb6uAcPhVnJ"
+      },
+      {
+        "name": "Bad",
+        "slug": "bad",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1K0IEBcSBlUUSdnJKNKQe11UdfsnW55HI"
+      },
+      {
+        "name": "Beautiful",
+        "slug": "beautiful",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "11TJ0WwACM59mZMY2XnLRxpVtitSVxpJr"
+      },
+      {
+        "name": "Big",
+        "slug": "big",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1aIh89879h7zS-00Xsv2JhZu3ZVKDAfrj"
+      },
+      {
+        "name": "Come",
+        "slug": "come",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1WgMj2L74O5I1mKo16C2_nEgOgfsIfl5L"
+      },
+      {
+        "name": "Different",
+        "slug": "different",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "16dgRX3eNLqvLoOY-Z8ivX6eqxPs0jP3V"
+      },
+      {
+        "name": "Don't know",
+        "slug": "dont-know",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1lyRN6Wx6C5t43gK0TrxErhDXnBa57jaW"
+      },
+      {
+        "name": "Don't understand",
+        "slug": "dont-understand",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1V3WeHSaeLg5EL_WT6Pt8mkP-8zZlyS9f"
+      },
+      {
+        "name": "Done",
+        "slug": "done",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1OwVyCSBD1GLBDrQBNt7BB18ZshXatahI"
+      },
+      {
+        "name": "Excuse me",
+        "slug": "excuse-me",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1mHJ8ElSXz3BNJHvDeo5Yjn3yDXIfyaCq"
+      },
+      {
+        "name": "Fast",
+        "slug": "fast",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1WW7x1EvXjdDRX1CM1qCWieDt3d-dPqKn"
+      },
+      {
+        "name": "Fine",
+        "slug": "fine",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1icifJXCWUg8-nI-P76xiOwqLUlnedJvS"
+      },
+      {
+        "name": "Go",
+        "slug": "go",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1XV_BGN4ilIOhEp5VUSpaEOIzUSXxmGLu"
+      },
+      {
+        "name": "Good",
+        "slug": "good",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1WbW0cLLd0KzpFvzrRskTq5nYHTmzbCQz"
+      },
+      {
+        "name": "Good morning",
+        "slug": "good-morning",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1-UCUG4iOyUp6rBCIFZWmECsLgVPKACLy"
+      },
+      {
+        "name": "Goodbye",
+        "slug": "goodbye",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1US6U9VnrLHO1iFOgzoRXejBDZupB3qjF"
+      },
+      {
+        "name": "Goodluck",
+        "slug": "goodluck",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1wEElcS-e0njuDWupVB3oWYOxTZ0NrvVN"
+      },
+      {
+        "name": "Goodnight",
+        "slug": "goodnight",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1WgAuAeIEI3S7A3gFbcjor9C13j_W_dX2"
+      },
+      {
+        "name": "Have",
+        "slug": "have",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1kc3NF1pC4s4MD2pmlTbN5mLcry7AHIJt"
+      },
+      {
+        "name": "He",
+        "slug": "he",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1xng2h4c9mvqXS6Vy7mDRbIhvZzU3jl5T"
+      },
+      {
+        "name": "Help",
+        "slug": "help",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "17l8Mq3A5hTUxE0Pk17Q-RfDiU6s0YNFa"
+      },
+      {
+        "name": "Her",
+        "slug": "her",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1gNvO0h-KjnSHpKa9RWn6GQrCEWjgm8Hy"
+      },
+      {
+        "name": "His",
+        "slug": "his",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1ET7k9-2YNWrRU7Ed1rOtSRvwtZQyBuPq"
+      },
+      {
+        "name": "Idea",
+        "slug": "idea",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "15CGLVyPoksBJ7JX6fNjhj28rZX5Hn2ic"
+      },
+      {
+        "name": "It",
+        "slug": "it",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "19XafdmbqQSiWS-xL-VAiuZNaMGCaUyAX"
+      },
+      {
+        "name": "Know",
+        "slug": "know",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1mXuTFm-GTGqqErboMd0MRoj_PyNNfTja"
+      },
+      {
+        "name": "Learn",
+        "slug": "learn",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1vDEALBi0ccihHQ0s20SsfnePsLpN0NQc"
+      },
+      {
+        "name": "Long",
+        "slug": "long",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "100tqOSwNBeT484ADwH0TouWVl0ACOT-z"
+      },
+      {
+        "name": "Look",
+        "slug": "look",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1Oa-EhKTxFUcZ69Jim4kNaxaQfiAgoTnt"
+      },
+      {
+        "name": "Maybe",
+        "slug": "maybe",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1wujGVxtoMSJ0TvBz-Oe1ICY5tfCbB0EN"
+      },
+      {
+        "name": "Me",
+        "slug": "me",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1nWD-Q6WbvkRwZGVQcElfQG-2d0e9uIFo"
+      },
+      {
+        "name": "Meaning",
+        "slug": "meaning",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1GXTIyIdst4Lz64l1JC4jxr-Rmau7Njja"
+      },
+      {
+        "name": "Meet",
+        "slug": "meet",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1Y5X5CiLGZ4iiFya1NAUf9kkaOXhk8fGN"
+      },
+      {
+        "name": "Mine",
+        "slug": "mine",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1qDvRNOBzPRNleOwIK6rmeLcHDDEKDqmA"
+      },
+      {
+        "name": "More",
+        "slug": "more",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1j6u1_AFZYckg_tRBJWGdR1KOlEthaOLG"
+      },
+      {
+        "name": "Morning",
+        "slug": "morning",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1hyBbnQDHkwFWkAWWKcpboEcqDQkVC289"
+      },
+      {
+        "name": "Myself",
+        "slug": "myself",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1Qsn6tRtwnsXjFVbDdqXWgfULktwnc1zm"
+      },
+      {
+        "name": "Name",
+        "slug": "name",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1kowTkjxPN54_bU1chkTDs2A88FVTGQFz"
+      },
+      {
+        "name": "Need",
+        "slug": "need",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1rNWx9_zk9yaujugsmqlSoiPhrdIspDHg"
+      },
+      {
+        "name": "Never",
+        "slug": "never",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1YTXN3wN7oCigS6IxEh1fM74UM3wfWhzT"
+      },
+      {
+        "name": "New",
+        "slug": "new",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1FL9yFzXq1iGQiYgp1W_jp84Ywh4c5UeA"
+      },
+      {
+        "name": "Nice to meet you",
+        "slug": "nice-to-meet-you",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1w2vbgpP8pLQx0vJplxlG75e-GH0C0fdQ"
+      },
+      {
+        "name": "Night",
+        "slug": "night",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "15BDkFL4Q9vqqq251sfj-LAc-rFDYguhP"
+      },
+      {
+        "name": "Now",
+        "slug": "now",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1SgirHSpg4NuzBkOU1S8lqpbA_IHpUkEs"
+      },
+      {
+        "name": "Okay",
+        "slug": "okay",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1tUjr4LLEh9XHscMINo4V_dRtHkh1vXFo"
+      },
+      {
+        "name": "Our",
+        "slug": "our",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1AJuNjF5kYixC4FbRh27YW111MI1kY4Xv"
+      },
+      {
+        "name": "Person",
+        "slug": "person",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1IDLIq0VzwGCvPmIfTgkB5Rjs7vsj0kGK"
+      },
+      {
+        "name": "Place",
+        "slug": "place",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1qOKB4LOBcFpEgJ9XAlLgJ5zIAZ4EHL3w"
+      },
+      {
+        "name": "Problem",
+        "slug": "problem",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1aO_-6KreQc4n9GHs6bNChYCy-hD7_ko2"
+      },
+      {
+        "name": "Question",
+        "slug": "question",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1OcIc0dvP3cQFsd0R2bHJrcT5SmFzKDs1"
+      },
+      {
+        "name": "Reason",
+        "slug": "reason",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1r1ia5x0ZPlijFPgaYfTQzdn-r5EFBeEW"
+      },
+      {
+        "name": "Remember",
+        "slug": "remember",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1l4tdYKHoCv0YC7BH1SPMh4wTkpF6bB39"
+      },
+      {
+        "name": "Same",
+        "slug": "same",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "16XwJ3AEgAtDXc1hvzmo1hWu8JzOJ2uuy"
+      },
+      {
+        "name": "See",
+        "slug": "see",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1sOMDqrNOJKbzcR9PGMokqkviF8mQ6wFE"
+      },
+      {
+        "name": "See you later",
+        "slug": "see-you-later",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1luRcwJwSy48CxDO-RQ_qlmRW97Fx4bH1"
+      },
+      {
+        "name": "She",
+        "slug": "she",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "14_quJ3L6cvF3mpsC-qw46Y20FXzodmBK"
+      },
+      {
+        "name": "Short",
+        "slug": "short",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1qMg8TJsCTqI_KPJd9KcDcbNxw4Am5V2p"
+      },
+      {
+        "name": "Show",
+        "slug": "show",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1nMd1JwJNQHgdoyldR5JANQLEQlJA8vyW"
+      },
+      {
+        "name": "Sign",
+        "slug": "sign",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1AP9H3Px15lyOSaMlhaHZhVdMTZhPpS2S"
+      },
+      {
+        "name": "Slow",
+        "slug": "slow",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1OUq5ggz5jn8XURSveVAxrXNlIDpCKR5f"
+      },
+      {
+        "name": "Small",
+        "slug": "small",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1cYrcuAFodpGXRk2EQ32MySKKyhIrG8qh"
+      },
+      {
+        "name": "Sometimes",
+        "slug": "sometimes",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1Maf9gFewwccv0w2kHHTDRhJ8slS1niNf"
+      },
+      {
+        "name": "Stop",
+        "slug": "stop",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "18iRM1mVw2PcR3VOCnW68jurDEZ3yxWCn"
+      },
+      {
+        "name": "Study",
+        "slug": "study",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1GxsSxUVFoJW0GC6i4KKf10lUcvGhxVAf"
+      },
+      {
+        "name": "Take care",
+        "slug": "take-care",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "17qidiO7Lc5J-rO0lqK0MA0NYxLf3kDuj"
+      },
+      {
+        "name": "Teach",
+        "slug": "teach",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1WLHl-GQVkecRi6OReGZ7tM36__ixSK85"
+      },
+      {
+        "name": "Their",
+        "slug": "their",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1cKNkiqvQK-UGuv_66Y-PpNTnI0-3RA7f"
+      },
+      {
+        "name": "They",
+        "slug": "they",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1PqAAaH52rK8jY_BzYnyz1knq58AZbv_O"
+      },
+      {
+        "name": "Thing",
+        "slug": "thing",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1P7Syl6tAST8fi6WnteuIFcNN1FmjzSB9"
+      },
+      {
+        "name": "Time",
+        "slug": "time",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1WJDHJWHv6mUVTRVqztnBezO6GJJaMzcg"
+      },
+      {
+        "name": "Today",
+        "slug": "today",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1_K0mrNO1pn8ltCrqYfYCQTI3U0gg-i2_"
+      },
+      {
+        "name": "Tomorrow",
+        "slug": "tomorrow",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1eKBnT0_IW__bvMkZ7QpdVJJAwJb6NRUp"
+      },
+      {
+        "name": "Understand",
+        "slug": "understand",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "13G4f_LpIQc_NAsQE_CkFIHZcv51wAg-l"
+      },
+      {
+        "name": "Use",
+        "slug": "use",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "19DMfcZ3R0HfG2zGRjMD1tJH64RHSQpy8"
+      },
+      {
+        "name": "Wait",
+        "slug": "wait",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1ftumWmjrMi8L4TYNoSDV7YsxPc61yi5I"
+      },
+      {
+        "name": "Want",
+        "slug": "want",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1sifMZzv3QU8ZsagpRocydmaknuT3gpxE"
+      },
+      {
+        "name": "Welcome",
+        "slug": "welcome",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1S23w4aJSyvNStc1JBOBWYgGnnvAiYlgT"
+      },
+      {
+        "name": "Yesterday",
+        "slug": "yesterday",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1wnnprqLEBkDGrv5btR88TvUUWZWt9o-p"
+      },
+      {
+        "name": "You",
+        "slug": "you",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1DB_O85PdA14AY4OrkdBcFxGdi3gEvetU"
+      },
+      {
+        "name": "Yours",
+        "slug": "yours",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1SA-mEWqET0t3ttwyv7qPiuG-T5Gq_-J1"
+      },
+      {
+        "name": "Yourself",
+        "slug": "yourself",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1RNx93S7pfurClfpXfBoWUsDbBHkq2zJn"
+      }
+    ]
+  },
+  {
+    "category": "Clothes n descriptions",
+    "slug": "clothes-n-descriptions",
+    "image": "assets/lessons/images/clothes-n-descriptions/clothes-n-descriptions.png",
+    "items": [
+      {
+        "name": "3/4sleeved",
+        "slug": "34sleeved",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1rBz2F8Oi1meA3MlSQym6hAKf7ZaLsoeA"
+      },
+      {
+        "name": "Backpack",
+        "slug": "backpack",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1Y6eOsmV2FXr-aTsMXtOmcOYClXBSVrzV"
+      },
+      {
+        "name": "Bag/purse",
+        "slug": "bagpurse",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1VCWHRUbH8tCO09kvLeEZdvINisc6UQmH"
+      },
+      {
+        "name": "Blouse",
+        "slug": "blouse",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1jGltwlyoP1fWOxwRDRT7-F8OfP5D_AF4"
+      },
+      {
+        "name": "Boots",
+        "slug": "boots",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1FiiH1hgllF9xs20OCqZRFCZebuuQRPO5"
+      },
+      {
+        "name": "Bowtie",
+        "slug": "bowtie",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1cDo7D_dihZK3D3muBw9vDwX8peWL4Hmy"
+      },
+      {
+        "name": "Bra",
+        "slug": "bra",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1NTDiSZOSYt2dQdGpYUIrvHUiiVM7krnN"
+      },
+      {
+        "name": "Bracelet",
+        "slug": "bracelet",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "15tgQSp2fZXH9IDfhbo3e9vR8fD7hez68"
+      },
+      {
+        "name": "Buttons",
+        "slug": "buttons",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1sgEoARW8iDLiDYJmhW-u4oEf8VQAKpib"
+      },
+      {
+        "name": "Clean",
+        "slug": "clean",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "12ORuxZaDfwsqmYS7z4WYW0A3YMnJx1cG"
+      },
+      {
+        "name": "Clothes",
+        "slug": "clothes",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1p0qHSSpDI278UtfhjtPnPdj-sU31RX8S"
+      },
+      {
+        "name": "Coat",
+        "slug": "coat",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1ixik7R72VvVmpVNm5-polapkwXgVUM8B"
+      },
+      {
+        "name": "Colors",
+        "slug": "colors",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1S39VUMwTaGMAWJVV--KJ1yWQixKXqltC"
+      },
+      {
+        "name": "Comfortable",
+        "slug": "comfortable",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1RzQLXAsyvLuSpBgUbNtzrs3ZCQPazVOv"
+      },
+      {
+        "name": "Cotton",
+        "slug": "cotton",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1UlZLvssoxYprRAVyDxKdG-JOS5oPSDKF"
+      },
+      {
+        "name": "Dirty",
+        "slug": "dirty",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1O4c4CxlCVbfaD6dX7L1kAGwcEAv0olUl"
+      },
+      {
+        "name": "Dress",
+        "slug": "dress",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1L7qyFXWUDJwRIZD9KTXRlfRsAl2QU4CG"
+      },
+      {
+        "name": "Earrings",
+        "slug": "earrings",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1ImjKNkRZc9AK3Se0Msgdm9fXG41IgbKC"
+      },
+      {
+        "name": "Eyeglasses",
+        "slug": "eyeglasses",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1IhPBBomcfvxD2KKgxjtDIx6teRfyPTPD"
+      },
+      {
+        "name": "Fabric/cloth1",
+        "slug": "fabriccloth1",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1eoQeHD0TG-UmIMDllGESIaq8gdu7MiNY"
+      },
+      {
+        "name": "Fabric/cloth2",
+        "slug": "fabriccloth2",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1uK6oeJNVPH_PH5psyrPtk2WNFIDPk0Ly"
+      },
+      {
+        "name": "Fancy",
+        "slug": "fancy",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1J08zRrUd3bFKDIhkEH0RozTHTtqHoafY"
+      },
+      {
+        "name": "Gloves",
+        "slug": "gloves",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "12NUP6c4oq-gyFeXJty1oehoeacudLaVO"
+      },
+      {
+        "name": "Hat",
+        "slug": "hat",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1QZIm94DdOYPs289SB0CfxxpSRrrU_ZJC"
+      },
+      {
+        "name": "Highheels",
+        "slug": "highheels",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1az62dyrj1J_zVdRhVjQKnNJWYWXFoQRg"
+      },
+      {
+        "name": "Hoodie",
+        "slug": "hoodie",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1PEaPFtBv2jnhVk8ZwsbjDsLLRFMz55xx"
+      },
+      {
+        "name": "Jewelries",
+        "slug": "jewelries",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1g2k2v7ZQML0wx1mRO7T5Dc8W5PCbIpOh"
+      },
+      {
+        "name": "Lace",
+        "slug": "lace",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "16LkNw1ajq4590FEZ7ltoAbqKoVf2px3g"
+      },
+      {
+        "name": "Leather",
+        "slug": "leather",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1XXunl4KuSdN7VxHxblE69XUzwvZ-u1Hh"
+      },
+      {
+        "name": "Longsleeved",
+        "slug": "longsleeved",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1VJBPo3O-CcLA912-E27__69ESyNuDrqi"
+      },
+      {
+        "name": "Match/pair",
+        "slug": "matchpair",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1UscRoRyZOwAdNQkKw_t-z8Ct7-dQQ0S1"
+      },
+      {
+        "name": "Necklace",
+        "slug": "necklace",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1piGfIsUpIFfHui19Xh34opHGvbfpjBuT"
+      },
+      {
+        "name": "Necktie",
+        "slug": "necktie",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1D_mmDRxLCrXDzJBlmgjBhUk9fh-FI3Zm"
+      },
+      {
+        "name": "Overall",
+        "slug": "overall",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1lZhqje7HTYvGFSDFTZ4_GqCb56sPhxfA"
+      },
+      {
+        "name": "Oversized/toobig",
+        "slug": "oversizedtoobig",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1wz5gTwE7tYebaWIAslnlnCy-SACD5CRE"
+      },
+      {
+        "name": "Pants1",
+        "slug": "pants1",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1Ev26v_QtEviYsdD5Hp0-w29ybF8_m1AM"
+      },
+      {
+        "name": "Pants2",
+        "slug": "pants2",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1n2_rkwmP3byHso4Mj4xWnliDI79O-AS6"
+      },
+      {
+        "name": "Pattern",
+        "slug": "pattern",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1WGKnwxvbxK-nLfC-ygpqoi4X4ff45iEO"
+      },
+      {
+        "name": "Perfect",
+        "slug": "perfect",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1lBYJSGKN7Ry__8rj4Xk6f9mOqo0EXEtj"
+      },
+      {
+        "name": "Pj/pajamas",
+        "slug": "pjpajamas",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1NpYDnzu8H9swAYlWux8cvui-BrmQtRWC"
+      },
+      {
+        "name": "Plaid",
+        "slug": "plaid",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1EE7bOHWDO6pNXG__lQpNJJPY2Y7EQvDv"
+      },
+      {
+        "name": "Polkadots",
+        "slug": "polkadots",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1bjEIhi1BQZgKaHjLleLp1JH9Ct2WlE2y"
+      },
+      {
+        "name": "Sandals",
+        "slug": "sandals",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1_3_z77qsdw_jgZSziKBo-ODu9wv2drae"
+      },
+      {
+        "name": "Scarf",
+        "slug": "scarf",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1V3cAoyHyARZRFhAVMrCPS_IaN1RHgTSJ"
+      },
+      {
+        "name": "Scoopneck",
+        "slug": "scoopneck",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1xJNq-DOqE82AMFlROTdSTVLnZ2TK392p"
+      },
+      {
+        "name": "Shirt",
+        "slug": "shirt",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1xQw6oU_fOA9JAVbAeuon3okF9kwLxRR6"
+      },
+      {
+        "name": "Shoes",
+        "slug": "shoes",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1qTGza6Zv6xPn-CHp6IICaO7HTonuDUWR"
+      },
+      {
+        "name": "Shorts",
+        "slug": "shorts",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1nuD6v8oVZcxU2jW_Xmu7XfC3PGwj_GGD"
+      },
+      {
+        "name": "Shortsleeve",
+        "slug": "shortsleeve",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "12foPZwStyyc_dhPnd9XMmmRmiHCKJxFr"
+      },
+      {
+        "name": "Skirt",
+        "slug": "skirt",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1Z4VgkLQ0sJ-oKLn9QIRUIKpmMJJMXNWF"
+      },
+      {
+        "name": "Slippers",
+        "slug": "slippers",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "13GGfxtr_Bzww5s6Bxl3R69HUVx4ZFRqI"
+      },
+      {
+        "name": "Socks",
+        "slug": "socks",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1bRZrRznDBGzjU9TIixoFBxnOdYWj01On"
+      },
+      {
+        "name": "Soft",
+        "slug": "soft",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "126VdvFVNpAo4o-0PVdU3BwnPXzO5WJ1P"
+      },
+      {
+        "name": "Stripes",
+        "slug": "stripes",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1UETpuU-BhS0gYkxf2LANGl3qC6jYbmXp"
+      },
+      {
+        "name": "Suit",
+        "slug": "suit",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1aCuT2i2y0LUSI1ZIO5_2NIAECb7uVJML"
+      },
+      {
+        "name": "Sunglasses",
+        "slug": "sunglasses",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1xFWtUWR3mX6IPCLMfJ5aYR770qrEJfjp"
+      },
+      {
+        "name": "Sweater",
+        "slug": "sweater",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1XqVmW_wsk67kfS1kqImSZ-ycEVoGbvfa"
+      },
+      {
+        "name": "Sweatshirt",
+        "slug": "sweatshirt",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1kIq1pclTSk04_fvYMb5LHvOQmLJyO8fm"
+      },
+      {
+        "name": "Swimsuit",
+        "slug": "swimsuit",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "16QyWUETU-umwbGI7v1Eh-kYTjEgmuxBI"
+      },
+      {
+        "name": "Tanktop",
+        "slug": "tanktop",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1tq3tjcYgaCagdbEw6CY-n098lv0wHKMH"
+      },
+      {
+        "name": "Tear/ripped",
+        "slug": "tearripped",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1sHDHJMP1sLJOXsymLwT5pL2VSXMAwoCU"
+      },
+      {
+        "name": "Toosmall",
+        "slug": "toosmall",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "10OTY3cIolLLWT0WAlABV4MAyqp6cxX_k"
+      },
+      {
+        "name": "Turtleneck",
+        "slug": "turtleneck",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1eZbGVeifqtGpB1crXc5MuLdNy_louyjq"
+      },
+      {
+        "name": "Underwear1",
+        "slug": "underwear1",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1cwjROfwYFMGULoutcilz8L-uJnNf1AR6"
+      },
+      {
+        "name": "Underwear2",
+        "slug": "underwear2",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1kFKmpitMMQT0x-bfpvWzJ7KXLeHMwqGj"
+      },
+      {
+        "name": "Vneck1",
+        "slug": "vneck1",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1G-ueisLu6PHjNth-otKIaYBOywQijLL-"
+      },
+      {
+        "name": "Vneck2",
+        "slug": "vneck2",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "11PuIsT6oatMCWlKcdYSwG0nr11sdDiSW"
+      },
+      {
+        "name": "Wool",
+        "slug": "wool",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1MOSqLwpmISfIdvVxindw3AP8x4mwdtIk"
+      },
+      {
+        "name": "Wristwatch",
+        "slug": "wristwatch",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1iGmQi_P1FTfxRdoxNEzO90-IP8y8Xp6q"
+      },
+      {
+        "name": "Zipper",
+        "slug": "zipper",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1_8wshJMkEy3lnkaXRntCEcxSa8-I2GMR"
+      }
+    ]
+  },
+  {
+    "category": "Countries",
+    "slug": "countries",
+    "image": "assets/lessons/images/countries/countries.png",
+    "items": [
+      {
+        "name": "Argentina",
+        "slug": "argentina",
+        "image": "assets/lessons/images/countries/argentina.png",
+        "video": "1AdWrPrs78uy7QEr7YNvmrf2Y5ajPeSFZ"
+      },
+      {
+        "name": "Australia",
+        "slug": "australia",
+        "image": "assets/lessons/images/countries/australia.png",
+        "video": "10mBtqes5-SlKF4OSSyaZ2Glyb15SD600"
+      },
+      {
+        "name": "Austria",
+        "slug": "austria",
+        "image": "assets/lessons/images/countries/austria.png",
+        "video": "1BPaAhBZp2e2XxhdQwhjmjLOFVzU58434"
+      },
+      {
+        "name": "Belgium",
+        "slug": "belgium",
+        "image": "assets/lessons/images/countries/belgium.png",
+        "video": "1CqVPJwuTlqer7g3FIjo7FqGBW2KPvE2D"
+      },
+      {
+        "name": "Brazil",
+        "slug": "brazil",
+        "image": "assets/lessons/images/countries/brazil.png",
+        "video": "1iQ8a70E-D3GxHqcOYW2AA7UDvCFgIdF1"
+      },
+      {
+        "name": "Canada",
+        "slug": "canada",
+        "image": "assets/lessons/images/countries/canada.png",
+        "video": "1KOfaObQfTp4WDKNavY-UZocg3kfqoFXH"
+      },
+      {
+        "name": "Chile",
+        "slug": "chile",
+        "image": "assets/lessons/images/countries/chile.png",
+        "video": "1P9RvXyumIsk9BZrueDnfKufFK8RmxA7Z"
+      },
+      {
+        "name": "China",
+        "slug": "china",
+        "image": "assets/lessons/images/countries/china.png",
+        "video": "1TDzGLA-FQaDNnZkgZn694OcPuF-ZtFS6"
+      },
+      {
+        "name": "Columbia",
+        "slug": "columbia",
+        "image": "assets/lessons/images/countries/columbia.png",
+        "video": "1PCmlyiPKiABQNxO0jOo__ZmGrlmDQzmW"
+      },
+      {
+        "name": "Egypt",
+        "slug": "egypt",
+        "image": "assets/lessons/images/countries/egypt.png",
+        "video": "1z4yYjrysV8dnCTai7cxrQjRZhCl035GG"
+      },
+      {
+        "name": "France",
+        "slug": "france",
+        "image": "assets/lessons/images/countries/france.png",
+        "video": "1yVbtQVG1n6sPiuaIdjlWKnuweKJq2PnP"
+      },
+      {
+        "name": "Germany",
+        "slug": "germany",
+        "image": "assets/lessons/images/countries/germany.png",
+        "video": "12pJPWaFa_VPBmiU8nIYyzmFroiyP751F"
+      },
+      {
+        "name": "Greece",
+        "slug": "greece",
+        "image": "assets/lessons/images/countries/greece.png",
+        "video": "1aRXXprNisHCeOE0jiSxqNGXovjVqmmd3"
+      },
+      {
+        "name": "India",
+        "slug": "india",
+        "image": "assets/lessons/images/countries/india.png",
+        "video": "14uIM0S60HCotb6f9zMnRAe6CDBgcTVoP"
+      },
+      {
+        "name": "Indonesia",
+        "slug": "indonesia",
+        "image": "assets/lessons/images/countries/indonesia.png",
+        "video": "1XO1rAErn5FhXKAqSF-TQ_l1isczlV0qX"
+      },
+      {
+        "name": "Israel",
+        "slug": "israel",
+        "image": "assets/lessons/images/countries/israel.png",
+        "video": "1yjqPaDu6f7Qf9jsL2g9CrN3QzD4S78BM"
+      },
+      {
+        "name": "Italy",
+        "slug": "italy",
+        "image": "assets/lessons/images/countries/italy.png",
+        "video": "1I9q0z0HK52pMNw2V_Xlvic4DS_LL8_pp"
+      },
+      {
+        "name": "Japan",
+        "slug": "japan",
+        "image": "assets/lessons/images/countries/japan.png",
+        "video": "1qP9Qi_R5bBxdixn3sMHnqpAZtex8pQpj"
+      },
+      {
+        "name": "Malaysia",
+        "slug": "malaysia",
+        "image": "assets/lessons/images/countries/malaysia.png",
+        "video": "1HZOcrUvYBmVi2EiOovsyZUvx3mnwiykh"
+      },
+      {
+        "name": "Mexico",
+        "slug": "mexico",
+        "image": "assets/lessons/images/countries/mexico.png",
+        "video": "1F2f_sZCNxtamzppZnyPUjKDzLrGMLLDu"
+      },
+      {
+        "name": "Nigeria",
+        "slug": "nigeria",
+        "image": "assets/lessons/images/countries/nigeria.png",
+        "video": "1vcEGr5aYwANTSJ4f6sAsWcMRF898JnE2"
+      },
+      {
+        "name": "Nor way",
+        "slug": "norway",
+        "image": "assets/lessons/images/countries/norway.png",
+        "video": "19LKDx5oc-5ffP8x6rcsNpfsZRJi3leRP"
+      },
+      {
+        "name": "Peru",
+        "slug": "peru",
+        "image": "assets/lessons/images/countries/peru.png",
+        "video": "13VLuILk9irjmNKWa7fGx-GRMXI9jEVWq"
+      },
+      {
+        "name": "Philippines",
+        "slug": "philippines",
+        "image": "assets/lessons/images/countries/philippines.png",
+        "video": "1lBymPg2RRhDrbjn96ilDGDvWRGihYiW4"
+      },
+      {
+        "name": "Portugal",
+        "slug": "portugal",
+        "image": "assets/lessons/images/countries/portugal.png",
+        "video": "1MR2ud9CWD4ICPQIWh6DiIF31zzNb0i0W"
+      },
+      {
+        "name": "Romania",
+        "slug": "romania",
+        "image": "assets/lessons/images/countries/romania.png",
+        "video": "1mPxng9v6tgT2Zw9aZedAm4l3L7b-fSVA"
+      },
+      {
+        "name": "Russia",
+        "slug": "russia",
+        "image": "assets/lessons/images/countries/russia.png",
+        "video": "1gjcNljE6KRLF_JqPk6z3T80mX07bKdHt"
+      },
+      {
+        "name": "Singapore",
+        "slug": "singapore",
+        "image": "assets/lessons/images/countries/singapore.png",
+        "video": "1Gkl18S9-Tekh9OvzYRiKG9tHqEZOGIfY"
+      },
+      {
+        "name": "Spain",
+        "slug": "spain",
+        "image": "assets/lessons/images/countries/spain.png",
+        "video": "1Y-W1KqXrXFMecldn7jEJ0g4Q6_WuLbai"
+      },
+      {
+        "name": "Thailand",
+        "slug": "thailand",
+        "image": "assets/lessons/images/countries/thailand.png",
+        "video": "1x1voUOgw_lKeaPFbBpD2C8HmLNFgZo83"
+      },
+      {
+        "name": "Turkey",
+        "slug": "turkey",
+        "image": "assets/lessons/images/countries/turkey.png",
+        "video": "1vJ_WqOrTsrk8SOHj2PR_cvS5OSAtOWjE"
+      },
+      {
+        "name": "United states",
+        "slug": "united-states",
+        "image": "assets/lessons/images/countries/united-states.png",
+        "video": "1ldcrr8Cccm9HSoxf3gdwUoEUoQ_fwfXu"
+      },
+      {
+        "name": "Vietnam",
+        "slug": "vietnam",
+        "image": "assets/lessons/images/countries/vietnam.png",
+        "video": "1nomEsZ27ow7rrUNy699XOzsjyDodno_r"
       }
     ]
   },
   {
     "category": "Color",
     "slug": "color",
-    "image": "assets/lessons/images/color.png",
+    "image": "assets/lessons/images/color/color.png",
     "items": [
+      {
+        "name": "Aqua",
+        "slug": "aqua",
+        "backgroundColor": "#00FFFF",
+        "fontColor": "#000",
+        "video": "1h0bYGA3hAA-js5XLxt-gPdjP6ky_dq6R"
+      },
+      {
+        "name": "Baby blue",
+        "slug": "baby-blue",
+        "backgroundColor": "#89CFF0",
+        "fontColor": "#000",
+        "video": "1Qtwda6nAWCy4wJCQ0UsAaJCuRMEKY9Uj"
+      },
+      {
+        "name": "Copper",
+        "slug": "copper",
+        "backgroundColor": "#B87333",
+        "fontColor": "#000",
+        "video": "1h72Low37x6Xj5PRpdlfHfsQcvcjnAmLx"
+      },
+      {
+        "name": "Coral",
+        "slug": "coral",
+        "backgroundColor": "#FF7F50",
+        "fontColor": "#000",
+        "video": "1eDRzHokxPSbplGVKhekzr0nJi_xAq1Cs"
+      },
+      {
+        "name": "Cream",
+        "slug": "cream",
+        "backgroundColor": "#FFFDD0",
+        "fontColor": "#000",
+        "video": "1Z7t97PGtoAyw0-LBsgJsJdbw9fsH85Kw"
+      },
+      {
+        "name": "Dark blue",
+        "slug": "dark-blue",
+        "backgroundColor": "#0D47A1",
+        "fontColor": "#fff",
+        "video": "1oOzQMYNyRSEVv3Ncnm0g6QfiMMeRd9wx"
+      },
+      {
+        "name": "Dark green",
+        "slug": "dark-green",
+        "backgroundColor": "#1B5E20",
+        "fontColor": "#fff",
+        "video": "1LCqlfFxes8CJMYuCgm7w5NlcX8tBjQ_E"
+      },
+      {
+        "name": "Dark red",
+        "slug": "dark-red",
+        "backgroundColor": "#8B0000",
+        "fontColor": "#fff",
+        "video": "1iDwHDWwQkQdIcPfWP8R6iNYkO6g4Hki1"
+      },
+      {
+        "name": "Gold",
+        "slug": "gold",
+        "backgroundColor": "#D4AF37",
+        "fontColor": "#000",
+        "video": "18z-DKJfkpUPf9VOUENvP5lSTEJvC1ViJ"
+      },
+      {
+        "name": "Light blue",
+        "slug": "light-blue",
+        "backgroundColor": "#ADD8E6",
+        "fontColor": "#000",
+        "video": "1diO2C67_b_N9j5g02g6U0sWKjo1Gt4Qp"
+      },
+      {
+        "name": "Light green",
+        "slug": "light-green",
+        "backgroundColor": "#90EE90",
+        "fontColor": "#000",
+        "video": "1eA003AsJV8zNcBQZOhzD1loboGbjWqGM"
+      },
+      {
+        "name": "Light pink",
+        "slug": "light-pink",
+        "backgroundColor": "#FFB6C1",
+        "fontColor": "#000",
+        "video": "1EHYrKHa4iGHa-keF4DcX1RUJaSjqU68N"
+      },
+      {
+        "name": "Maroon",
+        "slug": "maroon",
+        "backgroundColor": "#800000",
+        "fontColor": "#fff",
+        "video": "1jlfmGBD3ltNh977xTkXpssL5aZu8iykO"
+      },
+      {
+        "name": "Mint",
+        "slug": "mint",
+        "backgroundColor": "#98FF98",
+        "fontColor": "#000",
+        "video": "1QbRZFl-XniyE6nukawlVAFjfE3hxKTiW"
+      },
+      {
+        "name": "Off white",
+        "slug": "off-white",
+        "backgroundColor": "#FAF9F6",
+        "fontColor": "#000",
+        "video": "1WhkfUF17GYi3P34zHYS1lctEQgO1Bykt"
+      },
+      {
+        "name": "Pale yellow",
+        "slug": "pale-yellow",
+        "backgroundColor": "#FDFD96",
+        "fontColor": "#000",
+        "video": "1NjpATt8umVXhOoJiYowrPmj9-G__rxGR"
+      },
+      {
+        "name": "Peach",
+        "slug": "peach",
+        "backgroundColor": "#FFDAB9",
+        "fontColor": "#000",
+        "video": "1nWbRgv2Gc0APQnl1xMZbXcL-oj9daBJN"
+      },
+      {
+        "name": "Plum",
+        "slug": "plum",
+        "backgroundColor": "#6A0DAD",
+        "fontColor": "#fff",
+        "video": "1YAs0B8M5MNVSpmbyiXo321mMP2Xm-i_L"
+      },
+      {
+        "name": "Silver",
+        "slug": "silver",
+        "backgroundColor": "#C0C0C0",
+        "fontColor": "#000",
+        "video": "1vhYvCgk5nRJf-k0daa2z0IfUHQS0MFeh"
+      },
+      {
+        "name": "Soft gray",
+        "slug": "soft-gray",
+        "backgroundColor": "#B0B0B0",
+        "fontColor": "#000",
+        "video": "18eDoQDTLF3KUCcWUfZbLUgM29M6Z-JV6"
+      },
+      {
+        "name": "Tan",
+        "slug": "tan",
+        "backgroundColor": "#D2B48C",
+        "fontColor": "#000",
+        "video": "1xHMv2Eq8JGe9o-JIFZ9q6pR31I9yB6B-"
+      },
+      {
+        "name": "Teal",
+        "slug": "teal",
+        "backgroundColor": "#008080",
+        "fontColor": "#fff",
+        "video": "11yvoQcfaTKqdA1Ofp8tsDFnR79D2gGvB"
+      },
+      {
+        "name": "Turquoise",
+        "slug": "turquoise",
+        "backgroundColor": "#40E0D0",
+        "fontColor": "#000",
+        "video": "18CNc14p8Vj6pppBLd5Sc5dUJIQoRsKSb"
+      },
       {
         "name": "Black",
         "slug": "black",
@@ -207,7 +1880,6 @@
         "slug": "yellow",
         "backgroundColor": "#FBC02D",
         "fontColor": "#fff",
-        "image": "assets/lessons/images/yellow.png",
         "video": "19lStFtxMxo_wn9X2smfeTW4arbl4MoiA"
       }
     ]
@@ -215,7 +1887,7 @@
   {
     "category": "Day",
     "slug": "day",
-    "image": "assets/lessons/images/day.png",
+    "image": "assets/lessons/images/day/day.png",
     "items": [
       {
         "name": "Friday",
@@ -265,13 +1937,300 @@
         "backgroundColor": "#fff",
         "fontColor": "#212121",
         "video": "1NJqArxcIUgcuAURiQ4_hxbEKhAZYQvtL"
+      },
+      {
+        "name": "After",
+        "slug": "after",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "11OrasFveniyNQdRURBSEh1OErLHPfaaa"
+      },
+      {
+        "name": "Afternoon",
+        "slug": "afternoon",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1VzSlfWJa_ILqQVfIa8QX3tPQ1Qc9vqs6"
+      },
+      {
+        "name": "Always",
+        "slug": "always",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1ZBLPwZhAFfIw8AWHH8v2e18etJtFtNh0"
+      },
+      {
+        "name": "Before",
+        "slug": "before",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "14fMMEFzBtE_n-N8bVmTlsrrE4EPoYNA1"
+      },
+      {
+        "name": "Early",
+        "slug": "early",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1Ru91XlnS_nSbz-X_pN6mUwIjVeVQQaaw"
+      },
+      {
+        "name": "Evening",
+        "slug": "evening",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1ZcJP__1s9dTsIEBuxJnsNRM5TbyZAZPI"
+      },
+      {
+        "name": "Everyday",
+        "slug": "everyday",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1A7k6vuxMVy_rTmg9cwGHhp4U_7tfb8FN"
+      },
+      {
+        "name": "Future",
+        "slug": "future",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1N-r04HrzARNmxxlrSyMiF26ELEF1XJi6"
+      },
+      {
+        "name": "Last night",
+        "slug": "last-night",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1Rh9oNDgIOMzXUINmqgDFJmaXoRynbqgu"
+      },
+      {
+        "name": "Lastweek",
+        "slug": "lastweek",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1VMZWOI59dPilR8YIdBmsFJOBG2iK9REp"
+      },
+      {
+        "name": "Late",
+        "slug": "late",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1QO0tehHw1oGrdRW3t4ARB6s6XYkmUgOq"
+      },
+      {
+        "name": "Later",
+        "slug": "later",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1mjwwzSzZ9-Wt3hBvjkLueYGreg8UZgAd"
+      },
+      {
+        "name": "Longtime",
+        "slug": "longtime",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1ax0EHd4fvvlnwMxWFgEqWCexoC2Ui7LM"
+      },
+      {
+        "name": "Midnight",
+        "slug": "midnight",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1Lemnn9GWKF5FJL73TzSgKUFsokmGIGr2"
+      },
+      {
+        "name": "Monthly",
+        "slug": "monthly",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1C3oLZOhTx7K9HUuBFzOmJuNLD61bIqGY"
+      },
+      {
+        "name": "Morning",
+        "slug": "morning",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1FpPw56b_bZXRrULug09w399p-HA2xsT8"
+      },
+      {
+        "name": "Never",
+        "slug": "never",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "10RmJb7CKsjjAJRQWAnHb6oBTxib4NYbU"
+      },
+      {
+        "name": "Nextday",
+        "slug": "nextday",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1oiPX7euDzJO8hRNPeA-viKzDfScbhGaX"
+      },
+      {
+        "name": "Nextweek",
+        "slug": "nextweek",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1xAaICG8Bamn4HELzElc62XIYqreTYCwW"
+      },
+      {
+        "name": "Night",
+        "slug": "night",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1-D21Q9MwGu98mr24Y1PuoaBFDaGpaWps"
+      },
+      {
+        "name": "Noon",
+        "slug": "noon",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1pk8LglUepKVruFRcDqQmCceIUIoSI0qp"
+      },
+      {
+        "name": "Now",
+        "slug": "now",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1YCvmy2W0O9l1XHiGBD03U4d37qvTCi93"
+      },
+      {
+        "name": "Often",
+        "slug": "often",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1v25o1D-8VCM0tJMSLft4UKjrIzOGXR3M"
+      },
+      {
+        "name": "Once a week",
+        "slug": "once-a-week",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1RF9zwNNnXm5OKZZXJIkwuqtYQqMxyRCh"
+      },
+      {
+        "name": "Past",
+        "slug": "past",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1d32kuy6OnKr1cl0iGWBvKfmjDbF08E3_"
+      },
+      {
+        "name": "Present",
+        "slug": "present",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1ypOKmP42b6RCwXagr_mXikUw5-5Tawy7"
+      },
+      {
+        "name": "Rarely",
+        "slug": "rarely",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1KHbz3sL7JDXRKo6-8LSFqNc9jP5e38g2"
+      },
+      {
+        "name": "Short time",
+        "slug": "short-time",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1bUglxbDAuEsij93GqdCh4keFa_zkYcUm"
+      },
+      {
+        "name": "Someday",
+        "slug": "someday",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "14Rpi55HH-SJ0sDhT53piqkukKKLmq5jp"
+      },
+      {
+        "name": "Sometimes",
+        "slug": "sometimes",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1d_xfqmlO7nOUeal9B25ODFTkBfw0WWCL"
+      },
+      {
+        "name": "Soon",
+        "slug": "soon",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1dL2m9x3DJMHbX6Z_9HsRpwmfykBwZpy_"
+      },
+      {
+        "name": "Then",
+        "slug": "then",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1h_OWdn2oE45m4f3m9ChjBmNq1F_IcVbd"
+      },
+      {
+        "name": "This morning",
+        "slug": "this-morning",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1tQ2x38ZHPKVKOWJ4nIbHFzBCWU_KGry5"
+      },
+      {
+        "name": "Today",
+        "slug": "today",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1oNMBmbrhAiSiXw0f2GD8HnRy4fY9pnK4"
+      },
+      {
+        "name": "Tomorrow",
+        "slug": "tomorrow",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1d0Sft2EfbggMajAZhFFICFznXc1M_t4A"
+      },
+      {
+        "name": "Tonight",
+        "slug": "tonight",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1E0CHA5InzeC2DATKujbPeZtCZenGvgzb"
+      },
+      {
+        "name": "Twice a week",
+        "slug": "twice-a-week",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1E--6mKUB2DgMyuCFoTsPoBBisDcrcLTT"
+      },
+      {
+        "name": "Weekend",
+        "slug": "weekend",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1nP1IWKtb5i0L_0Bu6gQQIbcDm4er3du6"
+      },
+      {
+        "name": "Weekly",
+        "slug": "weekly",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1JfFI9zErAn7d-oyhEGAH4yMrZi0fyoje"
+      },
+      {
+        "name": "Yearly",
+        "slug": "yearly",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1OCCwXEwxLPsVj3KwGo4kWqtF0r9ruuaB"
+      },
+      {
+        "name": "Yesterday",
+        "slug": "yesterday",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "18w5LbW2CRW6_k-yrOxfCqmcBnA9sYy6I"
       }
     ]
   },
   {
     "category": "Emotions",
     "slug": "emotions",
-    "image": "assets/lessons/images/emotions.png",
+    "image": "assets/lessons/images/emotions/emotions.png",
     "items": [
       {
         "name": "Angry",
@@ -332,13 +2291,593 @@
         "slug": "worried",
         "content": "😟",
         "video": "1vnn-aazXHmFroOJIZbt07AQdbNjQq82L"
+      },
+      {
+        "name": "Afraid",
+        "slug": "afraid",
+        "video": "1Bqd7WynuwPhlYfY097c0R5DUw1s3bZeb"
+      },
+      {
+        "name": "Anxious",
+        "slug": "anxious",
+        "video": "1ZNkRARyUK0AEa7yB2S9TEjfWfIqFVWs0"
+      },
+      {
+        "name": "Bad",
+        "slug": "bad",
+        "video": "1fhJGE1IvcqDgVGHxybgwaXbR4qpvsrMI"
+      },
+      {
+        "name": "Boiling mad",
+        "slug": "boiling-mad",
+        "video": "1VuKBaPjOjnzYiNHwAMHNXHdlx7gxVVde"
+      },
+      {
+        "name": "Bored",
+        "slug": "bored",
+        "video": "187Sx6iPYUwHpFcKlwq0Bv0ATb-Wz_-Op"
+      },
+      {
+        "name": "Busy",
+        "slug": "busy",
+        "video": "1_ZKZigi1UCu9SiuNL1WDipB674QWG7K9"
+      },
+      {
+        "name": "Calm",
+        "slug": "calm",
+        "video": "1wQGss-z4yGIsw2tdo16bse8_La31C-ng"
+      },
+      {
+        "name": "Cheerful",
+        "slug": "cheerful",
+        "video": "1APLE8juuUBLKwH2ua3UxwSJQgn43pt5Q"
+      },
+      {
+        "name": "Disappointed",
+        "slug": "disappointed",
+        "video": "1eL0Vy0dajbiPvjy9tlMsktx0faGQcuik"
+      },
+      {
+        "name": "Disgusted",
+        "slug": "disgusted",
+        "video": "1jZPZ8j4_4xOnVN2L7vUc_QPz5LpVUA2H"
+      },
+      {
+        "name": "Embarassed",
+        "slug": "embarassed",
+        "video": "1UYgItzcUoOa-tF9umiAQNH-oYHmEA14X"
+      },
+      {
+        "name": "Emotional",
+        "slug": "emotional",
+        "video": "1ZultEZHiHK_BaBKbYtoBgvLzcmU5xf6C"
+      },
+      {
+        "name": "Fine",
+        "slug": "fine",
+        "video": "1rkBhjQyr-yT4YUTUEqtNAA2tU8N6wESA"
+      },
+      {
+        "name": "Frustrated",
+        "slug": "frustrated",
+        "video": "141Zg4o5cb88MjOtUavKfTfY4PLG8SIYF"
+      },
+      {
+        "name": "Good",
+        "slug": "good",
+        "video": "1F2Z6hngu8pXn2cDpev2H4FKu0CYi_vst"
+      },
+      {
+        "name": "Grateful",
+        "slug": "grateful",
+        "video": "1VcUw3l2P-JYVDCjBtfm4xSWdJ_Wmr3WE"
+      },
+      {
+        "name": "Guilty",
+        "slug": "guilty",
+        "video": "1UCsOcLoJ6O6FFMhnBIfXx4i6lFBaM_ku"
+      },
+      {
+        "name": "Heartbroken",
+        "slug": "heartbroken",
+        "video": "1TsuLBP73iZA3jM1zps7DWSwG5FfAWeWn"
+      },
+      {
+        "name": "Hopeful",
+        "slug": "hopeful",
+        "video": "1qFm1Jdol_fcEUDJjlce9dvVqkHvR_AKL"
+      },
+      {
+        "name": "Insecure",
+        "slug": "insecure",
+        "video": "1LEkjbvbn7Dpqnza0wgiKM4IpNA8EfcLY"
+      },
+      {
+        "name": "Jealous",
+        "slug": "jealous",
+        "video": "1xA7ZhNIkjNbnwh-3ngKskuavidpE1Vg0"
+      },
+      {
+        "name": "Lonely",
+        "slug": "lonely",
+        "video": "1ZaLOfOLxZCQEXTzcWNBGaLqeym4VNaRY"
+      },
+      {
+        "name": "Motivated",
+        "slug": "motivated",
+        "video": "16w2eF_Cl14jiZ-03U0UyqL2wTvWSipwR"
+      },
+      {
+        "name": "Nervous",
+        "slug": "nervous",
+        "video": "17iY-ow8eyPi7MBDib107x3U11REU5KMQ"
+      },
+      {
+        "name": "Nothing",
+        "slug": "nothing",
+        "video": "1q74cH4-dR9WAu2HMg5tYHjwR-Yb5IoEl"
+      },
+      {
+        "name": "Overwhelmed",
+        "slug": "overwhelmed",
+        "video": "1Yw7oYi253icLpfbzy-ENkcngyR2gmaRm"
+      },
+      {
+        "name": "Relieved",
+        "slug": "relieved",
+        "video": "1VlzMYejV93VEJR42ZKQsGgdToubB7xp3"
+      },
+      {
+        "name": "Satisfied",
+        "slug": "satisfied",
+        "video": "1BZ7vGZZhONiwz5Z_UTZD-ZNLsbmhHpbs"
+      },
+      {
+        "name": "Shy",
+        "slug": "shy",
+        "video": "1V5Pbhml0JO0NDq7LBmzxgu3bqbMYsLc8"
+      },
+      {
+        "name": "Sick",
+        "slug": "sick",
+        "video": "1AAGK3lXF58snb-d-uylOAQIvwbPTedxX"
+      },
+      {
+        "name": "So-so",
+        "slug": "so-so",
+        "video": "1sLViuR7yHsrSq6zz2GzBHtH-Lv17ne2T"
+      },
+      {
+        "name": "Thrilled",
+        "slug": "thrilled",
+        "video": "1bQtAcvaqX1wiQdG-OnywMJwp7e1RTjhE"
+      },
+      {
+        "name": "Upset",
+        "slug": "upset",
+        "video": "137QGDM3RdStzV1rMGDHSeACI2441Gz1U"
+      },
+      {
+        "name": "Usual",
+        "slug": "usual",
+        "video": "16__lyY0-bq8aI_vy4Xh1ZNpKH2QRMrPf"
+      }
+    ]
+  },
+  {
+    "category": "Health and safety",
+    "slug": "health-and-safety",
+    "image": "assets/lessons/images/health-and-safety/health-and-safety.png",
+    "items": [
+      {
+        "name": "Ambulance",
+        "slug": "ambulance",
+        "image": "assets/lessons/images/health-and-safety/ambulance.png",
+        "video": "1kjAs69CUZ0L5-2qNjSVgWv5HK7b95ldz"
+      },
+      {
+        "name": "Bandage",
+        "slug": "bandage",
+        "image": "assets/lessons/images/health-and-safety/bandage.png",
+        "video": "1JpDqETVagOdVNl7SRm9RHJg66DgOaKdV"
+      },
+      {
+        "name": "Crutch",
+        "slug": "crutch",
+        "image": "assets/lessons/images/health-and-safety/crutch.png",
+        "video": "176W8Lg40Kgaw9JXTnPEirVv5d2dyRKhT"
+      },
+      {
+        "name": "Doctor",
+        "slug": "doctor",
+        "image": "assets/lessons/images/health-and-safety/doctor.png",
+        "video": "1xGrBXjQyXbMI1-sQ5pLltAReUQSVmL0m"
+      },
+      {
+        "name": "Eyedrops",
+        "slug": "eyedrops",
+        "image": "assets/lessons/images/health-and-safety/eyedrops.png",
+        "video": "1C9_YwRpbsGOacUgF7rPBA2FgP8OpTh1g"
+      },
+      {
+        "name": "First aid",
+        "slug": "first-aid",
+        "image": "assets/lessons/images/health-and-safety/first-aid.png",
+        "video": "1dUeTTy1jejcGitiUb1n0MmCNeyV8Wr1l"
+      },
+      {
+        "name": "Gloves",
+        "slug": "gloves",
+        "image": "assets/lessons/images/health-and-safety/gloves.png",
+        "video": "1_syWtKeqfFT3NV03VJGj3cZdwtJVYZI3"
+      },
+      {
+        "name": "Helmet",
+        "slug": "helmet",
+        "image": "assets/lessons/images/health-and-safety/helmet.png",
+        "video": "1CmKOKB4MCw7k_lJdsgoruzPtdPVdDcyD"
+      },
+      {
+        "name": "Hospital",
+        "slug": "hospital",
+        "image": "assets/lessons/images/health-and-safety/hospital.png",
+        "video": "17_jSwR-kYWD2DZtD3FRNeMQygBe15Ert"
+      },
+      {
+        "name": "Mask",
+        "slug": "mask",
+        "image": "assets/lessons/images/health-and-safety/mask.png",
+        "video": "1jzx_78xe6gseZF-o8K366e_V2vRqolGw"
+      },
+      {
+        "name": "Medicine",
+        "slug": "medicine",
+        "image": "assets/lessons/images/health-and-safety/medicine.png",
+        "video": "1z56gPS1rCMD0l8gihNHmTCcGkGhBiBTx"
+      },
+      {
+        "name": "Nurse",
+        "slug": "nurse",
+        "image": "assets/lessons/images/health-and-safety/nurse.png",
+        "video": "1agYDguSDuOhsv4Q6BphFE0tF1iCIbaT4"
+      },
+      {
+        "name": "Ointment",
+        "slug": "ointment",
+        "image": "assets/lessons/images/health-and-safety/ointment.png",
+        "video": "1WnNmjzysqlztlTZvKWcHAh85jula5NU5"
+      },
+      {
+        "name": "Painkiller",
+        "slug": "painkiller",
+        "image": "assets/lessons/images/health-and-safety/painkiller.png",
+        "video": "1UbG3DLdfclWPZJ_T4RAhK2rSc3kNMlNV"
+      },
+      {
+        "name": "Sanitizer",
+        "slug": "sanitizer",
+        "image": "assets/lessons/images/health-and-safety/sanitizer.png",
+        "video": "1OvXHeJ-MkDup_zB1dJNx0ZlB0Ncj-eEN"
+      },
+      {
+        "name": "Seatbelt",
+        "slug": "seatbelt",
+        "image": "assets/lessons/images/health-and-safety/seatbelt.png",
+        "video": "1uEXi6xTtaSk7tC-wNEL6f-cc67XCgOn1"
+      },
+      {
+        "name": "Thermometer",
+        "slug": "thermometer",
+        "image": "assets/lessons/images/health-and-safety/thermometer.png",
+        "video": "1zD8NgYc6khtQq8trkKcbZCetyZNexAuU"
+      },
+      {
+        "name": "Vaccine",
+        "slug": "vaccine",
+        "image": "assets/lessons/images/health-and-safety/vaccine.png",
+        "video": "1db6ktQoQ78yWwXUlZtz9WfkuNIdwm49C"
+      }
+    ]
+  },
+  {
+    "category": "Household items",
+    "slug": "household-items",
+    "image": "assets/lessons/images/household-items/household-items.png",
+    "items": [
+      {
+        "name": "Bed",
+        "slug": "bed",
+        "image": "assets/lessons/images/household-items/bed.png",
+        "video": "1QmlVSyuwcKCh-QN4LkuCWhPQ9co9Rh5-"
+      },
+      {
+        "name": "Blanket",
+        "slug": "blanket",
+        "image": "assets/lessons/images/household-items/blanket.png",
+        "video": "1f833MxWQV7upGhtr9PIfB7zcBosiG46I"
+      },
+      {
+        "name": "Bowl",
+        "slug": "bowl",
+        "image": "assets/lessons/images/household-items/bowl.png",
+        "video": "1ulTmv0CLdS2fMVfOmxMeDtPKsciil5or"
+      },
+      {
+        "name": "Broom",
+        "slug": "broom",
+        "image": "assets/lessons/images/household-items/broom.png",
+        "video": "1XqNr8A8PuCekxOcbweHOEcuLO8ptSNdB"
+      },
+      {
+        "name": "Bucket",
+        "slug": "bucket",
+        "image": "assets/lessons/images/household-items/bucket.png",
+        "video": "1unpu4hGMMufR0Ouw7lvB04vc1SB5yMoy"
+      },
+      {
+        "name": "Cabinet",
+        "slug": "cabinet",
+        "image": "assets/lessons/images/household-items/cabinet.png",
+        "video": "11e9MOEulAXbypZnu0wYlH1aJeUSbmsef"
+      },
+      {
+        "name": "Chair",
+        "slug": "chair",
+        "image": "assets/lessons/images/household-items/chair.png",
+        "video": "1Zk-IX3X5dgufemuHrk3vKYW4sa5_Rx3v"
+      },
+      {
+        "name": "Clock",
+        "slug": "clock",
+        "image": "assets/lessons/images/household-items/clock.png",
+        "video": "1dXQXuWueSQMIj2cvpviL562hIJTGbycH"
+      },
+      {
+        "name": "Closet",
+        "slug": "closet",
+        "image": "assets/lessons/images/household-items/closet.png",
+        "video": "1Xs6SZ33Dhpe7R-9Tpl_gHlzOTBl7qT3b"
+      },
+      {
+        "name": "Computer",
+        "slug": "computer",
+        "image": "assets/lessons/images/household-items/computer.png",
+        "video": "1jaiVCHkWhE_2F0tvhslmf1o3H-CecJx5"
+      },
+      {
+        "name": "Cup",
+        "slug": "cup",
+        "image": "assets/lessons/images/household-items/cup.png",
+        "video": "1wjdW8SB2JR38dvzdH7nW7p2SuwRCckrE"
+      },
+      {
+        "name": "Door",
+        "slug": "door",
+        "image": "assets/lessons/images/household-items/door.png",
+        "video": "1M7iY6MqhBbLPP__AlDVDkBVidd9c_HV3"
+      },
+      {
+        "name": "Drawer",
+        "slug": "drawer",
+        "image": "assets/lessons/images/household-items/drawer.png",
+        "video": "1Fu03sS4oV8rbbU5udXKxFPbyospqN-Si"
+      },
+      {
+        "name": "Fan",
+        "slug": "fan",
+        "image": "assets/lessons/images/household-items/fan.png",
+        "video": "1rYt8-x-AOopBce8GSvw7kK93x4VslDdG"
+      },
+      {
+        "name": "Faucet",
+        "slug": "faucet",
+        "image": "assets/lessons/images/household-items/faucet.png",
+        "video": "1-bqw9eGjcIJrkHLLIOmaMBb17DKCcWz8"
+      },
+      {
+        "name": "Fork",
+        "slug": "fork",
+        "image": "assets/lessons/images/household-items/fork.png",
+        "video": "1vCbM1RacA5Y8ONGNbVgbO84ubda2k33O"
+      },
+      {
+        "name": "Iron",
+        "slug": "iron",
+        "image": "assets/lessons/images/household-items/iron.png",
+        "video": "1CxGiAEOEeiUWrsbT50m7vBRWKW3Ma-7p"
+      },
+      {
+        "name": "Keyboard",
+        "slug": "keyboard",
+        "image": "assets/lessons/images/household-items/keyboard.png",
+        "video": "117uMjOC5INei2Of4-d5SueNqvkt_S7GM"
+      },
+      {
+        "name": "Knife",
+        "slug": "knife",
+        "image": "assets/lessons/images/household-items/knife.png",
+        "video": "1SCCWfl6hiOA_xPmy5gespSi-dHyNYtwH"
+      },
+      {
+        "name": "Lamp",
+        "slug": "lamp",
+        "image": "assets/lessons/images/household-items/lamp.png",
+        "video": "1GsVbxvn5rkTiUYcmOR8G4XHomGCNTlSG"
+      },
+      {
+        "name": "Light",
+        "slug": "light",
+        "image": "assets/lessons/images/household-items/light.png",
+        "video": "1F58OnKgcKKRr7QnRHl68TR6VQTo_L7pv"
+      },
+      {
+        "name": "Microwave",
+        "slug": "microwave",
+        "image": "assets/lessons/images/household-items/microwave.png",
+        "video": "17nRu7r8OxHu_zrwp5Ly5uRI51gRkU6x5"
+      },
+      {
+        "name": "Mirror",
+        "slug": "mirror",
+        "image": "assets/lessons/images/household-items/mirror.png",
+        "video": "1cURlQ2whmxgbN4dvy5CgBhNrqEo6gL8W"
+      },
+      {
+        "name": "Mop",
+        "slug": "mop",
+        "image": "assets/lessons/images/household-items/mop.png",
+        "video": "1VuV77qLvgE3VLBLDEeAnc-hmRh98Gkr_"
+      },
+      {
+        "name": "Mouse",
+        "slug": "mouse",
+        "image": "assets/lessons/images/household-items/mouse.png",
+        "video": "10rBSvv2GqCRrkyMZVJog-5TfiNw82tNs"
+      },
+      {
+        "name": "Oven",
+        "slug": "oven",
+        "image": "assets/lessons/images/household-items/oven.png",
+        "video": "1hjdBnu_o0Kr6DCGgloyd5d37at0xwcty"
+      },
+      {
+        "name": "Pan",
+        "slug": "pan",
+        "image": "assets/lessons/images/household-items/pan.png",
+        "video": "1k6KCpvDvvtXU3STwtkdhcM4uicTMDjgX"
+      },
+      {
+        "name": "Phone",
+        "slug": "phone",
+        "image": "assets/lessons/images/household-items/phone.png",
+        "video": "1rVsuAn7BjROqh95A87oNhqoMtRcz2_vL"
+      },
+      {
+        "name": "Pillow",
+        "slug": "pillow",
+        "image": "assets/lessons/images/household-items/pillow.png",
+        "video": "1Nt4GOTWEbMssCVzHIF-oingP2ljuNv-Z"
+      },
+      {
+        "name": "Plate",
+        "slug": "plate",
+        "image": "assets/lessons/images/household-items/plate.png",
+        "video": "1z2BYeGl6aYGZB6iwpW2IfBmfINNVNVWI"
+      },
+      {
+        "name": "Pot",
+        "slug": "pot",
+        "image": "assets/lessons/images/household-items/pot.png",
+        "video": "1qQjqn7rfKtBO9YQtQNIEwak2ZKpCMuSU"
+      },
+      {
+        "name": "Refrigerator",
+        "slug": "refrigerator",
+        "image": "assets/lessons/images/household-items/refrigerator.png",
+        "video": "1GtN1oauLcQQasH2nna4IOPmGMC1Jmiim"
+      },
+      {
+        "name": "Remote",
+        "slug": "remote",
+        "image": "assets/lessons/images/household-items/remote.png",
+        "video": "1AM8CYYczEFt8N6DNT5dJ4FeA908-4kqI"
+      },
+      {
+        "name": "Rug",
+        "slug": "rug",
+        "image": "assets/lessons/images/household-items/rug.png",
+        "video": "1Qo86RXNZvETT9kcZ1Th1L74Jfp38z4KL"
+      },
+      {
+        "name": "Shelf",
+        "slug": "shelf",
+        "image": "assets/lessons/images/household-items/shelf.png",
+        "video": "1IuXqpRJnQWnzzPr4a0J-lAb6axNS0xkI"
+      },
+      {
+        "name": "Sink",
+        "slug": "sink",
+        "image": "assets/lessons/images/household-items/sink.png",
+        "video": "1ZVOX5hL4wcQ68WwfhrlqTGGx2BVNILlu"
+      },
+      {
+        "name": "Soap",
+        "slug": "soap",
+        "image": "assets/lessons/images/household-items/soap.png",
+        "video": "1iS2yj9f5ag9B_W5iNonZpZjt5ozhMuwz"
+      },
+      {
+        "name": "Sofa",
+        "slug": "sofa",
+        "image": "assets/lessons/images/household-items/sofa.png",
+        "video": "1d0OO0W0omGz5ZSVM37aOBaDOwxhPYaU9"
+      },
+      {
+        "name": "Spoon",
+        "slug": "spoon",
+        "image": "assets/lessons/images/household-items/spoon.png",
+        "video": "1-eXKWym-9CJtnz8QWwxEHs2Uw-VoTuTU"
+      },
+      {
+        "name": "Stove",
+        "slug": "stove",
+        "image": "assets/lessons/images/household-items/stove.png",
+        "video": "1GW9ZmcpDGNl5l4b_PLceBi6vgzcO-bIg"
+      },
+      {
+        "name": "Table",
+        "slug": "table",
+        "image": "assets/lessons/images/household-items/table.png",
+        "video": "1XYBtDF2F7UKAzfpUmrZwAW0cqtghHyZ5"
+      },
+      {
+        "name": "Television",
+        "slug": "television",
+        "image": "assets/lessons/images/household-items/television.png",
+        "video": "1os-Lg4UGTqcRVfDVUtCpIpG8iH4hxC1g"
+      },
+      {
+        "name": "Toaster",
+        "slug": "toaster",
+        "image": "assets/lessons/images/household-items/toaster.png",
+        "video": "1K4QA6QCP-QV_QVY4gEDRKsmhYXn5y6bv"
+      },
+      {
+        "name": "Toothbrush",
+        "slug": "toothbrush",
+        "image": "assets/lessons/images/household-items/toothbrush.png",
+        "video": "1wtqT5iXgusi00E1KIFx2q6sc_E4CHLI0"
+      },
+      {
+        "name": "Towel",
+        "slug": "towel",
+        "image": "assets/lessons/images/household-items/towel.png",
+        "video": "1g19kUrUSNap-19oNoExy--mEj_AJAZXY"
+      },
+      {
+        "name": "Trash can",
+        "slug": "trashcan",
+        "image": "assets/lessons/images/household-items/trashcan.png",
+        "video": "1OBFv_VbTQAgPnGhk6lPCMqMP-VF6g8Ea"
+      },
+      {
+        "name": "Vacuum",
+        "slug": "vacuum",
+        "image": "assets/lessons/images/household-items/vacuum.png",
+        "video": "1c6Vo74NLEcTvNYGTAP_mO4k8zhfhZ-xb"
+      },
+      {
+        "name": "Window",
+        "slug": "window",
+        "image": "assets/lessons/images/household-items/window.png",
+        "video": "1P5rUn7OCHNirxgzEfLXHVUDwU-t9mnF0"
       }
     ]
   },
   {
     "category": "Months",
     "slug": "months",
-    "image": "assets/lessons/images/months.png",
+    "image": "assets/lessons/images/months/months.png",
     "items": [
       {
         "name": "January",
@@ -429,7 +2968,7 @@
   {
     "category": "Numbers",
     "slug": "numbers",
-    "image": "assets/lessons/images/numbers.png",
+    "image": "assets/lessons/images/numbers/numbers.png",
     "items": [
       {
         "name": "1",
@@ -500,13 +3039,1126 @@
         "backgroundColor": "#fff",
         "fontColor": "#212121",
         "video": "1E5fpPvl0ZXlA872-CRvSPg3CekpLjL1t"
+      },
+      {
+        "name": "11",
+        "slug": "11",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1QJdn-ioAzkNgZXjU0wfENSHww5QIgPi3"
+      },
+      {
+        "name": "12",
+        "slug": "12",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1b1u7-RGC1_pfRnr2YoV9pEGzuqH59WiZ"
+      },
+      {
+        "name": "13",
+        "slug": "13",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1U0F63yGeW9sBHWlfilAh13DcE5tkJHvS"
+      },
+      {
+        "name": "14",
+        "slug": "14",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1SNI0HvNzq4b_ngYz5EQyfqJhT4ZIdo_9"
+      },
+      {
+        "name": "15",
+        "slug": "15",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1327Sj1VhELwCGvjvObz39FrMiYMz3HGc"
+      },
+      {
+        "name": "16",
+        "slug": "16",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1jAgn3davDyQDxgiyVjLqYhgb-dD3VtKk"
+      },
+      {
+        "name": "17",
+        "slug": "17",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1u7RGjY30qjtbmn0GZwk3o55Z9EF93IPA"
+      },
+      {
+        "name": "18",
+        "slug": "18",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "15ar21M9sVxKMvRvMhbweCgEnDi3AfKRU"
+      },
+      {
+        "name": "19",
+        "slug": "19",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "18uPryAxWKkjBjn6p7uc2XYP6Qo5xHRy4"
+      },
+      {
+        "name": "20",
+        "slug": "20",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1XU5kbjd9QFfEnoDUEamJENg8cROQQ0Rn"
+      },
+      {
+        "name": "21",
+        "slug": "21",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1uAR22dvfYU2oXu90CgcohzJQSUIER27w"
+      },
+      {
+        "name": "22",
+        "slug": "22",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "16c5wMTp9nKVWMDZGgZAMTgLV_g3UOzPE"
+      },
+      {
+        "name": "23",
+        "slug": "23",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1CXcsKWiaoyF1zMKXcn9rRcmHOob-0UUl"
+      },
+      {
+        "name": "24",
+        "slug": "24",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1WrcLOg5zoBuZoaeF983RIIFkI9z8_XjH"
+      },
+      {
+        "name": "25",
+        "slug": "25",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1KjmOnPX62lqaAKfpG-2vuEygNM7LXVlu"
+      },
+      {
+        "name": "26",
+        "slug": "26",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1q3tCCvvs32wQ90oZyTM0FQwtbtgP2Jap"
+      },
+      {
+        "name": "27",
+        "slug": "27",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1KX9ke6ErhHDiRFATHcTnmyjb9ukNg4QX"
+      },
+      {
+        "name": "28",
+        "slug": "28",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1-pJwWeKYSchUAgBUPb0SucMMuKRqK8P3"
+      },
+      {
+        "name": "29",
+        "slug": "29",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1bXUL0pSHzsPqY5iYOxLBYkDr_W1KlXd2"
+      },
+      {
+        "name": "30",
+        "slug": "30",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1aSbmRqmwO9ug0P27djJYytUkC_xNi0JC"
+      },
+      {
+        "name": "31",
+        "slug": "31",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1WGEE0pE5N0sR3W8xeZYamNbSZozVXvY-"
+      },
+      {
+        "name": "32",
+        "slug": "32",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1Cdtuu4cfAvUW3pG3U_ytLXsXvXkxEenX"
+      },
+      {
+        "name": "33",
+        "slug": "33",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1E6yWf_P7_ma7okpsr3FSueRXqOcqXMex"
+      },
+      {
+        "name": "34",
+        "slug": "34",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1Lj_Ov4XrvM9xjyHcdB6klGlab6aVOP2A"
+      },
+      {
+        "name": "35",
+        "slug": "35",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1OFzlcmEvPVMTk2tU-u1BohPKfWQNhPNx"
+      },
+      {
+        "name": "36",
+        "slug": "36",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1GEfPvVBj0nMihCBP_j5u4vVh4lvrNawf"
+      },
+      {
+        "name": "37",
+        "slug": "37",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1DdoYgnxcn85jpKTeWf_TgL9LINwS-MDF"
+      },
+      {
+        "name": "38",
+        "slug": "38",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1vUKpoLtjfD1ET51FfsYRbTzwJKoDXOtQ"
+      },
+      {
+        "name": "39",
+        "slug": "39",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "15HoqlU1Aa-789hWiH50UDpAKCg2vrbt7"
+      },
+      {
+        "name": "40",
+        "slug": "40",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1TnBg2Wiwj_s0ixuv29eNNeTb5LyWXpHU"
+      },
+      {
+        "name": "41",
+        "slug": "41",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1hF8gzGsALiTqbf1jdGEVViopx1f0uh6h"
+      },
+      {
+        "name": "42",
+        "slug": "42",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "16Vos_aYy_R_pGOkow0p7-NumtzAhT8uI"
+      },
+      {
+        "name": "43",
+        "slug": "43",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1y9DBwpBiywDzSkkOxscQcsJT82oJaFcW"
+      },
+      {
+        "name": "44",
+        "slug": "44",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1IQ1VSO8be1DMXRm1AWQHbO2WGp-EL5xV"
+      },
+      {
+        "name": "45",
+        "slug": "45",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1knF2xeuy9neP4xK5Tr6horD2akA_l8Wj"
+      },
+      {
+        "name": "46",
+        "slug": "46",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1de8LgwxqjaIMa8DeFY1ASpBM2CT7MBvt"
+      },
+      {
+        "name": "47",
+        "slug": "47",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "15X8U0fPqgpyZxYVp8EBBAxHRuedyW4NU"
+      },
+      {
+        "name": "48",
+        "slug": "48",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1uGPqCGMcwEuE_mbVQce5mRuT019vjlWY"
+      },
+      {
+        "name": "49",
+        "slug": "49",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1oYeUXxH2tjBnz8MSucEw55SjoV0x-wgI"
+      },
+      {
+        "name": "50",
+        "slug": "50",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1THRnoVrrPNjMMSEJOhHP8tdz-fChw5qz"
+      },
+      {
+        "name": "51",
+        "slug": "51",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1_qWIZvWGwbYop6W9_YHptlTpFHQHTGZn"
+      },
+      {
+        "name": "52",
+        "slug": "52",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1qTcjtEOOcxEbjalSMY85UaWC7ikVspO6"
+      },
+      {
+        "name": "53",
+        "slug": "53",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1GR6ZKodBeGNTi7gzySFsstaaeK3d0dS7"
+      },
+      {
+        "name": "54",
+        "slug": "54",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "18CsSp19r7EIe3L2sazCE-k6aBbuE5kcF"
+      },
+      {
+        "name": "55",
+        "slug": "55",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1YUsS3w7-Li_oj3NSKH5DHUrrQAqmuRyH"
+      },
+      {
+        "name": "56",
+        "slug": "56",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "18m5QjorwsJYVQ88STIZ1fmew2lrqovt3"
+      },
+      {
+        "name": "57",
+        "slug": "57",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1U2joQDqbElhoo9cAhHFf6f3GtcyhWXHx"
+      },
+      {
+        "name": "58",
+        "slug": "58",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1z1W7AmG9QNcb30j5yy3FL8IMpw2BrkAU"
+      },
+      {
+        "name": "59",
+        "slug": "59",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1N8XRlrwdLcvtLQW9bc1L0WnO9r1wOEvm"
+      },
+      {
+        "name": "60",
+        "slug": "60",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1wP1MkmwO3VGBZMFvThWEeSTEDFdOFTsS"
+      },
+      {
+        "name": "61",
+        "slug": "61",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1VDQqjhxbMvnkwioypoBifeuIFtNpiQ8I"
+      },
+      {
+        "name": "62",
+        "slug": "62",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "14ZvpTH1GMFXew2DAW6h_zdkQEdbMEPxN"
+      },
+      {
+        "name": "63",
+        "slug": "63",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1yU90J5lMMPV6R2f55CmGu90DcxSm2qKC"
+      },
+      {
+        "name": "64",
+        "slug": "64",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1SuAEnglXftuFnXFVxY7ndRKtiFKhvB8T"
+      },
+      {
+        "name": "65",
+        "slug": "65",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "10Zv1x01Ag7O_Fehc_0Ij6WXCGZcE_2vx"
+      },
+      {
+        "name": "66",
+        "slug": "66",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1EB2oKod3m9B1kuXkzUNIB_Kx3kKFBglF"
+      },
+      {
+        "name": "67",
+        "slug": "67",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1NOh0JJ0WHchDhVSWHzrRtj-VJbxaoXJj"
+      },
+      {
+        "name": "68",
+        "slug": "68",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1baJ3huZjf8Ugc3sk_bf8pDHwHLd3VvoR"
+      },
+      {
+        "name": "69",
+        "slug": "69",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1MCgu1cNecNh_re0_OVYcuFZiIoCFbbbn"
+      },
+      {
+        "name": "70",
+        "slug": "70",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "14U3a2u_MwoGq_0RipQ70FYKloi3DVj9W"
+      },
+      {
+        "name": "71",
+        "slug": "71",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1nWxIitx_gTqQuG3hELd6U5eHP4yANAvH"
+      },
+      {
+        "name": "72",
+        "slug": "72",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1eJcHfSRsIAOrlQOinhmZlDl_njQYpYP_"
+      },
+      {
+        "name": "73",
+        "slug": "73",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "120ypX35v6luW_olcC_vVkJDRVE1pqyLT"
+      },
+      {
+        "name": "74",
+        "slug": "74",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1eGRWLwwf0Bt22Pv4G0ExGQ0AaM5l3Mtv"
+      },
+      {
+        "name": "75",
+        "slug": "75",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1ZnKAuCF4hgojre1jXKDFUB3n2yQVOK9e"
+      },
+      {
+        "name": "76",
+        "slug": "76",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1k5lHSQCWk0egT-oU7-_NQiWnGfJhZdSh"
+      },
+      {
+        "name": "77",
+        "slug": "77",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1CvCJy3YyvJxIzGZGwoKYRyyWsl6gbYQ-"
+      },
+      {
+        "name": "78",
+        "slug": "78",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1I4O5X9q_jLiN8hp29riQA2F0EJYYwU6x"
+      },
+      {
+        "name": "79",
+        "slug": "79",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1gqvR7dBzpenPlRiuUy_WzK9D5XIUSl45"
+      },
+      {
+        "name": "80",
+        "slug": "80",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1mFn2c_F2uQtOD-TcYnWl4rjj8gjDYN-5"
+      },
+      {
+        "name": "81",
+        "slug": "81",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1Jf_0GlfNM-AC48ijlTkGJkjKMMCXNYWJ"
+      },
+      {
+        "name": "82",
+        "slug": "82",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1gJRuA92Kq16NJ7b8_oXEMDYB_d_x6lOY"
+      },
+      {
+        "name": "83",
+        "slug": "83",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1jubmlRkM46AQK73EdyMfiDzfEV02_K3R"
+      },
+      {
+        "name": "84",
+        "slug": "84",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1lyhkj6DtiAvFnj9ANu_xu0zJQLJyrCDU"
+      },
+      {
+        "name": "85",
+        "slug": "85",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1XUahXentdnVzL_0-2g3WLjWNHfh7xPDZ"
+      },
+      {
+        "name": "86",
+        "slug": "86",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1M4gs_TfbskOOgZMGnQ_L_xprbrUzLEHh"
+      },
+      {
+        "name": "87",
+        "slug": "87",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1mJi_ZP-0vgUz_yb6H7w0uDHRVGMcWnEu"
+      },
+      {
+        "name": "88",
+        "slug": "88",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1DZjm6mbXCnQnenDk_7pnho_cjruvq0Sd"
+      },
+      {
+        "name": "89",
+        "slug": "89",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "10U-1yxuHgRcXNZJeyg_8X7lf5eeVmTI8"
+      },
+      {
+        "name": "90",
+        "slug": "90",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1AfqX2954gkM-qdAsbDHAs-P5RYqZdGFy"
+      },
+      {
+        "name": "91",
+        "slug": "91",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1Y8IvJvyDeBYx_1QH7rLcXhY506AoaGTc"
+      },
+      {
+        "name": "92",
+        "slug": "92",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1UgTcItDP97PMgY80Vz68HP8PEQWA87yc"
+      },
+      {
+        "name": "93",
+        "slug": "93",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1T-6xM13DT5sYAfvJALE25O640A2mjHpt"
+      },
+      {
+        "name": "94",
+        "slug": "94",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1gC9dbqQT14D-0AeX5psrX2ziox1YT0Qi"
+      },
+      {
+        "name": "95",
+        "slug": "95",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1qKyfBEr00QaXbgRp93XUvupwF5pkqaVc"
+      },
+      {
+        "name": "96",
+        "slug": "96",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1dItWM6DXL7-DMfMpoL3VUxFgjnQSYxn6"
+      },
+      {
+        "name": "97",
+        "slug": "97",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "12piSaPrNxz5k0XqMcNRdEARSvrWurKyp"
+      },
+      {
+        "name": "98",
+        "slug": "98",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1a4K--lZYLZti10gx6l_PDOGFKSPd7q80"
+      },
+      {
+        "name": "99",
+        "slug": "99",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "13Y8DMzeHtIGadswfOb0s7V_-YfWXWRHP"
+      },
+      {
+        "name": "100",
+        "slug": "100",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "14XlkzkXeVIZoaNjbGWKqq1SS7ihsDoQF"
+      }
+    ]
+  },
+  {
+    "category": "Occupation",
+    "slug": "occupation",
+    "image": "assets/lessons/images/occupation/occupation.png",
+    "items": [
+      {
+        "name": "Accountant",
+        "slug": "accountant",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1QpSAWFNIGBB7N9wdtt4kOD4OEm2jV9Pz"
+      },
+      {
+        "name": "Astronaut",
+        "slug": "astronaut",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "14MXBkrYpmkx29mDP1bUfE3zUw9LxxIpb"
+      },
+      {
+        "name": "Chef",
+        "slug": "chef",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1Ddbt5F4RPWULRX91EbsyNbJcNmqhyVQR"
+      },
+      {
+        "name": "Construction",
+        "slug": "construction",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1nkfHZdCOv3drJ-PsXyQ6vIKhRYh4bdK2"
+      },
+      {
+        "name": "Dancer",
+        "slug": "dancer",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1QPqyenS-CRvIiYVAWU0-fQVbUUYe6tZf"
+      },
+      {
+        "name": "Doctor",
+        "slug": "doctor",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1MjeTsfJ6IzhiXBSuJDJyb2NjP8g3kaye"
+      },
+      {
+        "name": "Electrician",
+        "slug": "electrician",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1jwSO1bjkmQJlPKz63pEcz1L1mPcuGPlO"
+      },
+      {
+        "name": "Farmer",
+        "slug": "farmer",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1SnM1NrwNdaj3KrnFzkGZIl9Ldkz-JpKd"
+      },
+      {
+        "name": "Firefighter",
+        "slug": "firefighter",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1Mes2c6-JKSPyPlRBRtZ2oUZ4fXO4MIlZ"
+      },
+      {
+        "name": "Librarian",
+        "slug": "librarian",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1j2Ra4vBBmafsl8mq-3emuQjmT0nEicES"
+      },
+      {
+        "name": "Manager",
+        "slug": "manager",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1kWi7v39ouzod15j4Pr0GW1WWLI_a0oLH"
+      },
+      {
+        "name": "Mechanic",
+        "slug": "mechanic",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1pbtBN7c0-fU_LdUIc--lQyu2NsQAxxBM"
+      },
+      {
+        "name": "Musician",
+        "slug": "musician",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1LZhJD2BUcfWCNSKQvUSIgdNL3kse0Icv"
+      },
+      {
+        "name": "Nurse",
+        "slug": "nurse",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1oyQd6b0lSkQt1YPDsMCDJFNe_eRNoHbK"
+      },
+      {
+        "name": "Pharmacist",
+        "slug": "pharmacist",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1F4VVPPf4Yp89WNZlDdADt7Zar9pnEbqB"
+      },
+      {
+        "name": "Police",
+        "slug": "police",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1bDwpebSPWWVTHvrRJBhbwTtHLZYZCVki"
+      },
+      {
+        "name": "Professor",
+        "slug": "professor",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1wXjPtn7_GnfOYmrkjFyw_wejzkS9GmDY"
+      },
+      {
+        "name": "Psychologist",
+        "slug": "psychologist",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1n91eb8CrGErrlHLfSox-Gs65tkbGTWHl"
+      },
+      {
+        "name": "Scientists",
+        "slug": "scientists",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "108YT_3ttQnFvC6Z6eu5Jf60-_c8jMv6_"
+      },
+      {
+        "name": "Students",
+        "slug": "students",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1J0AmaZiDqLUnHZ49_EF7ZD-XRjIrCzxR"
+      },
+      {
+        "name": "Teacher",
+        "slug": "teacher",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1lQ8gQu3F5JBRMc5v6n3f3R7CBW0JtIll"
+      },
+      {
+        "name": "Writer",
+        "slug": "writer",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1Y8u_yGx2sZTrmkVe6ZpGypn3fyKU6CBu"
+      }
+    ]
+  },
+  {
+    "category": "Parts of the body",
+    "slug": "parts-of-the-body",
+    "image": "assets/lessons/images/parts-of-the-body/parts-of-the-body.png",
+    "items": [
+      {
+        "name": "Ankle",
+        "slug": "ankle",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1xnyQhboscWk4ozj-MkoHvk0tixfNm_8z"
+      },
+      {
+        "name": "Arm",
+        "slug": "arm",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1y8cac9PdT3TATYDtNG9UMfGQJNNXz5mp"
+      },
+      {
+        "name": "Back",
+        "slug": "back",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1ICEXp3m5qdNxgGfo3G4oTOv5jgBaa1bo"
+      },
+      {
+        "name": "Blood",
+        "slug": "blood",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1xKFAxK-m07ScsaqllyEA1qpyU5dzaAD3"
+      },
+      {
+        "name": "Bone",
+        "slug": "bone",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1fD5nczjJ0ZXBQQ6AaFnkXT1Jbx3Txe07"
+      },
+      {
+        "name": "Brain",
+        "slug": "brain",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1VsQ11By4_JCHyFKg-Jf_qoM8J9aUu-n-"
+      },
+      {
+        "name": "Cheeks",
+        "slug": "cheeks",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1y4F02jqaLHAjpbzz-76Jzy72FX9gqdCJ"
+      },
+      {
+        "name": "Chest",
+        "slug": "chest",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1dxmPGsgcsGJfKZvRj5e0caD8-ha-8wx_"
+      },
+      {
+        "name": "Chin",
+        "slug": "chin",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1SAkmuSQaF12i59edKjpquIyH5tdBxRO1"
+      },
+      {
+        "name": "Elbow",
+        "slug": "elbow",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "13biBuD7SdaTW1XvUK8tKuunDiCRXxIUS"
+      },
+      {
+        "name": "Eyebrow",
+        "slug": "eyebrow",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1vf9feG1Nsrrxt3Ri8mqmGtEE0ysQQKbY"
+      },
+      {
+        "name": "Eyelashe",
+        "slug": "eyelashe",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1797K8ut6uQmBWbpstyaG-KrrW9XGbdVu"
+      },
+      {
+        "name": "Face",
+        "slug": "face",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1CEalaiPH2tqUvkkp6g42Ix9uDJeoxqun"
+      },
+      {
+        "name": "Finger",
+        "slug": "finger",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1T1H2JO0pShO0YH-lBfprrQUXqRILNe-P"
+      },
+      {
+        "name": "Foot",
+        "slug": "foot",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1HmRvcuIGGHWrNY0RqA9wDwmT9t6nvCgh"
+      },
+      {
+        "name": "Forehead",
+        "slug": "forehead",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1vN6xbQgXy9jZgErW-wYLyIhV2H7_q2yX"
+      },
+      {
+        "name": "Hair",
+        "slug": "hair",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "155jd6kz_oWQdzdGxtMd6nJIAlY4CN921"
+      },
+      {
+        "name": "Hand",
+        "slug": "hand",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1N4sOm2b2ECjiBziLUOHtuC3b2LTH-TS0"
+      },
+      {
+        "name": "Head",
+        "slug": "head",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1-TY6yItLIlLoELdBmB25GPlGA3S-4VA_"
+      },
+      {
+        "name": "Heel",
+        "slug": "heel",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1OC27d8BxWtNh0X0_ut-7qkUROUo-gMXF"
+      },
+      {
+        "name": "Hip",
+        "slug": "hip",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1mhPBHg5cuoBNFwxnH9DmL9vHfG-sxGZc"
+      },
+      {
+        "name": "Joint",
+        "slug": "joint",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1bbto5gWzqRVckCIMRsNNZNIQ_4Z9oo6e"
+      },
+      {
+        "name": "Knee",
+        "slug": "knee",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1FX50I0dEv0gPx3_HQM0aOcYY2fBVTopZ"
+      },
+      {
+        "name": "Leg",
+        "slug": "leg",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1oOIgDZgzidzPGrwUX8oV6Thdl3fLCRQa"
+      },
+      {
+        "name": "Lips",
+        "slug": "lips",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1m1E5w4LO--EDu93CXWvDky5ZzpjXBCh4"
+      },
+      {
+        "name": "Lungs",
+        "slug": "lungs",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1sHQ6Jm3tlwaQiuCW7_ezC7ko02UgBkgP"
+      },
+      {
+        "name": "Mouth",
+        "slug": "mouth",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1pDAOt82UsU2-CJFkhZRsxff5TrMfcer4"
+      },
+      {
+        "name": "Muscle",
+        "slug": "muscle",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1or_sw4TpnqqAdVwMomeebdBuVWkwo7mP"
+      },
+      {
+        "name": "Neck",
+        "slug": "neck",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1X3MT-IY8pwYYw9z0McV400ogDwduXS6U"
+      },
+      {
+        "name": "Nerve",
+        "slug": "nerve",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1MhyOA-od72-P54qj8MOx4EzkWlLtxqFx"
+      },
+      {
+        "name": "Nose",
+        "slug": "nose",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1Jp_kzhLOzNdNNX61ScVPhqnUGpMM1y4_"
+      },
+      {
+        "name": "Palm",
+        "slug": "palm",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "16taXfiDwtB8veT0rsAVUisB9isreSsdQ"
+      },
+      {
+        "name": "Rib",
+        "slug": "rib",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1xvtpZSoQA6TfLHgmHWpyKfkdDISmfWiA"
+      },
+      {
+        "name": "Shoulder",
+        "slug": "shoulder",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1VA-9FyouTiVFpOCbbnYvMXg3UhxcCmIC"
+      },
+      {
+        "name": "Skin",
+        "slug": "skin",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1NqH9Mp9dLD_OBOCdIgrJuIh04odDpebE"
+      },
+      {
+        "name": "Spine",
+        "slug": "spine",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1gyg9miUX3B4ntsbk_TpY2q2wrnDaXwyL"
+      },
+      {
+        "name": "Stomach",
+        "slug": "stomach",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1_zj0aoxcU0qmVERlKJwlWBpeoE5yYJ7e"
+      },
+      {
+        "name": "Teeth",
+        "slug": "teeth",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1LbF7Wr7eDX_CQJkM0d-zzuF01VUNJVME"
+      },
+      {
+        "name": "Thigh",
+        "slug": "thigh",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1JvuU2TeWYsfSUr0z5Bi7dJEhPyWj40fu"
+      },
+      {
+        "name": "Thumb",
+        "slug": "thumb",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1uvJTvCzg8AypamBKIK2muJUY1CIP0gdR"
+      },
+      {
+        "name": "Toe",
+        "slug": "toe",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1s8VOOlH450XCsJ-0xcS-EatB942NIbBw"
+      },
+      {
+        "name": "Tongue",
+        "slug": "tongue",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1KTl16YHILXbtclI9Hdjwvt-51eIfFn6M"
+      },
+      {
+        "name": "Vein",
+        "slug": "vein",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1WnRw6US3raWqunfu6EZLTuWhbXwSL5DN"
+      },
+      {
+        "name": "Waist",
+        "slug": "waist",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1iyjZKpGJCDlde2WrH2F5Svnbk1Xsu-n3"
+      },
+      {
+        "name": "Wrist",
+        "slug": "wrist",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1gDBGgmf1ybcZkdMvzszXa8q-5PR5Q3Oh"
       }
     ]
   },
   {
     "category": "Places and Directions",
-    "slug": "places_and_directions",
-    "image": "assets/lessons/images/places_and_directions.png",
+    "slug": "places-n-directions",
+    "image": "assets/lessons/images/places-n-directions/places-n-directions.png",
     "items": [
       {
         "name": "Down",
@@ -579,7 +4231,7 @@
   {
     "category": "Relationships",
     "slug": "relationships",
-    "image": "assets/lessons/images/relationships.png",
+    "image": "assets/lessons/images/relationships/relationships.png",
     "items": [
       {
         "name": "Brother",
@@ -640,13 +4292,1966 @@
         "slug": "teacher",
         "content": "🧑🏻‍🏫",
         "video": "13RWaYTqxCuWhAfLFXdVhdkjMqySsvMjb"
+      },
+      {
+        "name": "Aunt",
+        "slug": "aunt",
+        "video": "1zAAT7r1jla_oE9GcwENkYqMKrzWQmA5W"
+      },
+      {
+        "name": "Bestfriend",
+        "slug": "bestfriend",
+        "video": "1MtYQcWk2q4Ap8Od4nCdRpiLr_zAL6Jj_"
+      },
+      {
+        "name": "Boyfriend",
+        "slug": "boyfriend",
+        "video": "1jDGkUqJ5IckjrmdQdV262YUdsnuoJ94E"
+      },
+      {
+        "name": "Child",
+        "slug": "child",
+        "video": "1c53iO3ZFnReYdd3NdErzMOQUf4XmjTTJ"
+      },
+      {
+        "name": "Classmate",
+        "slug": "classmate",
+        "video": "1zQRo0cqASx3kwF5wZxAJXANJr3vVhyVB"
+      },
+      {
+        "name": "Couple",
+        "slug": "couple",
+        "video": "1iNlJeLpjMPYrZBniUH6U6vfsWIEAz2N9"
+      },
+      {
+        "name": "Cousin",
+        "slug": "cousin",
+        "video": "1iH2tw09ZZpyqxG-mPw1-oX0M3ZKTNRUs"
+      },
+      {
+        "name": "Daughter",
+        "slug": "daughter",
+        "video": "1pZ5WkgEgQfpBe1uFOkRKFMWhd1FOtTe2"
+      },
+      {
+        "name": "Fiance",
+        "slug": "fiance",
+        "video": "1QDJepfyXSC7gN3-eB794QEpSA0d37xyR"
+      },
+      {
+        "name": "Girlfriend",
+        "slug": "girlfriend",
+        "video": "1WGMKFYJcFcih9YHrOmajUyUJM9ag1trH"
+      },
+      {
+        "name": "Husband",
+        "slug": "husband",
+        "video": "1iwyCOw70aftmFbYV7iuId6CTV1QMS1Ui"
+      },
+      {
+        "name": "Neighbour",
+        "slug": "neighbour",
+        "video": "1t2v-qBC6HGZaJUgRGmO4UlALJ2VX-XMx"
+      },
+      {
+        "name": "Nephew",
+        "slug": "nephew",
+        "video": "1MLgXzhJ8lKX4NKd8oeypTUHksPBj8qCw"
+      },
+      {
+        "name": "Niece",
+        "slug": "niece",
+        "video": "1Fz5Ddzn-AW7mgXSGkEf5kt2cEne0GNaI"
+      },
+      {
+        "name": "Parent",
+        "slug": "parent",
+        "video": "1NWyPcLcKj1rJOzBgmd8wuQHKyULGw69c"
+      },
+      {
+        "name": "Partner",
+        "slug": "partner",
+        "video": "1nD47Ya8CeKzG7Wmez48tePLg71wATPXO"
+      },
+      {
+        "name": "Relative",
+        "slug": "relative",
+        "video": "1DduTuQchCfThTfU5Yv3NuAiWSf_vfevy"
+      },
+      {
+        "name": "Roommate",
+        "slug": "roommate",
+        "video": "1DOfODWMbm0VxlWjs0XeEByeGfcdOqW2s"
+      },
+      {
+        "name": "Son",
+        "slug": "son",
+        "video": "1KGxnAEckhieETVONkpuXRrNO3rsKgxo_"
+      },
+      {
+        "name": "Team",
+        "slug": "team",
+        "video": "16_8-5LwR-rBPGAPF5nmSJIXroGr57XfE"
+      },
+      {
+        "name": "Uncle",
+        "slug": "uncle",
+        "video": "11GbWcijZQAUMVRAoXuHobj7jM0Ussp_5"
+      },
+      {
+        "name": "Wife",
+        "slug": "wife",
+        "video": "1dsSZ5lWTg_I4F5Yxc8tAffqPzfmsr9JS"
+      }
+    ]
+  },
+  {
+    "category": "Seasons",
+    "slug": "seasons",
+    "image": "assets/lessons/images/seasons/seasons.png",
+    "items": [
+      {
+        "name": "Fall",
+        "slug": "fall",
+        "image": "assets/lessons/images/seasons/fall.png",
+        "video": "15smB-p_-wLxCizvyaOKXDJcI4lI9z5KZ"
+      },
+      {
+        "name": "Spring",
+        "slug": "spring",
+        "image": "assets/lessons/images/seasons/spring.png",
+        "video": "1vqsjFpnZVQvPMo_SiWo3SM4UWsatZJU7"
+      },
+      {
+        "name": "Summer",
+        "slug": "summer",
+        "image": "assets/lessons/images/seasons/summer.png",
+        "video": "1OaxPnguaPR4pXNANhz-ITLyNbq0eKLO4"
+      },
+      {
+        "name": "Winter",
+        "slug": "winter",
+        "image": "assets/lessons/images/seasons/winter.png",
+        "video": "1kLJ-1FiqE5_qZGxsSbtP_HnU4gtgHqHR"
+      }
+    ]
+  },
+  {
+    "category": "Senses",
+    "slug": "senses",
+    "image": "assets/lessons/images/senses/senses.png",
+    "items": [
+      {
+        "name": "Balance",
+        "slug": "balance",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "14Vuhmi70p3Ijr89FtZvSUIc5xpL_2yZW"
+      },
+      {
+        "name": "Bitter",
+        "slug": "bitter",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "15SzocY9102gEmUVnGSunwOzhtCpkN81j"
+      },
+      {
+        "name": "Blind",
+        "slug": "blind",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1ZqGcpGE24PBOxHZzf5ecxcUcb1R31vAl"
+      },
+      {
+        "name": "Cold",
+        "slug": "cold",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1mA4OWN-G513P_WaxIiIO4CET-FdQ2Ref"
+      },
+      {
+        "name": "Deaf",
+        "slug": "deaf",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1xO8uT1l6vPGdE32_V4R8txKOeXiAHtRz"
+      },
+      {
+        "name": "Dry",
+        "slug": "dry",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "16kZBEzJIxLG_HM3mae2SVj5AEkkoLmBZ"
+      },
+      {
+        "name": "Ear",
+        "slug": "ear",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1Jv3byuM82do0nh2bu3xae1s-Cp-aRJx5"
+      },
+      {
+        "name": "Eye",
+        "slug": "eye",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1EBsYmGKtHo7PyrGeA8_AhJ0r932dUw7M"
+      },
+      {
+        "name": "Feel",
+        "slug": "feel",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1_J58IN7g9Dlj3-HgdCAbdmbgPH60wmfU"
+      },
+      {
+        "name": "Flavor",
+        "slug": "flavor",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1kuawgxSqfgV3KVaY0AbibGvTo-3dKDh-"
+      },
+      {
+        "name": "Hard",
+        "slug": "hard",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1cQcn9UO8w3DIrJwXb1PY9BrEaIB7hHlq"
+      },
+      {
+        "name": "Hear",
+        "slug": "hear",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1TdxyGY2zS2o0HcTR1xww2r8UdsilWixY"
+      },
+      {
+        "name": "Hearing",
+        "slug": "hearing",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1V_01UYip70yjSL3mkO_g6Ismkal6CL6A"
+      },
+      {
+        "name": "Hot",
+        "slug": "hot",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1S3IdFvZqZJFihIhzDBe09O_k2yFkOQs9"
+      },
+      {
+        "name": "Itchy",
+        "slug": "itchy",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1-eHJc3BK9lqJ1X9wmDPg7oN8dHiTPxJB"
+      },
+      {
+        "name": "Look",
+        "slug": "look",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1adb529p53eY_IunSjka34tZ71AcdKwRH"
+      },
+      {
+        "name": "Noise",
+        "slug": "noise",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1_m_dDamHoJvDfx10Ty4Gew1_ochzkAIC"
+      },
+      {
+        "name": "Numb",
+        "slug": "numb",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1A9-Fk2nycqy1zLLRvKITRmORR7_XwtWd"
+      },
+      {
+        "name": "Odor",
+        "slug": "odor",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1Bj1AlqH8SAzrDc9hvXZoFUe0kaVw9PtY"
+      },
+      {
+        "name": "Pain",
+        "slug": "pain",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1cZQny9NaVFouBT5xL4692IU_rJSOZo8u"
+      },
+      {
+        "name": "Pressure",
+        "slug": "pressure",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1Z7VcvXn_gaOlTn1-OrszZOF_iUPp2ft8"
+      },
+      {
+        "name": "Rough",
+        "slug": "rough",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1IAJmjoOmhVViugwIl6Sgcmnx5zST-cVK"
+      },
+      {
+        "name": "Salty",
+        "slug": "salty",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "18dz2ruB7lafFTlL4Ot8XBRgE09poNR1g"
+      },
+      {
+        "name": "See",
+        "slug": "see",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1lIVl-7v30vHt6wMd8hg95U927tdJrmud"
+      },
+      {
+        "name": "Sensitive",
+        "slug": "sensitive",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1S9EfQIks8l3V9BNB46YNR_VGEutAqwxQ"
+      },
+      {
+        "name": "Sight",
+        "slug": "sight",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1IZRyPmFGcsoSzS9xITadFgRKeSelOIyJ"
+      },
+      {
+        "name": "Silence",
+        "slug": "silence",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1B2dGM4cDqAe3PiqPkJlzymPVRu7WJENA"
+      },
+      {
+        "name": "Smell",
+        "slug": "smell",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1HKZwALJd-NjjZd1YpCTK0CISSQUE3WRq"
+      },
+      {
+        "name": "Smooth",
+        "slug": "smooth",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1MFB2GwPnbBIpaWwBB1qmFdtY2PN1BX3K"
+      },
+      {
+        "name": "Soft",
+        "slug": "soft",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1zEOlBh-hcNwosvVPX32psGtg4nrgWR6v"
+      },
+      {
+        "name": "Sound",
+        "slug": "sound",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1Jq35TnLpResRlTBoBO6FiAPU347aaFwo"
+      },
+      {
+        "name": "Sour",
+        "slug": "sour",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1VuFF680GskPtBWA5zu5AYhkd104UW6QH"
+      },
+      {
+        "name": "Spicy",
+        "slug": "spicy",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1WWkAPJ9RsKG6JCHSrPOZC2b7uDpJGumo"
+      },
+      {
+        "name": "Taste",
+        "slug": "taste",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1duQ1AXalVKcd5zQcDCH_qkoIsr8_68C0"
+      },
+      {
+        "name": "Temperature",
+        "slug": "temperature",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "11g9lZkt_L8V_062V8RunYFpdWtUQymbC"
+      },
+      {
+        "name": "Tickle",
+        "slug": "tickle",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1O3pYoYdgjMAzVARPmnvbrLT5SL9ZMsWt"
+      },
+      {
+        "name": "Touch",
+        "slug": "touch",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1f116NQQhZECpAHG_KG94K4MpPppcoog3"
+      },
+      {
+        "name": "Vibration",
+        "slug": "vibration",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1gc81GHvmzaIn1qOYlROftkNtrfNGGw39"
+      },
+      {
+        "name": "Warm",
+        "slug": "warm",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1pWRrA361R160B8YtDHhQSpTMEIIxHskQ"
+      },
+      {
+        "name": "Watch",
+        "slug": "watch",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1ji6T2hbjnS3JjgPMIiYi2DWSulcCI21Z"
+      },
+      {
+        "name": "Wet",
+        "slug": "wet",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1k2pn9Pqc33k1-gPKQLEEFp7VeDsK_7rp"
+      }
+    ]
+  },
+  {
+    "category": "Shape",
+    "slug": "shape",
+    "image": "assets/lessons/images/shape/shape.png",
+    "items": [
+      {
+        "name": "Angle",
+        "slug": "angle",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1Mq2bDmLtAllZC6mavTFOfQabNa5LLCve"
+      },
+      {
+        "name": "Arrow",
+        "slug": "arrow",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "17L9FVb-_aqwzkvsv5ExJrDy1ISaH5h3H"
+      },
+      {
+        "name": "Center",
+        "slug": "center",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1ZKZpFuPklazCQRDDCcvZkCDuDtu0CsZG"
+      },
+      {
+        "name": "Circle",
+        "slug": "circle",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1C0wn7uQ3mNS_WwoXk18TRJWv0uM5rliH"
+      },
+      {
+        "name": "Cone",
+        "slug": "cone",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1OdNQMsd3W4TGScpiTcN6mQxfg85cbdo8"
+      },
+      {
+        "name": "Corner",
+        "slug": "corner",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1KOeoR2IfOudS_7aP0I_Dc90j4lgLBjj6"
+      },
+      {
+        "name": "Crescent",
+        "slug": "crescent",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1GLWOR3oh6CET90B7bTOUFoPAzC4Hdvp2"
+      },
+      {
+        "name": "Cross",
+        "slug": "cross",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1BMIHd3_2peRKKKJ1GHHXjKtVgg8zJdup"
+      },
+      {
+        "name": "Cube",
+        "slug": "cube",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1nO7VEt-OdI-zTJ757RjsGINnBBmsZ5G9"
+      },
+      {
+        "name": "Curve",
+        "slug": "curve",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1_cbqvf0SwZve-6aRGuBLflrgx1tRWNs4"
+      },
+      {
+        "name": "Cylinder",
+        "slug": "cylinder",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1ltbCCct57xb7lAUCj9deBlmDsP0SBd5t"
+      },
+      {
+        "name": "Diamond",
+        "slug": "diamond",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1MpkqukBL4uiMHZvQVyCTGBC1hmwq0067"
+      },
+      {
+        "name": "Edge",
+        "slug": "edge",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "18deX1vAEu_oVfzgpQcAj6VY_afiH4O-I"
+      },
+      {
+        "name": "Flat",
+        "slug": "flat",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1jhZEEZNL5VZRlFwkuliO1SiQMj9-gk3a"
+      },
+      {
+        "name": "Form",
+        "slug": "form",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1tlaXKXgLfXVcBShw1Anzh6rMgukttTa0"
+      },
+      {
+        "name": "Heart",
+        "slug": "heart",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1CwVEF_YSguXGrcVu2ddjYCcSWMYAhrgk"
+      },
+      {
+        "name": "Line",
+        "slug": "line",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1K8aFc-VPknpHnvXz3R8RC6TMQXX4cM1_"
+      },
+      {
+        "name": "Oval",
+        "slug": "oval",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1jAJFOvsnKr4cjADPcIB_65LVA3t7EEVV"
+      },
+      {
+        "name": "Pattern",
+        "slug": "pattern",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1Jjwyjw7zlUEZrZeRMus2aqJ1uTXfO9RO"
+      },
+      {
+        "name": "Point",
+        "slug": "point",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1Iv49_M7eg6dwkh5yRVZwxOnoQvzEafLx"
+      },
+      {
+        "name": "Pyramid",
+        "slug": "pyramid",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1wvWQQNeaSFaznmyy_f4AnuA16MbaSK2v"
+      },
+      {
+        "name": "Rectangle",
+        "slug": "rectangle",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1WC7qDRNLwfkWtnz6KXULRdVG0gubKuee"
+      },
+      {
+        "name": "Right angle",
+        "slug": "right-angle",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1P98fAYPYEC0WxJNLaxweLH6mLx8tcAOs"
+      },
+      {
+        "name": "Shape",
+        "slug": "shape",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1SZK_vgQNZ65J4Xj5a9rcM-b9ecuAEFfR"
+      },
+      {
+        "name": "Side",
+        "slug": "side",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1Qs6HYjFciz3C7OKtcy8icf4JvfIE3Qqi"
+      },
+      {
+        "name": "Solid",
+        "slug": "solid",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1SH0a0Vp6xJ7gHTfnceccwUsJ11jwEEMN"
+      },
+      {
+        "name": "Sphere",
+        "slug": "sphere",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1CBy_ZR531-j1QPKYZjhoj-gspCnw9nU0"
+      },
+      {
+        "name": "Square",
+        "slug": "square",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1Zhjyc-vzx-pIGQf-quxAo65oTnhkMthE"
+      },
+      {
+        "name": "Star",
+        "slug": "star",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1bz-DYpitOsOrPGDuESAdF27MeiJjd07u"
+      },
+      {
+        "name": "Triangle",
+        "slug": "triangle",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1HyjUcKSRpVeIFFoOrMG2L72U-qRlDIyH"
+      }
+    ]
+  },
+  {
+    "category": "Slang",
+    "slug": "slang",
+    "image": "assets/lessons/images/slang/slang.png",
+    "items": [
+      {
+        "name": "Awesome",
+        "slug": "awesome",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1jVzPGdjO-9o3DVHjyPQER2CgOV1Ps5Za"
+      },
+      {
+        "name": "Awkward",
+        "slug": "awkward",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1Bffdxx4kR1FfSB-1f2eUhzX9vdMOREG-"
+      },
+      {
+        "name": "Big deal",
+        "slug": "big-deal",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1DhZL3scdUxzZojOupJVTYEAJsoj6O5Qo"
+      },
+      {
+        "name": "Blah",
+        "slug": "blah",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1j-EGL4p1CXTHb-I9Q-8ILo_JBfjC9G_"
+      },
+      {
+        "name": "Brave",
+        "slug": "brave",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1TY6fcdwgJPSAImO9Nu5lwzMN88byV8O4"
+      },
+      {
+        "name": "Bro",
+        "slug": "bro",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1953elEqaimSWSZggOFptUixUayoVtAy_"
+      },
+      {
+        "name": "Busy",
+        "slug": "busy",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1ttfPglboofPFrg6AOAAXOgJvomzhkNCS"
+      },
+      {
+        "name": "Calm down",
+        "slug": "calm-down",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1cgLkjzv5E5nVQCgoSgxLbnQsS43QKcky"
+      },
+      {
+        "name": "Chill",
+        "slug": "chill",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1w3PFCmWWIzg_vQpGukSJWQAEduM3Pp6l"
+      },
+      {
+        "name": "Chill out",
+        "slug": "chill-out",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1r9VEU6j1gUfE-WwW6UYAR4vdUKXgTqMB"
+      },
+      {
+        "name": "Cool",
+        "slug": "cool",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "19jfsgzYDXkL0JxubWYbpNNnw4aD99TXx"
+      },
+      {
+        "name": "Cute",
+        "slug": "cute",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1kfhod15Ao1KML4kl-c15z7DyMmizQp3b"
+      },
+      {
+        "name": "Drama",
+        "slug": "drama",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1wYXc1aNayeR9aKoAwo8M2iEXcbeG_-Pg"
+      },
+      {
+        "name": "Dude",
+        "slug": "dude",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1tWOBNsB0thv8TV7R9NPgbWTwzPsYcWPG"
+      },
+      {
+        "name": "Easy",
+        "slug": "easy",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1tYvkBrKhE6ik1kjMaz2ObRiB72jmQmv0"
+      },
+      {
+        "name": "Embarrassed",
+        "slug": "embarrassed",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1XjyZcs6C4Km3xF0p1ftQwikvYRdU8jeH"
+      },
+      {
+        "name": "Exactly",
+        "slug": "exactly",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1nasyI6VNwyxdVgSeq0WySwTI4GxWJgU6"
+      },
+      {
+        "name": "Fire",
+        "slug": "fire",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1PnF8BlX05vHU_xpHe3Z4eWgFNuwaNDez"
+      },
+      {
+        "name": "Funny",
+        "slug": "funny",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1qDIGkt9YLRT2382nIcElzcT5egPwWEv8"
+      },
+      {
+        "name": "Hang out",
+        "slug": "hang-out",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1gEptWWP5PVHYuaYFC1Cc_Yw3zNFl5RuP"
+      },
+      {
+        "name": "I got you",
+        "slug": "i-got-you",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1mXOMZs_ZmZuIYnCTq4baVOvaTpKVt6GV"
+      },
+      {
+        "name": "Lame",
+        "slug": "lame",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1Qh8zy9jPXrvAY2NIMZg5WT1Ba5Poh1pG"
+      },
+      {
+        "name": "Lit",
+        "slug": "lit",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1q0QWN_8r-VAAEHRRjH8zkdASSQPImZmV"
+      },
+      {
+        "name": "Lol",
+        "slug": "lol",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1dZoX5o2h4T5aTApL5UQQtSooddbfhQxq"
+      },
+      {
+        "name": "Messed up",
+        "slug": "messed-up",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "15KPHkSMgiBcT8reXr6ORz2LYQKajZ7vZ"
+      },
+      {
+        "name": "Mind blown",
+        "slug": "mind-blown",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1UiKC8jjOHTukwkKYi49TU928KY7-7uUI"
+      },
+      {
+        "name": "Mind your business",
+        "slug": "mind-your-business",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1tBmzRvV36-UUg7HZUVfBB9Du-Ea-1OoC"
+      },
+      {
+        "name": "No problem",
+        "slug": "no-problem",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1zEATrh-kE-Mm-iZw_b1Jwt9DTVggG9JP"
+      },
+      {
+        "name": "No way",
+        "slug": "no-way",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1BzXMGJ66X7hWCIyAAtzfJvZjF2nHCkNa"
+      },
+      {
+        "name": "Omg",
+        "slug": "omg",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1wbhfZmegUCfipa1bVwLhCytR1VaQhdPb"
+      },
+      {
+        "name": "Really",
+        "slug": "really",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1Htfx2hPfckFwIrAPEpLAZ_XaLEqTMose"
+      },
+      {
+        "name": "Same",
+        "slug": "same",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1_JYJMvu8mdjnv3M4BAkLrEz9pNWsjTjl"
+      },
+      {
+        "name": "Seriously",
+        "slug": "seriously",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1Mh7KpDnrYF53nZlBYNZWa82zT1Cm1Izi"
+      },
+      {
+        "name": "Sweet",
+        "slug": "sweet",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1Dhenkq6F0k6jtmf0E0THK8aoD52ogDoY"
+      },
+      {
+        "name": "That's crazy",
+        "slug": "thats-crazy",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1e2RLLHlFd8O8KgKypVfzTgSyndo09RwP"
+      },
+      {
+        "name": "Totally",
+        "slug": "totally",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1XcSZVKufsdx_HK353vpN8KIzzcAaupbQ"
+      },
+      {
+        "name": "What's up",
+        "slug": "whats-up",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1g64Bv8T3P0UQNAL4Tjy7dWago5eR_i_V"
+      },
+      {
+        "name": "Whatever",
+        "slug": "whatever",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "13OHdI-imMe_CI6ALv5k6lYLTAhjz4K-B"
+      },
+      {
+        "name": "Wow",
+        "slug": "wow",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1cdN38EUVza0s7iqTiUjmvVXolO8IFg88"
+      },
+      {
+        "name": "You bet",
+        "slug": "you-bet",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1lBcMOx3qJOYqiTwXfvb5RR1rJKpTrY4Y"
+      }
+    ]
+  },
+  {
+    "category": "Sogie (sexual orientation and gender identity)",
+    "slug": "sogie-sexual-orientation-and-gender-identity",
+    "image": "assets/lessons/images/sogie-sexual-orientation-and-gender-identity/sogie-sexual-orientation-and-gender-identity.png",
+    "items": [
+      {
+        "name": "Aromantic",
+        "slug": "aromantic",
+        "video": "1qslj8J3Qy-nh2qTbGazQzZ_5hctqMrry"
+      },
+      {
+        "name": "Asexual",
+        "slug": "asexual",
+        "video": "1IbuLbVLuOuglz6q3jgKtNupdcVjVbdQR"
+      },
+      {
+        "name": "Bicurious",
+        "slug": "bicurious",
+        "video": "16tfM9SCVzk1U0RYqCJcPmDRt8bqcId9a"
+      },
+      {
+        "name": "Bisexual",
+        "slug": "bisexual",
+        "video": "1gWa99Snk_n9BTVloWJsQwf2LWprTFdYi"
+      },
+      {
+        "name": "Butch/masculine",
+        "slug": "butchmasculine",
+        "video": "1KMndVzUVHXWc096-hCAao6F1z57Kl6Nv"
+      },
+      {
+        "name": "Cisgender",
+        "slug": "cisgender",
+        "video": "1kFn89fjdi93erZTHCf3UJJT34bDBKvDG"
+      },
+      {
+        "name": "Drag king",
+        "slug": "drag-king",
+        "video": "16lBdU8fujRNJkla0bigjvY-6je5iQZjP"
+      },
+      {
+        "name": "Dragqueen",
+        "slug": "dragqueen",
+        "video": "1hDa-pmd2Mi1gHP8Gryfc5sm9XmNWP-VS"
+      },
+      {
+        "name": "Feminine presenting",
+        "slug": "feminine-presenting",
+        "video": "1edORsWJcDRhri_xcdiN99_2ttdcrkZcu"
+      },
+      {
+        "name": "Femme",
+        "slug": "femme",
+        "video": "1IeHU1497iPNe7rfZo9zfvhtEdx2hUJRc"
+      },
+      {
+        "name": "Gay",
+        "slug": "gay",
+        "video": "1FQ_LnGaacL5UoeT2-2q5K_4D-lXXE7JT"
+      },
+      {
+        "name": "Intersex",
+        "slug": "intersex",
+        "video": "1Qk3tNneXG2xETOx3yYK6hH_KF9ISjdBT"
+      },
+      {
+        "name": "Lesbian",
+        "slug": "lesbian",
+        "video": "1Sf0oumI7sSEgIEuymJ7rc-p68u0miBNk"
+      },
+      {
+        "name": "Masculine presenting",
+        "slug": "masculine-presenting",
+        "video": "1bfxfltMTUPMC0qCR0nsvy8Fm-qM5luT7"
+      },
+      {
+        "name": "Pansexual",
+        "slug": "pansexual",
+        "video": "1ra5kkegv94-o7uP4erbbS2ZlpI2nN_CD"
+      },
+      {
+        "name": "Queer1",
+        "slug": "queer1",
+        "video": "1wXvU7jlGnKpn99WkMqkUpM6hc5bhajTG"
+      },
+      {
+        "name": "Queer2",
+        "slug": "queer2",
+        "video": "15l2i_L4U0uW1CRfrgWrCFWyeDIGs1qSg"
+      },
+      {
+        "name": "Questionnning",
+        "slug": "questionnning",
+        "video": "1hiP6H9K-YWeUD5yF_zd2IUzkq0-A0RS8"
+      },
+      {
+        "name": "Straight",
+        "slug": "straight",
+        "video": "1TfwcyS7mSoeHwiL7PmZwDRx1kdYySJaU"
+      },
+      {
+        "name": "Transgender",
+        "slug": "transgender",
+        "video": "1z-NZwABMiuWSAfJMtlf4b9Tv93XjGIA4"
+      },
+      {
+        "name": "Transitioning",
+        "slug": "transitioning",
+        "video": "114n4cFDHmGgeJ2PWDnhqTbdOVmNu6R8x"
+      }
+    ]
+  },
+  {
+    "category": "Sports",
+    "slug": "sports",
+    "image": "assets/lessons/images/sports/sports.png",
+    "items": [
+      {
+        "name": "Badminton",
+        "slug": "badminton",
+        "image": "assets/lessons/images/sports/badminton.png",
+        "video": "191DGHu16eOyXUDfS3XsEU2KX2TmoUB1L"
+      },
+      {
+        "name": "Baseball",
+        "slug": "baseball",
+        "image": "assets/lessons/images/sports/baseball.png",
+        "video": "18TSXxfLnOo-omQJOOZo6Qz-qJR6hoX68"
+      },
+      {
+        "name": "Basketball",
+        "slug": "basketball",
+        "image": "assets/lessons/images/sports/basketball.png",
+        "video": "1mp4lNDnVLu7wImUV1qFGg_LWIo58d4KD"
+      },
+      {
+        "name": "Bowling",
+        "slug": "bowling",
+        "image": "assets/lessons/images/sports/bowling.png",
+        "video": "1mvDdt7WQDko6onILVYll9cFCsYITW17d"
+      },
+      {
+        "name": "Boxing",
+        "slug": "boxing",
+        "image": "assets/lessons/images/sports/boxing.png",
+        "video": "1gv0tR6LeQArZHop2IGoLqITkYo2L0v7F"
+      },
+      {
+        "name": "Cricket",
+        "slug": "cricket",
+        "image": "assets/lessons/images/sports/cricket.png",
+        "video": "1T4E43c4SQ_WGeJ13irPrYo8tAWcsp2f6"
+      },
+      {
+        "name": "Golf",
+        "slug": "golf",
+        "image": "assets/lessons/images/sports/golf.png",
+        "video": "1tODoMmRqEacm26zq9aBEXvsABudTKuh9"
+      },
+      {
+        "name": "Rugby",
+        "slug": "rugby",
+        "image": "assets/lessons/images/sports/rugby.png",
+        "video": "1y4Lx5ToS4tiWnx8pZByga8hiK9SkizZb"
+      },
+      {
+        "name": "Running",
+        "slug": "running",
+        "image": "assets/lessons/images/sports/running.png",
+        "video": "1hsaftzIzxsH8wVqPvS0pgPi5EaT-mWAQ"
+      },
+      {
+        "name": "Skate boarding",
+        "slug": "skate-boarding",
+        "image": "assets/lessons/images/sports/skate-boarding.png",
+        "video": "1OBhIZ6PSICQkT1SS8PsJ08E29QH54kHh"
+      },
+      {
+        "name": "Soccer",
+        "slug": "soccer",
+        "image": "assets/lessons/images/sports/soccer.png",
+        "video": "1E57DBrGh0mARZ3FKXqRN3JgQUiDttNSR"
+      },
+      {
+        "name": "Swimming",
+        "slug": "swimming",
+        "image": "assets/lessons/images/sports/swimming.png",
+        "video": "1Hh5mpCWj7vvDyALG7NPwjyNa8J2kCRKC"
+      },
+      {
+        "name": "Tennis",
+        "slug": "tennis",
+        "image": "assets/lessons/images/sports/tennis.png",
+        "video": "1-AAO8QiZhUC4KMeGklDBFEmJQU08iMgH"
+      },
+      {
+        "name": "Volleyball",
+        "slug": "volleyball",
+        "image": "assets/lessons/images/sports/volleyball.png",
+        "video": "1cSZFMjHdgMv8oCasJMETTjU2XBOvyAZj"
+      },
+      {
+        "name": "Wrestling",
+        "slug": "wrestling",
+        "image": "assets/lessons/images/sports/wrestling.png",
+        "video": "1FIeRIQ9y48lj3R13I3eNynjfrwTOPvES"
+      }
+    ]
+  },
+  {
+    "category": "Subject",
+    "slug": "subject",
+    "image": "assets/lessons/images/subject/subject.png",
+    "items": [
+      {
+        "name": "Agriculture",
+        "slug": "agriculture",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1V2DcPCpdjn1PnHnyyF1F3uKBi7rC07ps"
+      },
+      {
+        "name": "Algebra",
+        "slug": "algebra",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1grWzB8eRZAZS0y9Ha3JvE9kAGUI7mA6M"
+      },
+      {
+        "name": "Art",
+        "slug": "art",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1utuHCNwkNjJZsPdY0v66UKAnA4mwtygy"
+      },
+      {
+        "name": "Biology",
+        "slug": "biology",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1nUXhOamzzap-jiAy7LV3AXyn50Pq_cOz"
+      },
+      {
+        "name": "Business",
+        "slug": "business",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1o6WRQ3dgKX3cmQ051n5ijOpGODH0yXM6"
+      },
+      {
+        "name": "Chemistry",
+        "slug": "chemistry",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1B-b1MrjCzggZYa6Mhn00Wwgr88ENIVjW"
+      },
+      {
+        "name": "Communication",
+        "slug": "communication",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1MAd5mh8_FDU1icCs7MvBWp9OPqJbLOOT"
+      },
+      {
+        "name": "Culinary",
+        "slug": "culinary",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1ynsBFtFk7CyMcGViHM40HQI5R6Wc0388"
+      },
+      {
+        "name": "Dance",
+        "slug": "dance",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1Tho6iGFvPYFtmOIXTbFFZTteDMAFAN6L"
+      },
+      {
+        "name": "Design",
+        "slug": "design",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1UaWoxaru_-XZ5iG1Kr6vHKZgbt8cLapj"
+      },
+      {
+        "name": "Engineering",
+        "slug": "engineering",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1t1dT1sKg78U3uD3v9HMinDUZWbHc_40X"
+      },
+      {
+        "name": "English",
+        "slug": "english",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1UnVCe8lXi3qFRRh5xpu91evO1z9nQ0EM"
+      },
+      {
+        "name": "Experiment",
+        "slug": "experiment",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1fu7C9QVw0cn8mwUqCIGVPKx7ABKmLX2q"
+      },
+      {
+        "name": "Film",
+        "slug": "film",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1d665sCmmI9w5rJ0214CUk_gvWXoQbhEJ"
+      },
+      {
+        "name": "Geography",
+        "slug": "geography",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1o7zHiWSNr8UmKCArdR8Y7Z2W1IbjfhL-"
+      },
+      {
+        "name": "Geometry",
+        "slug": "geometry",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1Zg3AyjeNvvj_2-NA36AnnD1WBnxt8q5s"
+      },
+      {
+        "name": "Grammar",
+        "slug": "grammar",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1K9ds8HhyRKK8K_DWdQ3nSuV6-qX2K2Zb"
+      },
+      {
+        "name": "Health",
+        "slug": "health",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1o0FIbNULncJ8I3QEssCNvCZphG88C4QY"
+      },
+      {
+        "name": "History",
+        "slug": "history",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1OZGMRFaq21v1c8X_85pdpmIdGdUhUoln"
+      },
+      {
+        "name": "Information technology",
+        "slug": "information-technology",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1Jp33sUaq4c8peJs6CPBGwkXwKVmLPPcT"
+      },
+      {
+        "name": "Literature",
+        "slug": "literature",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "17S3velXByOPPTSh5oucdrZbRKOEn7or1"
+      },
+      {
+        "name": "Management",
+        "slug": "management",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1kOeQZo8xWxOgV8vksb5pNOhLWFZ_NS4H"
+      },
+      {
+        "name": "Math",
+        "slug": "math",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "145OP6otGufGIumzsdjFFghWcLA47t4PK"
+      },
+      {
+        "name": "Mechanic",
+        "slug": "mechanic",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1a9HLaQr_IGACB7wUvOxQNXpElYjuGFLR"
+      },
+      {
+        "name": "Music",
+        "slug": "music",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1jf_uzjrMih-UpY6xh8_MEHLcQHalXeBo"
+      },
+      {
+        "name": "Nutrition",
+        "slug": "nutrition",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1eKbRR4Zx48g1rZpsHrrNtHB4oNVDhxbx"
+      },
+      {
+        "name": "Philosophy",
+        "slug": "philosophy",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1nCdPBsPjU6lZNBsJXsIpqbOrPTo01FCj"
+      },
+      {
+        "name": "Photography",
+        "slug": "photography",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1s00OpnUj3ETkLIR7jeRe_JBnKh8liB6C"
+      },
+      {
+        "name": "Physics",
+        "slug": "physics",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "172k9BERPtiAhRsZDfSkQ0vBLZsR_eHd-"
+      },
+      {
+        "name": "Psychology",
+        "slug": "psychology",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1jQnET7jLSGesMqundo67PW8y7vl8FOEV"
+      },
+      {
+        "name": "Reading",
+        "slug": "reading",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1sMRJorO6cG4yb0gTU74zcDVuOinpi-pU"
+      },
+      {
+        "name": "Science",
+        "slug": "science",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1mABBw-I0QDmsf17R6GkYUZ-Yznp7jyWj"
+      },
+      {
+        "name": "Sociology",
+        "slug": "sociology",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "18F1b_Msm6212DcsuB0nuq04pde1LBGWy"
+      },
+      {
+        "name": "Sports",
+        "slug": "sports",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1RQyx0glPqmk_dAPUn0UXkPKGDOnj0QC_"
+      },
+      {
+        "name": "Technology",
+        "slug": "technology",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1M4PTeBEZxQ2vcb2ijc-qWdOZuoSvUk5q"
+      },
+      {
+        "name": "Theater",
+        "slug": "theater",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1Dfl1Td_fCTYa8uMlJQAK8ZqFdSemAOlh"
+      },
+      {
+        "name": "Tourism",
+        "slug": "tourism",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1qAaikhLYSIL1Y1zswMi6tR3X86ecXjJz"
+      },
+      {
+        "name": "Writing",
+        "slug": "writing",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1jESvIF3DolDQCqa-AN9GwdaZWkyMbNzp"
+      }
+    ]
+  },
+  {
+    "category": "Technology and communication",
+    "slug": "technology-and-communication",
+    "image": "assets/lessons/images/technology-and-communication/technology-and-communication.png",
+    "items": [
+      {
+        "name": "Application",
+        "slug": "application",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1upxjIX8mKGR5q_v1sbzwjglBS81KX-_M"
+      },
+      {
+        "name": "Battery",
+        "slug": "battery",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1ZgBl4TdqoHuTB1v1Pwo5gsgwmI3235Hn"
+      },
+      {
+        "name": "Browser",
+        "slug": "browser",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1CdzshAEOh-AsS2T_kuwJvpjsqYmyzu1F"
+      },
+      {
+        "name": "Call",
+        "slug": "call",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1OTL0EAi-UwINeAGPZuFd23HiGV7q_B3R"
+      },
+      {
+        "name": "Camera",
+        "slug": "camera",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1vBhGBTzunu5DMGhe33ywF8EVlXL0p7gO"
+      },
+      {
+        "name": "Charger",
+        "slug": "charger",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1Jz9eqc9PjIWD7NYplmKl4GP_4-vX3rjZ"
+      },
+      {
+        "name": "Click",
+        "slug": "click",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1-1yzvUL0VYbX23JjvixsQLIdxfLKEdpj"
+      },
+      {
+        "name": "Computer",
+        "slug": "computer",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "15GQDWtaX7Re3yUeg7JUe2jmBXEarBaVC"
+      },
+      {
+        "name": "Delete",
+        "slug": "delete",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1deRuhSO_NN0c6hzGnDxnmyDnhZegSfu2"
+      },
+      {
+        "name": "Download",
+        "slug": "download",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1rB9jJCsi4lHXqF9tEDPcaR37QRW9U41X"
+      },
+      {
+        "name": "Email",
+        "slug": "email",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1idy4Ra9xDcq0mkR7OVH2atK2Hw1wpGvO"
+      },
+      {
+        "name": "Headphones",
+        "slug": "headphones",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1Xq2HNj2lfz1I7w3KBgLxtEpQ3lpYFxo7"
+      },
+      {
+        "name": "Internet",
+        "slug": "internet",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "15UzPvbReQzonYA4YXasoZVQ-uGi3TT7G"
+      },
+      {
+        "name": "Keyboard",
+        "slug": "keyboard",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1W3P0OdLbKoSHanp_hGmRYQAXsg198CQd"
+      },
+      {
+        "name": "Laptop",
+        "slug": "laptop",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1yFv1KrFadeyMeFS_f6vJ7aIBQGFTgBqQ"
+      },
+      {
+        "name": "Link",
+        "slug": "link",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1-Nz7fbrijxcFGthEOGMRpTe4r94gixn-"
+      },
+      {
+        "name": "Microphone",
+        "slug": "microphone",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1Az1CxRM5FkAhdGnwsOHayk92rmdtCXhK"
+      },
+      {
+        "name": "Monitor",
+        "slug": "monitor",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1_0puOdcmqkTUmkV_pcTaX1nvKNxq9hal"
+      },
+      {
+        "name": "Mouse",
+        "slug": "mouse",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1QzjJ79OcZ9RmOubpVNXyB4L7peKnGFu_"
+      },
+      {
+        "name": "Network",
+        "slug": "network",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1H2_TaxvnC0CZbpJd5YSWyXoY5yeHbNO5"
+      },
+      {
+        "name": "Offline",
+        "slug": "offline",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "11zkiFWEe0RdNzcPBE7nUJeeM1hQLfx8Y"
+      },
+      {
+        "name": "Online",
+        "slug": "online",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1uU2HZ2EHlTdDu464HQLd4W-YNXVX_k-t"
+      },
+      {
+        "name": "Password",
+        "slug": "password",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1wxeBioZRvPj5SEH1U-dl1hQ6yaV1OUaM"
+      },
+      {
+        "name": "Post",
+        "slug": "post",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1WfML4LzatGWTabJCFdM9mDmOhWKf3eha"
+      },
+      {
+        "name": "Printer",
+        "slug": "printer",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1yUiL26YG0x69zMmrfnn2COpuOlsyfSDN"
+      },
+      {
+        "name": "Projector",
+        "slug": "projector",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1BNIq1GMUquLvIKLPvjcGFDrSA2ZdLL2k"
+      },
+      {
+        "name": "Radio",
+        "slug": "radio",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1ruej88t0n-YeHNJthW3FbiqgcwfYsHhx"
+      },
+      {
+        "name": "Receive",
+        "slug": "receive",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "15izXv6Em3TQb0eYQURAhyduJwDl5ZQ8n"
+      },
+      {
+        "name": "Search",
+        "slug": "search",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "19skHOztnCZ0DcKPXacSsu79K4kwutxjH"
+      },
+      {
+        "name": "Send",
+        "slug": "send",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1Ft0pJE6wKN8XzZDMRxuQFIRPH7P4qzq4"
+      },
+      {
+        "name": "Smartphone",
+        "slug": "smartphone",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1boKyR6T1kAAzg3mxRXjYPRKpK8Ak5sAJ"
+      },
+      {
+        "name": "Telephone",
+        "slug": "telephone",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1xLlQjl8XIipLq0sUZiXC-EXKbsZ-1r6j"
+      },
+      {
+        "name": "Text",
+        "slug": "text",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "18AFht1UzKkABA0GFNzCiugXlzPLWWEDV"
+      },
+      {
+        "name": "Tv",
+        "slug": "tv",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "13ey2or-jatFWbHiwPjPSY2U0Hn_YevMr"
+      },
+      {
+        "name": "Type",
+        "slug": "type",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1eDVn_zKgVLvdVS_JXxSXJCMTkXN4ImXC"
+      },
+      {
+        "name": "Update",
+        "slug": "update",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1VAH_LiMvm18jq2Iugp16tOQPP54CLNo5"
+      },
+      {
+        "name": "Upload",
+        "slug": "upload",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1Lj9Bat_PaMhoXtzkoLNEJYfNjS4_wHGc"
+      },
+      {
+        "name": "Username",
+        "slug": "username",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "17rHnc2RM7BdTDY4JAA-1AEGk2nj6FqvH"
+      },
+      {
+        "name": "Website",
+        "slug": "website",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1UhDPgDAeILoT68zNh8MsRvNQn-95lItw"
+      },
+      {
+        "name": "Wifi",
+        "slug": "wifi",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1IvR7kgB8COrvFks3qpsb7HMSP50ZXuFD"
+      }
+    ]
+  },
+  {
+    "category": "Travels n directions",
+    "slug": "travels-n-directions",
+    "image": "assets/lessons/images/travels-n-directions/travels-n-directions.png",
+    "items": [
+      {
+        "name": "Airplane",
+        "slug": "airplane",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "19y7PFpi-8G_LJgBxYWX2_XIZ5vygQ1Lv"
+      },
+      {
+        "name": "Amusement park",
+        "slug": "amusement-park",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "16q-rqlQhIeJ3iKoVfPIYWk-xfQfhtwfg"
+      },
+      {
+        "name": "Beach",
+        "slug": "beach",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1MuuK-Y2Glkq_h8FRNLAXz4NlAMdnpJsT"
+      },
+      {
+        "name": "Bicycle",
+        "slug": "bicycle",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1Jyv9AFiK1WXy8iQHPV0GmR114MSyiq_0"
+      },
+      {
+        "name": "Boat",
+        "slug": "boat",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1QdsVQaFLeD_tawawn8EFvU9XVnS7Tut25"
+      },
+      {
+        "name": "Bridge",
+        "slug": "bridge",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "118ZB7TeUm7wuAW08-Yilp1bkvuzZATVn"
+      },
+      {
+        "name": "Bus",
+        "slug": "bus",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1mAsI1Lv5BLOjdyXXId9UnsivGmXQ3X5J"
+      },
+      {
+        "name": "Campground",
+        "slug": "campground",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1lu4UYqVwBZD7BVyitMNLNyod3_Qj0P-B"
+      },
+      {
+        "name": "Car",
+        "slug": "car",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1MJxowhx8k0v3CUXZqbMonahWcITGXllV"
+      },
+      {
+        "name": "Castle",
+        "slug": "castle",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "16cxekrZoDi3mvDx1nJHqFFATIiIhzzzn"
+      },
+      {
+        "name": "City",
+        "slug": "city",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1fgYsVuN5DwGznIqqPDigrdVwvdCth1Pk"
+      },
+      {
+        "name": "Desert",
+        "slug": "desert",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1m1CuJ2cjYO8xaAA3lW_SxF1r7gFV-7qk"
+      },
+      {
+        "name": "Downtown",
+        "slug": "downtown",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1j8kZNHd2tvWpuuHrLopPeS4iWpFLDAmY"
+      },
+      {
+        "name": "Farm",
+        "slug": "farm",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1JpYktMp0sM2TMW8qqhjx_ttZaYTOrUmO"
+      },
+      {
+        "name": "Fff049d662af49e69e959404b94eec15",
+        "slug": "fff049d662af49e69e959404b94eec15",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1tmvY59FeXg_1FPLsYYaXRE5-WeBd1jhU"
+      },
+      {
+        "name": "Gas",
+        "slug": "gas",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "10idp4N4a2GDqvINgMnh2xJFT3299bAf7"
+      },
+      {
+        "name": "Helicopter",
+        "slug": "helicopter",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1pOABfYFMvsx2PshB2ooSxujJdseNSSMh"
+      },
+      {
+        "name": "Hotel",
+        "slug": "hotel",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1IDrDE8n7lmrQDpRhG7vMCY9Uj-AN_bNN"
+      },
+      {
+        "name": "Island",
+        "slug": "island",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1-Ap6DOeSRhQTY8CmkHUYN2adWSll74En"
+      },
+      {
+        "name": "Lake",
+        "slug": "lake",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1j0GqvMm8sC78w74Y2-gEFvA5FN3skXSf"
+      },
+      {
+        "name": "Luggage",
+        "slug": "luggage",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "12gVfQYfeG1AO5cXRrEOlDPU5pkW4v0I0"
+      },
+      {
+        "name": "Mall",
+        "slug": "mall",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1w_RZWqSEclMcsQ8iIojtcE51CHTpA-5y"
+      },
+      {
+        "name": "Motorcycle",
+        "slug": "motorcycle",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1-sWuSbYr9c9DMZWOvkbhLL0kI5zWu7Av"
+      },
+      {
+        "name": "Mountain",
+        "slug": "mountain",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1yJdRK3H8NtLc3ivpbrTgUu4bg5o1nq9f"
+      },
+      {
+        "name": "Museum",
+        "slug": "museum",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "127bXEUf6xGC5ea0U1dkMbBSELUcpDFT0"
+      },
+      {
+        "name": "Ocean",
+        "slug": "ocean",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "13arZDFjGZQAYqIADri40a2OtXJQgsJBT"
+      },
+      {
+        "name": "Pool",
+        "slug": "pool",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1VM4UOsj38cbZiX-4q1FZSTH12T6GTdOz"
+      },
+      {
+        "name": "River",
+        "slug": "river",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1_15LSskcI2xdQtd0AEsYewZiimXmkpKb"
+      },
+      {
+        "name": "Road",
+        "slug": "road",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1VYNhLRSQtkThkJDYoYVFvnvHKXiRpMHt"
+      },
+      {
+        "name": "Spa",
+        "slug": "spa",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1eNyCmbCmf-3AbrVf1z50179w14CY_7St"
+      },
+      {
+        "name": "Subway",
+        "slug": "subway",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1cx6Wt1KCAzfqMCUxQGxMubSDzh7HOgDU"
+      },
+      {
+        "name": "Ticket",
+        "slug": "ticket",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1bseLVyH0bA30E34pvmeyW9IitTBALrOA"
+      },
+      {
+        "name": "Train",
+        "slug": "train",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1M7KsUPZunPURaSBv2sF9HSRoXEV5WXGv"
+      },
+      {
+        "name": "Zoo",
+        "slug": "zoo",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1wv1hGKAWGoCTwQAY4EKn9WB55NLYcB-n"
       }
     ]
   },
   {
     "category": "Verbs",
     "slug": "verbs",
-    "image": "assets/lessons/images/verbs.png",
+    "image": "assets/lessons/images/verbs/verbs.png",
     "items": [
       {
         "name": "Eat",
@@ -682,6 +6287,552 @@
         "backgroundColor": "#fff",
         "fontColor": "#212121",
         "video": "171DmR7oztMLIO4pqD51dOE94UU6GHRt2"
+      },
+      {
+        "name": "Break",
+        "slug": "break",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1sri1gTGDm7rx7fbktl3ahkJRr8fR_TSS"
+      },
+      {
+        "name": "Build",
+        "slug": "build",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1VpwV2o91ytWaQw9KgitWdIFyCT1s3DDc"
+      },
+      {
+        "name": "Buy",
+        "slug": "buy",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1bzXWLewuqspgMhxW5DF9qLJPZ2j6Qwnp"
+      },
+      {
+        "name": "Carry",
+        "slug": "carry",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1gpraiWSvtiUtgNcwL2w5a1UALsN2YkQ1"
+      },
+      {
+        "name": "Catch",
+        "slug": "catch",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "10rWinSvnJPcZl1YBPiiZO4yG2dSpNTkG"
+      },
+      {
+        "name": "Clean",
+        "slug": "clean",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1H5-1S6StfKIs5IN3xlUMQD6enPi2oBiR"
+      },
+      {
+        "name": "Climb",
+        "slug": "climb",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1DfV-PLtXfGetZX10pGGkTpfjnPO06LFc"
+      },
+      {
+        "name": "Close",
+        "slug": "close",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1WBisfakShut-mUv3OTyXFn7YvDPUuYZ-"
+      },
+      {
+        "name": "Cook",
+        "slug": "cook",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "19wgDarvTUqRoqjinH-ZwhrkOsvPl8l4o"
+      },
+      {
+        "name": "Cry",
+        "slug": "cry",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1oeY2a8KWBihrkLA4F1ZjM552fWts8t2c"
+      },
+      {
+        "name": "Dance",
+        "slug": "dance",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1GnnLdND02_mu7YegESLx8muUHhRl7I-4"
+      },
+      {
+        "name": "Draw",
+        "slug": "draw",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1HiYQkKvOSt5iXDnI9QBozFWkkxWKBPdf"
+      },
+      {
+        "name": "Drink",
+        "slug": "drink",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1jSaY9zkdBhcsl0h7K3fsODMoHJFm2kwJ"
+      },
+      {
+        "name": "Drive",
+        "slug": "drive",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "15uNOy1XYoK1vDAbm_GPheGmUgYUnKRAv"
+      },
+      {
+        "name": "Fix",
+        "slug": "fix",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1de8TT6pd_vxTE9QfWPB3NJQ62lZdWMxa"
+      },
+      {
+        "name": "Fly",
+        "slug": "fly",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1ixYOhDEwtNyvvtlPJPVAbo6A0KBiDUeD"
+      },
+      {
+        "name": "Help",
+        "slug": "help",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1viPyHuXQrwuqnc18GQp8PF72oY_-nUOP"
+      },
+      {
+        "name": "Laugh",
+        "slug": "laugh",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1fF05w1ht9qboYGk7ovvZtJ4TYGwf8_mS"
+      },
+      {
+        "name": "Learn",
+        "slug": "learn",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1Sl17bPikTan5FPNYEYIoyNqjvdcV6FHY"
+      },
+      {
+        "name": "Listen",
+        "slug": "listen",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1QZNiPC-o8OPkbpZEAZLhrUHUNIYwOAvS"
+      },
+      {
+        "name": "Open",
+        "slug": "open",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1hk5YHppJpXHU5yCyY1DL7VY1BFlxcnJP"
+      },
+      {
+        "name": "Play",
+        "slug": "play",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1BKha8FN7T_NINU67yzHEPHVxmvATUNsD"
+      },
+      {
+        "name": "Read",
+        "slug": "read",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1cXeKI8hiwHP9L9RGp49buI-24RMkFTzy"
+      },
+      {
+        "name": "Rest",
+        "slug": "rest",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1EoKNV0B75BmKf7EqI9F8UuYDdAWfAPft"
+      },
+      {
+        "name": "Sell",
+        "slug": "sell",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1cBM7v1gL8OPTpCtqXUxqBFIy4nWddwvl"
+      },
+      {
+        "name": "Shout",
+        "slug": "shout",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "10zZQ2pxOgVnZgo5k_YP98y90g0dtGI9O"
+      },
+      {
+        "name": "Sing",
+        "slug": "sing",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1OcsFqSUB3y8UTDgRyGNPwdr1tYbFnYtA"
+      },
+      {
+        "name": "Sing",
+        "slug": "sing",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "17Mj4fxYF_WqMVhmZXFjvzh-_CzeovAE5"
+      },
+      {
+        "name": "Sit",
+        "slug": "sit",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1OT9niMT78MUWiV5pjLcbR_JOcap0fkKO"
+      },
+      {
+        "name": "Smile",
+        "slug": "smile",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1SMkc3qcNsI6FKA6wRNtIuipETvO8Cn38"
+      },
+      {
+        "name": "Stand",
+        "slug": "stand",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1dqbRu0QXNZNyFSL--gtJ4kxgiepj2KYq"
+      },
+      {
+        "name": "Swim",
+        "slug": "swim",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1qiGRWvp6VNQ-55ZR64yDYzjPYl4N2SHL"
+      },
+      {
+        "name": "Talk",
+        "slug": "talk",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1BTHzTKaCA6Kyr7c4FP2FDwmHng0H0HZG"
+      },
+      {
+        "name": "Teach",
+        "slug": "teach",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1R_yboakKdaeFDyEu1DHoZOCCafCZEOYq"
+      },
+      {
+        "name": "Think",
+        "slug": "think",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1d48UV6hRuRLsWc6fHAD0zYdWSQwdus92"
+      },
+      {
+        "name": "Throw",
+        "slug": "throw",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1VZo8OAnX5tDHX2jczccJaiZXGIkOLoJ4"
+      },
+      {
+        "name": "Walk",
+        "slug": "walk",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1wEvgJlu20yFNdjAtTj88ASvGTi6RPj3V"
+      },
+      {
+        "name": "Wash",
+        "slug": "wash",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1Kkixlv9ixKb7ECUudu1QC4IRd_JEkfL2"
+      },
+      {
+        "name": "Watch",
+        "slug": "watch",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1bzT-GOcrIFK2TzVzPxJRcrVqfdoQPX7g"
+      },
+      {
+        "name": "Wave",
+        "slug": "wave",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "13JBJmUVgStw-y-d9kFOZm9YOxroYHzCf"
+      },
+      {
+        "name": "Work",
+        "slug": "work",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "1Lpg8USdKOqXuHb55sMueU-zNF5oHWgHi"
+      },
+      {
+        "name": "Write",
+        "slug": "write",
+        "backgroundColor": "#fff",
+        "fontColor": "#212121",
+        "video": "13N-tyMyAMTVrmGzOCDzIMR4AFsGN1uau"
+      }
+    ]
+  },
+  {
+    "category": "Weather and nature",
+    "slug": "weather-and-nature",
+    "image": "assets/lessons/images/weather-and-nature/weather-and-nature.png",
+    "items": [
+      {
+        "name": "Breeze",
+        "slug": "breeze",
+        "video": "1zVM1d2AyTaEKK20XqhjKqqUj4nVeAjOb"
+      },
+      {
+        "name": "Cave",
+        "slug": "cave",
+        "video": "1uyZ4884J0ITnAmwA1NQCqRRl4LriKD0I"
+      },
+      {
+        "name": "Cloud",
+        "slug": "cloud",
+        "video": "1cVq0p0JgQq76irtHEeO35LTDjEP7x3Qy"
+      },
+      {
+        "name": "Cold",
+        "slug": "cold",
+        "video": "1y78SGPeLMXqi2sxFFwroy4s5Qo9YbwFy"
+      },
+      {
+        "name": "Desert",
+        "slug": "desert",
+        "video": "16Zj4WL10BjGBr5SUFLP2K6gOSoAEu65i"
+      },
+      {
+        "name": "Dew",
+        "slug": "dew",
+        "video": "1d_MaH-pXN3_ORBbgxr4yHxI-NtByo_zx"
+      },
+      {
+        "name": "Drizzle",
+        "slug": "drizzle",
+        "video": "1Dxd7Ruzoxx7IFZKO8BriVaBofxlUPLd2"
+      },
+      {
+        "name": "Earthquake",
+        "slug": "earthquake",
+        "video": "1j1aHIl3Z6Pr8HcNSF7ZvVHTr40qdRIxW"
+      },
+      {
+        "name": "Field",
+        "slug": "field",
+        "video": "1kY2zLa3L7BgGg4BnburKQlvm_Cl_uhxg"
+      },
+      {
+        "name": "Flood",
+        "slug": "flood",
+        "video": "1oizwhmlSfBYY7CNPfPhdjzgnRHX0tV4Y"
+      },
+      {
+        "name": "Flower",
+        "slug": "flower",
+        "video": "1qbujh3ZVEfHA1Qp4T6fPWIIQHU3sZ4b1"
+      },
+      {
+        "name": "Fog",
+        "slug": "fog",
+        "video": "16cA00yCO9eHI5TyTqCJ2aGcf9vx2DZ7C"
+      },
+      {
+        "name": "Forest",
+        "slug": "forest",
+        "video": "1YachakEWYibkifUEQ8ZhQxoaAR5gD3Wq"
+      },
+      {
+        "name": "Grass",
+        "slug": "grass",
+        "video": "1nekTpYaRe2puiWYN3htvTg_DJXcQYPOf"
+      },
+      {
+        "name": "Hail",
+        "slug": "hail",
+        "video": "1dP5bUDuvdQpnuEnnggVuHpTmys4URZ5j"
+      },
+      {
+        "name": "Heat",
+        "slug": "heat",
+        "video": "1McFONrToJ70IfQ9S1KMhSFiidEaEGanz"
+      },
+      {
+        "name": "Hurricane",
+        "slug": "hurricane",
+        "video": "18uVfCcadKp09fZ1Xb60rEECfLVOPBNoO"
+      },
+      {
+        "name": "Ice",
+        "slug": "ice",
+        "video": "1UOMSENmYmC7xviopQf4SGh2Cnp8neXWH"
+      },
+      {
+        "name": "Island",
+        "slug": "island",
+        "video": "1aWs8MVpXVBF2VGaSTUZL-W1i6SM7mBJ4"
+      },
+      {
+        "name": "Lake",
+        "slug": "lake",
+        "video": "1Bi_A3oorzbqo94jnFj6GDelUZERFX3BX"
+      },
+      {
+        "name": "Leaf",
+        "slug": "leaf",
+        "video": "16h2CqYIjqCDA5c9t_4UJGbInQTaT4aNf"
+      },
+      {
+        "name": "Lightning",
+        "slug": "lightning",
+        "video": "13DWIX2uMOYu3wkPGZmWV8v2bPxVchq9X"
+      },
+      {
+        "name": "Moon",
+        "slug": "moon",
+        "video": "1s-6rlIHt0Pon5udEwFvTgbd2pvc7UjIw"
+      },
+      {
+        "name": "Mountain",
+        "slug": "mountain",
+        "video": "113EQR0yHbrXFskRF_Vc0bN0Tv0yvXMKS"
+      },
+      {
+        "name": "Nature",
+        "slug": "nature",
+        "video": "1C22HrQHDFZ4lsxzA1mb-qaTnD4r7k23_"
+      },
+      {
+        "name": "Ocean",
+        "slug": "ocean",
+        "video": "1JBwKmW0eAT7RvjRFnnDWuaxYU-QDxzY2"
+      },
+      {
+        "name": "Rain",
+        "slug": "rain",
+        "video": "1WGBeVkWx6H8Yec2ephTqExx-SUnLzrJr"
+      },
+      {
+        "name": "Rainbow",
+        "slug": "rainbow",
+        "video": "10710-yAgnm3NVZ3490a_yKNr_LDUMekN"
+      },
+      {
+        "name": "River",
+        "slug": "river",
+        "video": "1zoeaHTLO73Fovpbe6YIJ-kdXAGdz7We0"
+      },
+      {
+        "name": "Rock",
+        "slug": "rock",
+        "video": "1jLRsBV5ZryzvciQPcPIFCt6CYakvAoV6"
+      },
+      {
+        "name": "Sand",
+        "slug": "sand",
+        "video": "1W_GuMRP8EK5EWguq3MO2cetCO1zaJXIQ"
+      },
+      {
+        "name": "Season",
+        "slug": "season",
+        "video": "1o_4vBQjhZDUfbEnlr5dmU5OUMhy6uZxh"
+      },
+      {
+        "name": "Sky",
+        "slug": "sky",
+        "video": "1-7tkCin8MmKsxHu4BwjjjwBJCidgA-eM"
+      },
+      {
+        "name": "Snow",
+        "slug": "snow",
+        "video": "1xFFcnm8kEatdrtRgzi5dlIi3Ibj8KbxN"
+      },
+      {
+        "name": "Snowflake",
+        "slug": "snowflake",
+        "video": "19_mv9PgCC4cipsJl-xEuCsP9AxaoIWJ7"
+      },
+      {
+        "name": "Soil",
+        "slug": "soil",
+        "video": "1WRVVPDhszxDqTi6CHGG_iMITLpeUz3u-"
+      },
+      {
+        "name": "Star",
+        "slug": "star",
+        "video": "11KUqeZpveSxq9db9Vg5F5NnZMdhZwhZM"
+      },
+      {
+        "name": "Storm",
+        "slug": "storm",
+        "video": "1LrfN09BLuIDGIAplP0RuNzsXTjL2raY1"
+      },
+      {
+        "name": "Sun",
+        "slug": "sun",
+        "video": "1eIzxi48meAI84dkFHmnd1Fu9PimKT98l"
+      },
+      {
+        "name": "Sunrise",
+        "slug": "sunrise",
+        "video": "1UY6pPsvdPSCCD63xhzc6KguHzX6LfZzY"
+      },
+      {
+        "name": "Sunset",
+        "slug": "sunset",
+        "video": "17zHCSbYEd-sQLKw9GEwmh987Unfsuzbj"
+      },
+      {
+        "name": "Thunder",
+        "slug": "thunder",
+        "video": "1W7teCkGWnpm7MMF0Rw7ZsK1_vutGZFUf"
+      },
+      {
+        "name": "Tornado",
+        "slug": "tornado",
+        "video": "1DTVnqTXHWA48Ze2nQj803bYmtxogJBf7"
+      },
+      {
+        "name": "Tree",
+        "slug": "tree",
+        "video": "17UJfVgXnkHcfRE5k1g5wag5GjLuqGfnY"
+      },
+      {
+        "name": "Valley",
+        "slug": "valley",
+        "video": "1YpEqskJ9KE63VcFuUztXk4du8xNXWk7Y"
+      },
+      {
+        "name": "Volcano",
+        "slug": "volcano",
+        "video": "1_3-B1IAlN0aICYJ3KvYz2P8HEB_sIHO9"
+      },
+      {
+        "name": "Waterfall",
+        "slug": "waterfall",
+        "video": "17hvxq0HpfnIGfF8aNrIhlBOGYmNbXTdE"
+      },
+      {
+        "name": "Wave",
+        "slug": "wave",
+        "video": "1hUUSpyUgqgVXTr2Y7jWOJwg97Hx9vmGO"
+      },
+      {
+        "name": "Wind",
+        "slug": "wind",
+        "video": "12wjNwYMqhZfxJ72wnf8Da10zLNHCbQZZ"
       }
     ]
   }

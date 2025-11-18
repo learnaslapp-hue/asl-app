@@ -62,5 +62,13 @@ export const routes: Routes = [
     path: 'reset-password',
     loadComponent: () => import('./pages/reset-password/reset-password.page').then( m => m.ResetPasswordPage)
   },
+  {
+    path: 'quiz',
+    loadComponent: () => import('./pages/quiz/quiz.page').then( m => m.QuizPage)
+  },
+  {
+    path: 'quiz/quiz-game',
+    loadComponent: () => import('./pages/quiz-game/quiz-game.page').then( m => m.QuizGamePage)
+  },
   { path: '**', redirectTo: '' },
 ];

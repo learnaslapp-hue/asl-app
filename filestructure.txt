@@ -90,7 +90,6 @@
                                 |-- ExampleInstrumentedTest.java
             |-- main
                 |-- AndroidManifest.xml
-                |-- AndroidManifest.xml.orig
                 |-- assets
                     |-- capacitor.config.json
                     |-- capacitor.plugins.json
@@ -165,45 +164,244 @@
                                 |-- text-to-speech.jpg
                             |-- lessons
                                 |-- images
-                                    |-- animals.png
-                                    |-- basic_words.png
-                                    |-- bear.png
-                                    |-- bird.png
-                                    |-- cat.png
-                                    |-- color.png
-                                    |-- cow.png
-                                    |-- day.png
-                                    |-- dog.png
-                                    |-- elephant.png
-                                    |-- emotions.png
-                                    |-- fish.png
-                                    |-- horse.png
+                                    |-- animals
+                                        |-- animals.png
+                                        |-- ant.png
+                                        |-- bat.png
+                                        |-- bear.png
+                                        |-- bee.png
+                                        |-- bird.png
+                                        |-- butterfly.png
+                                        |-- camel.png
+                                        |-- cat.png
+                                        |-- chicken.png
+                                        |-- cow.png
+                                        |-- crab.png
+                                        |-- crocodile.png
+                                        |-- deer.png
+                                        |-- dog.png
+                                        |-- dolphin.png
+                                        |-- duck.png
+                                        |-- eagle.png
+                                        |-- elephant.png
+                                        |-- fish.png
+                                        |-- fox.png
+                                        |-- frog.png
+                                        |-- giraffe.png
+                                        |-- goat.png
+                                        |-- hedgehog.png
+                                        |-- hippopotamus.png
+                                        |-- horse.png
+                                        |-- kangaroo.png
+                                        |-- koala.png
+                                        |-- lion.png
+                                        |-- lizard.png
+                                        |-- monkey.png
+                                        |-- octopus.png
+                                        |-- owl.png
+                                        |-- panda.png
+                                        |-- penguin.png
+                                        |-- pig.png
+                                        |-- rabbit.png
+                                        |-- rhinoceros.png
+                                        |-- seal.png
+                                        |-- shark.png
+                                        |-- sheep.png
+                                        |-- snake.png
+                                        |-- spider.png
+                                        |-- squirrel.png
+                                        |-- tiger.png
+                                        |-- turtle.png
+                                        |-- whale.png
+                                        |-- wolf.png
+                                        |-- zebra.png
+                                    |-- basic-words
+                                        |-- basic-words.png
+                                    |-- clothes-n-descriptions
+                                        |-- clothes-n-descriptions.png
+                                    |-- color
+                                        |-- color.png
+                                    |-- countries
+                                        |-- argentina.png
+                                        |-- australia.png
+                                        |-- austria.png
+                                        |-- belgium.png
+                                        |-- brazil.png
+                                        |-- canada.png
+                                        |-- chile.png
+                                        |-- china.png
+                                        |-- columbia.png
+                                        |-- countries.png
+                                        |-- egypt.png
+                                        |-- france.png
+                                        |-- germany.png
+                                        |-- greece.png
+                                        |-- india.png
+                                        |-- indonesia.png
+                                        |-- israel.png
+                                        |-- italy.png
+                                        |-- japan.png
+                                        |-- malaysia.png
+                                        |-- mexico.png
+                                        |-- nigeria.png
+                                        |-- norway.png
+                                        |-- peru.png
+                                        |-- philippines.png
+                                        |-- portugal.png
+                                        |-- romania.png
+                                        |-- russia.png
+                                        |-- singapore.png
+                                        |-- spain.png
+                                        |-- thailand.png
+                                        |-- turkey.png
+                                        |-- united-states.png
+                                        |-- vietnam.png
+                                    |-- day
+                                        |-- day.png
+                                    |-- emotions
+                                        |-- emotions.png
+                                    |-- health-and-safety
+                                        |-- ambulance.png
+                                        |-- bandage.png
+                                        |-- crutch.png
+                                        |-- doctor.png
+                                        |-- eyedrops.png
+                                        |-- first-aid.png
+                                        |-- gloves.png
+                                        |-- health-and-safety.png
+                                        |-- helmet.png
+                                        |-- hospital.png
+                                        |-- mask.png
+                                        |-- medicine.png
+                                        |-- nurse.png
+                                        |-- ointment.png
+                                        |-- painkiller.png
+                                        |-- sanitizer.png
+                                        |-- seatbelt.png
+                                        |-- thermometer.png
+                                        |-- vaccine.png
+                                    |-- household-items
+                                        |-- bed.png
+                                        |-- blanket.png
+                                        |-- bowl.png
+                                        |-- broom.png
+                                        |-- bucket.png
+                                        |-- cabinet.png
+                                        |-- chair.png
+                                        |-- clock.png
+                                        |-- closet.png
+                                        |-- computer.png
+                                        |-- cup.png
+                                        |-- door.png
+                                        |-- drawer.png
+                                        |-- fan.png
+                                        |-- faucet.png
+                                        |-- fork.png
+                                        |-- household-items.png
+                                        |-- iron.png
+                                        |-- keyboard.png
+                                        |-- knife.png
+                                        |-- lamp.png
+                                        |-- light.png
+                                        |-- microwave.png
+                                        |-- mirror.png
+                                        |-- mop.png
+                                        |-- mouse.png
+                                        |-- oven.png
+                                        |-- pan.png
+                                        |-- phone.png
+                                        |-- pillow.png
+                                        |-- plate.png
+                                        |-- pot.png
+                                        |-- refrigerator.png
+                                        |-- remote.png
+                                        |-- rug.png
+                                        |-- shelf.png
+                                        |-- sink.png
+                                        |-- soap.png
+                                        |-- sofa.png
+                                        |-- spoon.png
+                                        |-- stove.png
+                                        |-- table.png
+                                        |-- television.png
+                                        |-- toaster.png
+                                        |-- toothbrush.png
+                                        |-- towel.png
+                                        |-- trashcan.png
+                                        |-- vacuum.png
+                                        |-- window.png
                                     |-- lessons.xlsx
-                                    |-- lion.png
-                                    |-- monkey.png
-                                    |-- months.png
-                                    |-- numbers.png
-                                    |-- pig.png
-                                    |-- places_and_directions.png
-                                    |-- rabbit.png
-                                    |-- relationships.png
-                                    |-- verbs.png
+                                    |-- months
+                                        |-- months.png
+                                    |-- numbers
+                                        |-- numbers.png
+                                    |-- occupation
+                                        |-- occupation.png
+                                    |-- parts-of-the-body
+                                        |-- parts-of-the-body.png
+                                    |-- places-n-directions
+                                        |-- places-n-directions.png
+                                    |-- relationships
+                                        |-- relationships.png
+                                    |-- seasons
+                                        |-- fall.png
+                                        |-- seasons.png
+                                        |-- spring.png
+                                        |-- summer.png
+                                        |-- winter.png
+                                    |-- senses
+                                        |-- senses.png
+                                    |-- shape
+                                        |-- shape.png
+                                    |-- slang
+                                        |-- slang.png
+                                    |-- sogie-sexual-orientation-and-gender-identity
+                                        |-- sogie-sexual-orientation-and-gender-identity.png
+                                    |-- sports
+                                        |-- badminton.png
+                                        |-- baseball.png
+                                        |-- basketball.png
+                                        |-- bowling.png
+                                        |-- boxing.png
+                                        |-- cricket.png
+                                        |-- golf.png
+                                        |-- rugby.png
+                                        |-- running.png
+                                        |-- skate-boarding.png
+                                        |-- soccer.png
+                                        |-- sports.png
+                                        |-- swimming.png
+                                        |-- tennis.png
+                                        |-- volleyball.png
+                                        |-- wrestling.png
+                                    |-- subject
+                                        |-- subject.png
+                                    |-- technology-and-communication
+                                        |-- technology-and-communication.png
+                                    |-- travels-n-directions
+                                        |-- travels-n-directions.png
+                                    |-- verbs
+                                        |-- verbs.png
+                                    |-- weather-and-nature
+                                        |-- weather-and-nature.png
                                 |-- lessons.json
-                        |-- chunk-2AF5FOAA.js
+                            |-- quiz
+                                |-- quiz.json
                         |-- chunk-2Z5IYBOR.js
                         |-- chunk-33HYKEDK.js
                         |-- chunk-34VEE2YD.js
+                        |-- chunk-36NF3LEI.js
                         |-- chunk-3GUSW6XS.js
                         |-- chunk-3MEUGWN3.js
                         |-- chunk-3NTGT44D.js
-                        |-- chunk-3T6SOJS6.js
                         |-- chunk-42C7ZIID.js
                         |-- chunk-4D37LEBH.js
+                        |-- chunk-4ITQZEYI.js
                         |-- chunk-4U6PRYVA.js
                         |-- chunk-4V62HSRN.js
+                        |-- chunk-55BITWVR.js
                         |-- chunk-572LLHHX.js
                         |-- chunk-5HKGP5UB.js
-                        |-- chunk-5NPJNAPJ.js
                         |-- chunk-64PZ3OSN.js
                         |-- chunk-6GO5ISOD.js
                         |-- chunk-6NUEBUYE.js
@@ -212,10 +410,9 @@
                         |-- chunk-7ISF44PN.js
                         |-- chunk-7NECM6LW.js
                         |-- chunk-7PW2J7O2.js
-                        |-- chunk-7QRA6HYT.js
                         |-- chunk-7R5ZNXBG.js
+                        |-- chunk-7YAWXMMP.js
                         |-- chunk-A4LS7W3H.js
-                        |-- chunk-ABE2ZHUL.js
                         |-- chunk-ADUYDX2F.js
                         |-- chunk-AELO4X7F.js
                         |-- chunk-AEYCIGNT.js
@@ -224,41 +421,45 @@
                         |-- chunk-B4ILG2SA.js
                         |-- chunk-BAKXBSD2.js
                         |-- chunk-BFQC47ZY.js
+                        |-- chunk-BH4OWWEH.js
                         |-- chunk-BR3IKNUL.js
+                        |-- chunk-BU443HYE.js
                         |-- chunk-C5RQ2IC2.js
                         |-- chunk-CF5C5AH6.js
                         |-- chunk-CHV7RLFB.js
+                        |-- chunk-CHWTUHSD.js
                         |-- chunk-CIAJI3TA.js
                         |-- chunk-CJUYLGXA.js
+                        |-- chunk-CKJ3JQZ6.js
                         |-- chunk-CKP3SGE2.js
                         |-- chunk-CQ5ACUU7.js
+                        |-- chunk-CRQLZE4G.js
                         |-- chunk-CSG5OQLY.js
+                        |-- chunk-D64WEJD2.js
                         |-- chunk-DC73RG7A.js
                         |-- chunk-DFH65DK2.js
                         |-- chunk-DGSHWCEP.js
                         |-- chunk-DHGKAU6G.js
+                        |-- chunk-DKYIZX7N.js
                         |-- chunk-DMHTVIXX.js
                         |-- chunk-DQK3KBUF.js
+                        |-- chunk-DWXU3W74.js
                         |-- chunk-DYUJV54P.js
                         |-- chunk-E5ZX3QRR.js
                         |-- chunk-E7ZOKENL.js
                         |-- chunk-EC3ROJCR.js
                         |-- chunk-EGXNOGJG.js
-                        |-- chunk-EISBDRUG.js
-                        |-- chunk-EONRAGQT.js
-                        |-- chunk-EQDY4UTP.js
-                        |-- chunk-F2UIML2F.js
                         |-- chunk-FPOZYJOD.js
                         |-- chunk-FUHXKBJ3.js
                         |-- chunk-FXFZIWDD.js
                         |-- chunk-G2476464.js
+                        |-- chunk-GGD5M4WO.js
                         |-- chunk-GGIMTWXW.js
                         |-- chunk-HB7LWLH6.js
-                        |-- chunk-HZKMSCS6.js
+                        |-- chunk-ILYSE5R6.js
                         |-- chunk-INVJSEV7.js
                         |-- chunk-ITLHFZ6N.js
                         |-- chunk-IXDQAI5U.js
-                        |-- chunk-J6UEISPL.js
                         |-- chunk-JDHAWVXT.js
                         |-- chunk-JHV7MXM5.js
                         |-- chunk-JIPUQH57.js
@@ -268,16 +469,19 @@
                         |-- chunk-LCGHQR5P.js
                         |-- chunk-LJUJT4LQ.js
                         |-- chunk-LRBG2F7K.js
+                        |-- chunk-MMNE2UZC.js
                         |-- chunk-MTUXJE3Z.js
                         |-- chunk-N4H74X2N.js
                         |-- chunk-N556FBPX.js
                         |-- chunk-ND7XFFT4.js
                         |-- chunk-NSVKGIVU.js
                         |-- chunk-O4PCMGUI.js
+                        |-- chunk-OO67IDCK.js
+                        |-- chunk-OOEV2XOT.js
+                        |-- chunk-OW4U7TBM.js
                         |-- chunk-P754K45D.js
                         |-- chunk-PDCHILEE.js
                         |-- chunk-PLFY2CTQ.js
-                        |-- chunk-PTQLIENT.js
                         |-- chunk-QIBKRVRZ.js
                         |-- chunk-QIOGLRFT.js
                         |-- chunk-QLTHRXJP.js
@@ -286,22 +490,24 @@
                         |-- chunk-QUJFQN2Y.js
                         |-- chunk-RD3XSXCJ.js
                         |-- chunk-RSIQOUEQ.js
+                        |-- chunk-S52CO7LW.js
                         |-- chunk-SF2KXOZL.js
+                        |-- chunk-SMHH257M.js
+                        |-- chunk-SXVGX7GN.js
                         |-- chunk-T2Z3RKML.js
                         |-- chunk-T3OQMFWT.js
-                        |-- chunk-T7KAZKAB.js
                         |-- chunk-TFKMKZEA.js
                         |-- chunk-TG6FTS4O.js
                         |-- chunk-THMYXG5Y.js
                         |-- chunk-TSCAUGJG.js
+                        |-- chunk-U7FV4YUZ.js
                         |-- chunk-UDA7EHOH.js
                         |-- chunk-UEWK5YSD.js
-                        |-- chunk-UJODM2NG.js
                         |-- chunk-UUODALZH.js
                         |-- chunk-V4MQCQ7K.js
+                        |-- chunk-V5AXNRXH.js
                         |-- chunk-V7EWGBEE.js
                         |-- chunk-V7RZZWEO.js
-                        |-- chunk-VDDTTITY.js
                         |-- chunk-VMHM3MLJ.js
                         |-- chunk-VZBGHXQK.js
                         |-- chunk-W34T4BFF.js
@@ -313,7 +519,6 @@
                         |-- chunk-WLIQIJ56.js
                         |-- chunk-WPAANKQE.js
                         |-- chunk-WPRTUFAF.js
-                        |-- chunk-WTL2ZXBE.js
                         |-- chunk-WWLKLYXQ.js
                         |-- chunk-WXPWNLLQ.js
                         |-- chunk-XRAFHYBU.js
@@ -323,16 +528,15 @@
                         |-- chunk-YPOD3FIG.js
                         |-- chunk-Z2KPFZMZ.js
                         |-- chunk-Z2XIGH2N.js
-                        |-- chunk-ZA7FMUXH.js
+                        |-- chunk-ZHDFZB2B.js
                         |-- chunk-ZIPAPM4J.js
-                        |-- chunk-ZRUO2QN7.js
                         |-- chunk-ZSRSMIC3.js
                         |-- chunk-ZUMA5K4X.js
                         |-- chunk-ZV7S2JV6.js
                         |-- cordova.js
                         |-- cordova_plugins.js
                         |-- index.html
-                        |-- main-DYD2UFYS.js
+                        |-- main-PIIEO2WP.js
                         |-- media
                             |-- Poppins-Bold-QAA2AGZS.ttf
                             |-- Poppins-Regular-JNHL4IDV.ttf
@@ -343,7 +547,7 @@
                                     |-- SQLitePlugin.js
                         |-- polyfills-RQ52UMDF.js
                         |-- prerendered-routes.json
-                        |-- styles-KK53XQEW.css
+                        |-- styles-PC4EFVJI.css
                 |-- java
                     |-- com
                         |-- aslapp
@@ -517,14 +721,34 @@
         |-- app.component.spec.ts
         |-- app.component.ts
         |-- app.routes.ts
+        |-- components
+            |-- video-player
+                |-- video-player.component.html
+                |-- video-player.component.scss
+                |-- video-player.component.spec.ts
+                |-- video-player.component.ts
+            |-- video-player-modal
+                |-- video-player-modal.html
+                |-- video-player-modal.scss
+                |-- video-player-modal.spec.ts
+                |-- video-player-modal.ts
+        |-- directives
+            |-- autoplay-mute.directive.ts
         |-- guard
             |-- auth-guard.spec.ts
             |-- auth-guard.ts
+        |-- interceptor
+            |-- api-interceptor-interceptor.spec.ts
+            |-- api-interceptor-interceptor.ts
         |-- model
+            |-- api-key-management.ts
             |-- api-response.model.ts
             |-- custom-actionsheet.ts
             |-- files.ts
+            |-- lessons.ts
             |-- progress.ts
+            |-- quiz-status.ts
+            |-- quiz.ts
             |-- user.ts
         |-- pages
             |-- alphabet
@@ -573,6 +797,16 @@
                 |-- profile.page.scss
                 |-- profile.page.spec.ts
                 |-- profile.page.ts
+            |-- quiz
+                |-- quiz.page.html
+                |-- quiz.page.scss
+                |-- quiz.page.spec.ts
+                |-- quiz.page.ts
+            |-- quiz-game
+                |-- quiz-game.page.html
+                |-- quiz-game.page.scss
+                |-- quiz-game.page.spec.ts
+                |-- quiz-game.page.ts
             |-- register
                 |-- register.page.html
                 |-- register.page.scss
@@ -598,22 +832,27 @@
                 |-- text-to-sign.page.scss
                 |-- text-to-sign.page.spec.ts
                 |-- text-to-sign.page.ts
-            |-- video-player
-                |-- video-player.page.html
-                |-- video-player.page.scss
-                |-- video-player.page.spec.ts
-                |-- video-player.page.ts
+        |-- pipes
+            |-- safe-url.pipe.ts
         |-- services
+            |-- api-key-management.service.spec.ts
+            |-- api-key-management.service.ts
             |-- auth.service.spec.ts
             |-- auth.service.ts
             |-- lessons.service.spec.ts
             |-- lessons.service.ts
+            |-- quiz-data.service.spec.ts
+            |-- quiz-data.service.ts
+            |-- quiz-status.service.spec.ts
+            |-- quiz-status.service.ts
             |-- scroll.service.spec.ts
             |-- scroll.service.ts
             |-- status-bar.service.spec.ts
             |-- status-bar.service.ts
             |-- storage.service.spec.ts
             |-- storage.service.ts
+            |-- video-cache.service.spec.ts
+            |-- video-cache.service.ts
     |-- assets
         |-- asl
             |-- A.png
@@ -684,30 +923,229 @@
             |-- text-to-speech.jpg
         |-- lessons
             |-- images
-                |-- animals.png
-                |-- basic_words.png
-                |-- bear.png
-                |-- bird.png
-                |-- cat.png
-                |-- color.png
-                |-- cow.png
-                |-- day.png
-                |-- dog.png
-                |-- elephant.png
-                |-- emotions.png
-                |-- fish.png
-                |-- horse.png
+                |-- animals
+                    |-- animals.png
+                    |-- ant.png
+                    |-- bat.png
+                    |-- bear.png
+                    |-- bee.png
+                    |-- bird.png
+                    |-- butterfly.png
+                    |-- camel.png
+                    |-- cat.png
+                    |-- chicken.png
+                    |-- cow.png
+                    |-- crab.png
+                    |-- crocodile.png
+                    |-- deer.png
+                    |-- dog.png
+                    |-- dolphin.png
+                    |-- duck.png
+                    |-- eagle.png
+                    |-- elephant.png
+                    |-- fish.png
+                    |-- fox.png
+                    |-- frog.png
+                    |-- giraffe.png
+                    |-- goat.png
+                    |-- hedgehog.png
+                    |-- hippopotamus.png
+                    |-- horse.png
+                    |-- kangaroo.png
+                    |-- koala.png
+                    |-- lion.png
+                    |-- lizard.png
+                    |-- monkey.png
+                    |-- octopus.png
+                    |-- owl.png
+                    |-- panda.png
+                    |-- penguin.png
+                    |-- pig.png
+                    |-- rabbit.png
+                    |-- rhinoceros.png
+                    |-- seal.png
+                    |-- shark.png
+                    |-- sheep.png
+                    |-- snake.png
+                    |-- spider.png
+                    |-- squirrel.png
+                    |-- tiger.png
+                    |-- turtle.png
+                    |-- whale.png
+                    |-- wolf.png
+                    |-- zebra.png
+                |-- basic-words
+                    |-- basic-words.png
+                |-- clothes-n-descriptions
+                    |-- clothes-n-descriptions.png
+                |-- color
+                    |-- color.png
+                |-- countries
+                    |-- argentina.png
+                    |-- australia.png
+                    |-- austria.png
+                    |-- belgium.png
+                    |-- brazil.png
+                    |-- canada.png
+                    |-- chile.png
+                    |-- china.png
+                    |-- columbia.png
+                    |-- countries.png
+                    |-- egypt.png
+                    |-- france.png
+                    |-- germany.png
+                    |-- greece.png
+                    |-- india.png
+                    |-- indonesia.png
+                    |-- israel.png
+                    |-- italy.png
+                    |-- japan.png
+                    |-- malaysia.png
+                    |-- mexico.png
+                    |-- nigeria.png
+                    |-- norway.png
+                    |-- peru.png
+                    |-- philippines.png
+                    |-- portugal.png
+                    |-- romania.png
+                    |-- russia.png
+                    |-- singapore.png
+                    |-- spain.png
+                    |-- thailand.png
+                    |-- turkey.png
+                    |-- united-states.png
+                    |-- vietnam.png
+                |-- day
+                    |-- day.png
+                |-- emotions
+                    |-- emotions.png
+                |-- health-and-safety
+                    |-- ambulance.png
+                    |-- bandage.png
+                    |-- crutch.png
+                    |-- doctor.png
+                    |-- eyedrops.png
+                    |-- first-aid.png
+                    |-- gloves.png
+                    |-- health-and-safety.png
+                    |-- helmet.png
+                    |-- hospital.png
+                    |-- mask.png
+                    |-- medicine.png
+                    |-- nurse.png
+                    |-- ointment.png
+                    |-- painkiller.png
+                    |-- sanitizer.png
+                    |-- seatbelt.png
+                    |-- thermometer.png
+                    |-- vaccine.png
+                |-- household-items
+                    |-- bed.png
+                    |-- blanket.png
+                    |-- bowl.png
+                    |-- broom.png
+                    |-- bucket.png
+                    |-- cabinet.png
+                    |-- chair.png
+                    |-- clock.png
+                    |-- closet.png
+                    |-- computer.png
+                    |-- cup.png
+                    |-- door.png
+                    |-- drawer.png
+                    |-- fan.png
+                    |-- faucet.png
+                    |-- fork.png
+                    |-- household-items.png
+                    |-- iron.png
+                    |-- keyboard.png
+                    |-- knife.png
+                    |-- lamp.png
+                    |-- light.png
+                    |-- microwave.png
+                    |-- mirror.png
+                    |-- mop.png
+                    |-- mouse.png
+                    |-- oven.png
+                    |-- pan.png
+                    |-- phone.png
+                    |-- pillow.png
+                    |-- plate.png
+                    |-- pot.png
+                    |-- refrigerator.png
+                    |-- remote.png
+                    |-- rug.png
+                    |-- shelf.png
+                    |-- sink.png
+                    |-- soap.png
+                    |-- sofa.png
+                    |-- spoon.png
+                    |-- stove.png
+                    |-- table.png
+                    |-- television.png
+                    |-- toaster.png
+                    |-- toothbrush.png
+                    |-- towel.png
+                    |-- trashcan.png
+                    |-- vacuum.png
+                    |-- window.png
                 |-- lessons.xlsx
-                |-- lion.png
-                |-- monkey.png
-                |-- months.png
-                |-- numbers.png
-                |-- pig.png
-                |-- places_and_directions.png
-                |-- rabbit.png
-                |-- relationships.png
-                |-- verbs.png
+                |-- months
+                    |-- months.png
+                |-- numbers
+                    |-- numbers.png
+                |-- occupation
+                    |-- occupation.png
+                |-- parts-of-the-body
+                    |-- parts-of-the-body.png
+                |-- places-n-directions
+                    |-- places-n-directions.png
+                |-- relationships
+                    |-- relationships.png
+                |-- seasons
+                    |-- fall.png
+                    |-- seasons.png
+                    |-- spring.png
+                    |-- summer.png
+                    |-- winter.png
+                |-- senses
+                    |-- senses.png
+                |-- shape
+                    |-- shape.png
+                |-- slang
+                    |-- slang.png
+                |-- sogie-sexual-orientation-and-gender-identity
+                    |-- sogie-sexual-orientation-and-gender-identity.png
+                |-- sports
+                    |-- badminton.png
+                    |-- baseball.png
+                    |-- basketball.png
+                    |-- bowling.png
+                    |-- boxing.png
+                    |-- cricket.png
+                    |-- golf.png
+                    |-- rugby.png
+                    |-- running.png
+                    |-- skate-boarding.png
+                    |-- soccer.png
+                    |-- sports.png
+                    |-- swimming.png
+                    |-- tennis.png
+                    |-- volleyball.png
+                    |-- wrestling.png
+                |-- subject
+                    |-- subject.png
+                |-- technology-and-communication
+                    |-- technology-and-communication.png
+                |-- travels-n-directions
+                    |-- travels-n-directions.png
+                |-- verbs
+                    |-- verbs.png
+                |-- weather-and-nature
+                    |-- weather-and-nature.png
             |-- lessons.json
+        |-- quiz
+            |-- quiz.json
     |-- environments
         |-- environment.prod.ts
         |-- environment.ts
@@ -793,45 +1231,244 @@
             |-- text-to-speech.jpg
         |-- lessons
             |-- images
-                |-- animals.png
-                |-- basic_words.png
-                |-- bear.png
-                |-- bird.png
-                |-- cat.png
-                |-- color.png
-                |-- cow.png
-                |-- day.png
-                |-- dog.png
-                |-- elephant.png
-                |-- emotions.png
-                |-- fish.png
-                |-- horse.png
+                |-- animals
+                    |-- animals.png
+                    |-- ant.png
+                    |-- bat.png
+                    |-- bear.png
+                    |-- bee.png
+                    |-- bird.png
+                    |-- butterfly.png
+                    |-- camel.png
+                    |-- cat.png
+                    |-- chicken.png
+                    |-- cow.png
+                    |-- crab.png
+                    |-- crocodile.png
+                    |-- deer.png
+                    |-- dog.png
+                    |-- dolphin.png
+                    |-- duck.png
+                    |-- eagle.png
+                    |-- elephant.png
+                    |-- fish.png
+                    |-- fox.png
+                    |-- frog.png
+                    |-- giraffe.png
+                    |-- goat.png
+                    |-- hedgehog.png
+                    |-- hippopotamus.png
+                    |-- horse.png
+                    |-- kangaroo.png
+                    |-- koala.png
+                    |-- lion.png
+                    |-- lizard.png
+                    |-- monkey.png
+                    |-- octopus.png
+                    |-- owl.png
+                    |-- panda.png
+                    |-- penguin.png
+                    |-- pig.png
+                    |-- rabbit.png
+                    |-- rhinoceros.png
+                    |-- seal.png
+                    |-- shark.png
+                    |-- sheep.png
+                    |-- snake.png
+                    |-- spider.png
+                    |-- squirrel.png
+                    |-- tiger.png
+                    |-- turtle.png
+                    |-- whale.png
+                    |-- wolf.png
+                    |-- zebra.png
+                |-- basic-words
+                    |-- basic-words.png
+                |-- clothes-n-descriptions
+                    |-- clothes-n-descriptions.png
+                |-- color
+                    |-- color.png
+                |-- countries
+                    |-- argentina.png
+                    |-- australia.png
+                    |-- austria.png
+                    |-- belgium.png
+                    |-- brazil.png
+                    |-- canada.png
+                    |-- chile.png
+                    |-- china.png
+                    |-- columbia.png
+                    |-- countries.png
+                    |-- egypt.png
+                    |-- france.png
+                    |-- germany.png
+                    |-- greece.png
+                    |-- india.png
+                    |-- indonesia.png
+                    |-- israel.png
+                    |-- italy.png
+                    |-- japan.png
+                    |-- malaysia.png
+                    |-- mexico.png
+                    |-- nigeria.png
+                    |-- norway.png
+                    |-- peru.png
+                    |-- philippines.png
+                    |-- portugal.png
+                    |-- romania.png
+                    |-- russia.png
+                    |-- singapore.png
+                    |-- spain.png
+                    |-- thailand.png
+                    |-- turkey.png
+                    |-- united-states.png
+                    |-- vietnam.png
+                |-- day
+                    |-- day.png
+                |-- emotions
+                    |-- emotions.png
+                |-- health-and-safety
+                    |-- ambulance.png
+                    |-- bandage.png
+                    |-- crutch.png
+                    |-- doctor.png
+                    |-- eyedrops.png
+                    |-- first-aid.png
+                    |-- gloves.png
+                    |-- health-and-safety.png
+                    |-- helmet.png
+                    |-- hospital.png
+                    |-- mask.png
+                    |-- medicine.png
+                    |-- nurse.png
+                    |-- ointment.png
+                    |-- painkiller.png
+                    |-- sanitizer.png
+                    |-- seatbelt.png
+                    |-- thermometer.png
+                    |-- vaccine.png
+                |-- household-items
+                    |-- bed.png
+                    |-- blanket.png
+                    |-- bowl.png
+                    |-- broom.png
+                    |-- bucket.png
+                    |-- cabinet.png
+                    |-- chair.png
+                    |-- clock.png
+                    |-- closet.png
+                    |-- computer.png
+                    |-- cup.png
+                    |-- door.png
+                    |-- drawer.png
+                    |-- fan.png
+                    |-- faucet.png
+                    |-- fork.png
+                    |-- household-items.png
+                    |-- iron.png
+                    |-- keyboard.png
+                    |-- knife.png
+                    |-- lamp.png
+                    |-- light.png
+                    |-- microwave.png
+                    |-- mirror.png
+                    |-- mop.png
+                    |-- mouse.png
+                    |-- oven.png
+                    |-- pan.png
+                    |-- phone.png
+                    |-- pillow.png
+                    |-- plate.png
+                    |-- pot.png
+                    |-- refrigerator.png
+                    |-- remote.png
+                    |-- rug.png
+                    |-- shelf.png
+                    |-- sink.png
+                    |-- soap.png
+                    |-- sofa.png
+                    |-- spoon.png
+                    |-- stove.png
+                    |-- table.png
+                    |-- television.png
+                    |-- toaster.png
+                    |-- toothbrush.png
+                    |-- towel.png
+                    |-- trashcan.png
+                    |-- vacuum.png
+                    |-- window.png
                 |-- lessons.xlsx
-                |-- lion.png
-                |-- monkey.png
-                |-- months.png
-                |-- numbers.png
-                |-- pig.png
-                |-- places_and_directions.png
-                |-- rabbit.png
-                |-- relationships.png
-                |-- verbs.png
+                |-- months
+                    |-- months.png
+                |-- numbers
+                    |-- numbers.png
+                |-- occupation
+                    |-- occupation.png
+                |-- parts-of-the-body
+                    |-- parts-of-the-body.png
+                |-- places-n-directions
+                    |-- places-n-directions.png
+                |-- relationships
+                    |-- relationships.png
+                |-- seasons
+                    |-- fall.png
+                    |-- seasons.png
+                    |-- spring.png
+                    |-- summer.png
+                    |-- winter.png
+                |-- senses
+                    |-- senses.png
+                |-- shape
+                    |-- shape.png
+                |-- slang
+                    |-- slang.png
+                |-- sogie-sexual-orientation-and-gender-identity
+                    |-- sogie-sexual-orientation-and-gender-identity.png
+                |-- sports
+                    |-- badminton.png
+                    |-- baseball.png
+                    |-- basketball.png
+                    |-- bowling.png
+                    |-- boxing.png
+                    |-- cricket.png
+                    |-- golf.png
+                    |-- rugby.png
+                    |-- running.png
+                    |-- skate-boarding.png
+                    |-- soccer.png
+                    |-- sports.png
+                    |-- swimming.png
+                    |-- tennis.png
+                    |-- volleyball.png
+                    |-- wrestling.png
+                |-- subject
+                    |-- subject.png
+                |-- technology-and-communication
+                    |-- technology-and-communication.png
+                |-- travels-n-directions
+                    |-- travels-n-directions.png
+                |-- verbs
+                    |-- verbs.png
+                |-- weather-and-nature
+                    |-- weather-and-nature.png
             |-- lessons.json
-    |-- chunk-2AF5FOAA.js
+        |-- quiz
+            |-- quiz.json
     |-- chunk-2Z5IYBOR.js
     |-- chunk-33HYKEDK.js
     |-- chunk-34VEE2YD.js
+    |-- chunk-36NF3LEI.js
     |-- chunk-3GUSW6XS.js
     |-- chunk-3MEUGWN3.js
     |-- chunk-3NTGT44D.js
-    |-- chunk-3T6SOJS6.js
     |-- chunk-42C7ZIID.js
     |-- chunk-4D37LEBH.js
+    |-- chunk-4ITQZEYI.js
     |-- chunk-4U6PRYVA.js
     |-- chunk-4V62HSRN.js
+    |-- chunk-55BITWVR.js
     |-- chunk-572LLHHX.js
     |-- chunk-5HKGP5UB.js
-    |-- chunk-5NPJNAPJ.js
     |-- chunk-64PZ3OSN.js
     |-- chunk-6GO5ISOD.js
     |-- chunk-6NUEBUYE.js
@@ -840,10 +1477,9 @@
     |-- chunk-7ISF44PN.js
     |-- chunk-7NECM6LW.js
     |-- chunk-7PW2J7O2.js
-    |-- chunk-7QRA6HYT.js
     |-- chunk-7R5ZNXBG.js
+    |-- chunk-7YAWXMMP.js
     |-- chunk-A4LS7W3H.js
-    |-- chunk-ABE2ZHUL.js
     |-- chunk-ADUYDX2F.js
     |-- chunk-AELO4X7F.js
     |-- chunk-AEYCIGNT.js
@@ -852,41 +1488,45 @@
     |-- chunk-B4ILG2SA.js
     |-- chunk-BAKXBSD2.js
     |-- chunk-BFQC47ZY.js
+    |-- chunk-BH4OWWEH.js
     |-- chunk-BR3IKNUL.js
+    |-- chunk-BU443HYE.js
     |-- chunk-C5RQ2IC2.js
     |-- chunk-CF5C5AH6.js
     |-- chunk-CHV7RLFB.js
+    |-- chunk-CHWTUHSD.js
     |-- chunk-CIAJI3TA.js
     |-- chunk-CJUYLGXA.js
+    |-- chunk-CKJ3JQZ6.js
     |-- chunk-CKP3SGE2.js
     |-- chunk-CQ5ACUU7.js
+    |-- chunk-CRQLZE4G.js
     |-- chunk-CSG5OQLY.js
+    |-- chunk-D64WEJD2.js
     |-- chunk-DC73RG7A.js
     |-- chunk-DFH65DK2.js
     |-- chunk-DGSHWCEP.js
     |-- chunk-DHGKAU6G.js
+    |-- chunk-DKYIZX7N.js
     |-- chunk-DMHTVIXX.js
     |-- chunk-DQK3KBUF.js
+    |-- chunk-DWXU3W74.js
     |-- chunk-DYUJV54P.js
     |-- chunk-E5ZX3QRR.js
     |-- chunk-E7ZOKENL.js
     |-- chunk-EC3ROJCR.js
     |-- chunk-EGXNOGJG.js
-    |-- chunk-EISBDRUG.js
-    |-- chunk-EONRAGQT.js
-    |-- chunk-EQDY4UTP.js
-    |-- chunk-F2UIML2F.js
     |-- chunk-FPOZYJOD.js
     |-- chunk-FUHXKBJ3.js
     |-- chunk-FXFZIWDD.js
     |-- chunk-G2476464.js
+    |-- chunk-GGD5M4WO.js
     |-- chunk-GGIMTWXW.js
     |-- chunk-HB7LWLH6.js
-    |-- chunk-HZKMSCS6.js
+    |-- chunk-ILYSE5R6.js
     |-- chunk-INVJSEV7.js
     |-- chunk-ITLHFZ6N.js
     |-- chunk-IXDQAI5U.js
-    |-- chunk-J6UEISPL.js
     |-- chunk-JDHAWVXT.js
     |-- chunk-JHV7MXM5.js
     |-- chunk-JIPUQH57.js
@@ -896,16 +1536,19 @@
     |-- chunk-LCGHQR5P.js
     |-- chunk-LJUJT4LQ.js
     |-- chunk-LRBG2F7K.js
+    |-- chunk-MMNE2UZC.js
     |-- chunk-MTUXJE3Z.js
     |-- chunk-N4H74X2N.js
     |-- chunk-N556FBPX.js
     |-- chunk-ND7XFFT4.js
     |-- chunk-NSVKGIVU.js
     |-- chunk-O4PCMGUI.js
+    |-- chunk-OO67IDCK.js
+    |-- chunk-OOEV2XOT.js
+    |-- chunk-OW4U7TBM.js
     |-- chunk-P754K45D.js
     |-- chunk-PDCHILEE.js
     |-- chunk-PLFY2CTQ.js
-    |-- chunk-PTQLIENT.js
     |-- chunk-QIBKRVRZ.js
     |-- chunk-QIOGLRFT.js
     |-- chunk-QLTHRXJP.js
@@ -914,22 +1557,24 @@
     |-- chunk-QUJFQN2Y.js
     |-- chunk-RD3XSXCJ.js
     |-- chunk-RSIQOUEQ.js
+    |-- chunk-S52CO7LW.js
     |-- chunk-SF2KXOZL.js
+    |-- chunk-SMHH257M.js
+    |-- chunk-SXVGX7GN.js
     |-- chunk-T2Z3RKML.js
     |-- chunk-T3OQMFWT.js
-    |-- chunk-T7KAZKAB.js
     |-- chunk-TFKMKZEA.js
     |-- chunk-TG6FTS4O.js
     |-- chunk-THMYXG5Y.js
     |-- chunk-TSCAUGJG.js
+    |-- chunk-U7FV4YUZ.js
     |-- chunk-UDA7EHOH.js
     |-- chunk-UEWK5YSD.js
-    |-- chunk-UJODM2NG.js
     |-- chunk-UUODALZH.js
     |-- chunk-V4MQCQ7K.js
+    |-- chunk-V5AXNRXH.js
     |-- chunk-V7EWGBEE.js
     |-- chunk-V7RZZWEO.js
-    |-- chunk-VDDTTITY.js
     |-- chunk-VMHM3MLJ.js
     |-- chunk-VZBGHXQK.js
     |-- chunk-W34T4BFF.js
@@ -941,7 +1586,6 @@
     |-- chunk-WLIQIJ56.js
     |-- chunk-WPAANKQE.js
     |-- chunk-WPRTUFAF.js
-    |-- chunk-WTL2ZXBE.js
     |-- chunk-WWLKLYXQ.js
     |-- chunk-WXPWNLLQ.js
     |-- chunk-XRAFHYBU.js
@@ -951,18 +1595,17 @@
     |-- chunk-YPOD3FIG.js
     |-- chunk-Z2KPFZMZ.js
     |-- chunk-Z2XIGH2N.js
-    |-- chunk-ZA7FMUXH.js
+    |-- chunk-ZHDFZB2B.js
     |-- chunk-ZIPAPM4J.js
-    |-- chunk-ZRUO2QN7.js
     |-- chunk-ZSRSMIC3.js
     |-- chunk-ZUMA5K4X.js
     |-- chunk-ZV7S2JV6.js
     |-- index.html
-    |-- main-DYD2UFYS.js
+    |-- main-PIIEO2WP.js
     |-- media
         |-- Poppins-Bold-QAA2AGZS.ttf
         |-- Poppins-Regular-JNHL4IDV.ttf
         |-- Poppins-SemiBold-TBISX6G2.ttf
     |-- polyfills-RQ52UMDF.js
     |-- prerendered-routes.json
-    |-- styles-KK53XQEW.css
+    |-- styles-PC4EFVJI.css

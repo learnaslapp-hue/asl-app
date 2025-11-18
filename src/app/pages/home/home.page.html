@@ -55,17 +55,17 @@
   </div>
   <div class="cards">
 
-    <div class="image-card">
+    <div class="image-card" routerLink="/quiz">
       <ion-card class="card">
         <ion-card-content>
           <div class="progress-wrap">
-            @if(currentProfile?.progress?.quiz?.compeleted.length > 0 && currentProfile?.progress?.quiz?.status) {
+            @if(quizStatus?.currentHighScore) {
               <span class="progress-label-wrap">
-                <span class="progress-label">{{currentProfile?.progress?.quiz?.status}}</span>
+                <span class="progress-label">High Score: {{quizStatus?.currentHighScore}}</span>
               </span>
             } @else {
               <span class="progress-label-wrap">
-                <span class="progress-label">0/5</span>
+                <span class="progress-label">Not started</span>
               </span>
             }
             <ion-progress-bar [value]="currentProfile?.progress?.quiz?.compeleted.length / 5" ></ion-progress-bar>

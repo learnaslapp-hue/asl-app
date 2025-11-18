@@ -28,6 +28,10 @@ import { StorageService } from '../../services/storage.service';
 import { App } from '@capacitor/app';
 import { ScrollService } from '../../services/scroll.service';
 import { User } from '../model/user';
+import { APIKeyManagementService } from 'src/app/services/api-key-management.service';
+import { Subscription } from 'rxjs';
+import { QuizStatusService } from 'src/app/services/quiz-status.service';
+import { QuizStatus } from 'src/app/model/quiz-status';
 
 
 @Component({
@@ -44,12 +48,17 @@ import { User } from '../model/user';
 })
 export class HomePage implements OnInit {
   currentProfile: User;
+  quizStatus!: QuizStatus;
+  private apiKeySub?: Subscription;
   @ViewChild(IonContent, { static: true }) content!: IonContent;
   constructor(
     private readonly storageService: StorageService,
     private readonly authService: AuthService,
-    public scrollService: ScrollService
+    public scrollService: ScrollService,
+    private statusSvc: QuizStatusService,
+    private readonly apiKeyManagementService: APIKeyManagementService,
   ) {
+    this.loadStatus();
     addIcons({ personCircle });
   }
 
@@ -60,10 +69,31 @@ export class HomePage implements OnInit {
   }
 
   ionViewWillEnter() {
+    this.loadStatus();
+    this.loadAPIKey();
   }
 
   ngAfterViewInit() {
     this.scrollService.register(this.content);
+  }
+
+  ngOnDestroy() {
+    this.apiKeySub?.unsubscribe();
+  }
+
+  private loadAPIKey() {
+    if(!this.apiKeyManagementService?.currentAPIKey?.apiKey) {
+      this.apiKeySub = this.apiKeyManagementService.get().subscribe(res=> {
+        if(res && res.data) {
+          this.storageService.saveAPIKey(res.data);
+          this.apiKeyManagementService.setCurrentAPIKey(res.data);
+        }
+      });
+    }
+  }
+
+  private async loadStatus() {
+    this.quizStatus = await this.statusSvc.load();
   }
 
 }

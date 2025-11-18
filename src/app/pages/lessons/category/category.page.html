@@ -12,7 +12,8 @@
   <ng-container *ngIf="category$ | async as cat; else loading">
     <ng-container *ngIf="cat?.items?.length; else empty">
 
-      @if(cat?.slug === "animals") {
+      @if(cat?.slug === "animals" || cat?.slug === "countries" || cat?.slug === "health-and-safety" || cat?.slug === "seasons"
+       || cat?.slug === "sports" || cat?.slug === "household-items" || cat?.slug === "countries") {
       <div class="cards grid">
         <ng-container *ngFor="let item of cat.items">
           <div class="card-holder" (click)="onShowVideoPlayer(item, cat)">
@@ -27,27 +28,6 @@
             </div>
             <ion-icon color="success" size="large" *ngIf="isItemDone(cat.slug, item.slug)" name="checkmark-circle"
               class="done"></ion-icon>
-          </div>
-        </ng-container>
-      </div>
-      }
-      @else if(cat?.slug === "basic_words" || cat?.slug === "day" || cat?.slug === "months" || cat?.slug === "numbers"
-      || cat?.slug === "verbs")
-      {
-      <div class="cards list">
-        <ng-container *ngFor="let item of cat.items">
-          <div class="card-holder" (click)="onShowVideoPlayer(item, cat)">
-            <ion-card>
-              <ion-card-content>
-                <ion-card-title>{{ item.name }}
-                  <ion-icon color="success" size="large" *ngIf="isItemDone(cat.slug, item.slug)" name="checkmark-circle"
-                    class="done"></ion-icon>
-                  </ion-card-title>
-                <ion-button shape="round">
-                  <ion-icon name="play" slot="icon-only"></ion-icon>
-                </ion-button>
-              </ion-card-content>
-            </ion-card>
           </div>
         </ng-container>
       </div>
@@ -77,7 +57,7 @@
         </ng-container>
       </div>
       }
-      @else if(cat?.slug === "emotions" || cat?.slug === "places_and_directions" || cat?.slug === "relationships") {
+      @else if(cat?.slug === "emotions" || cat?.slug === "places-n-directions" || cat?.slug === "relationships") {
       <div class="cards grid">
         <ng-container *ngFor="let item of cat.items">
           <div class="card-holder" (click)="onShowVideoPlayer(item, cat)">
@@ -93,6 +73,25 @@
                 <ion-icon name="play" slot="icon-only"></ion-icon>
               </ion-button>
             </div>
+          </div>
+        </ng-container>
+      </div>
+      }
+      @else {
+      <div class="cards list">
+        <ng-container *ngFor="let item of cat.items">
+          <div class="card-holder" (click)="onShowVideoPlayer(item, cat)">
+            <ion-card>
+              <ion-card-content>
+                <ion-card-title>{{ item.name }}
+                  <ion-icon color="success" size="large" *ngIf="isItemDone(cat.slug, item.slug)" name="checkmark-circle"
+                    class="done"></ion-icon>
+                  </ion-card-title>
+                <ion-button shape="round">
+                  <ion-icon name="play" slot="icon-only"></ion-icon>
+                </ion-button>
+              </ion-card-content>
+            </ion-card>
           </div>
         </ng-container>
       </div>

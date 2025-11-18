@@ -4,7 +4,7 @@
     "type": "APK",
     "kind": "Directory"
   },
-  "applicationId": "com.aslapp.app",
+  "applicationId": "com.dxocr.app",
   "variantName": "release",
   "elements": [
     {

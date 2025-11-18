@@ -9,11 +9,12 @@ import {
   withPreloading,
   PreloadAllModules,
 } from '@angular/router';
-import { provideHttpClient, withInterceptorsFromDi } from '@angular/common/http'; // 👈 add this
+import { provideHttpClient, withInterceptors, withInterceptorsFromDi } from '@angular/common/http'; // 👈 add this
 import { AppComponent } from './app/app.component';
 import { routes } from './app/app.routes';
 import { IonicModule } from '@ionic/angular';
 import { IonicStorageModule } from '@ionic/storage-angular';
+import { userIdInterceptor } from './app/interceptor/api-interceptor-interceptor';
 
 bootstrapApplication(AppComponent, {
   providers: [
@@ -25,6 +26,9 @@ bootstrapApplication(AppComponent, {
         // Optional driver order (uncomment if you installed cordova-sqlite-storage):
         // driverOrder: [Drivers.SQLite, Drivers.IndexedDB, Drivers.LocalStorage],
       })
+    ),
+    provideHttpClient(
+      withInterceptors([userIdInterceptor])
     ),
     provideIonicAngular(),
     provideRouter(routes, withPreloading(PreloadAllModules)),

@@ -1,0 +1,22 @@
+<ion-header [translucent]="true">
+  <ion-toolbar color="dark">
+    <ion-buttons slot="start">
+      <ion-button (click)="close()">
+        <ion-icon name="arrow-back" slot="icon-only"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+    <ion-title style="text-align:center">{{ item?.name }}</ion-title>
+    <div slot="end" style="width:48px"></div>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true" class="viewer">
+
+  <!-- video-player-modal.html -->
+  <app-video-player #videoPlayer [src]="playSrc" [fullHeight]="true" (loadedmetadata)="onMeta()" (canplay)="onCanPlay()"
+    (playing)="onCanPlay()" (timeupdate)="onTimeUpdate()" (seeking)="onSeeking()" (seeked)="onSeeked()"
+    (ratechange)="onRateChange()" (ended)="onEnded()"></app-video-player>
+
+</ion-content>
+<ion-footer class="no-shadow modal-safe-botom">
+</ion-footer>

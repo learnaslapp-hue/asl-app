@@ -1,0 +1,25 @@
+<!-- Spinner overlay while loading -->
+<div  class="overlay" *ngIf="loading">
+  <ion-spinner style="width: 80px;height: 80px;" name="crescent" color="light"></ion-spinner>
+</div>
+
+<video
+ style="opacity: {{loading ? 0 : 1}};{{fullHeight ? 'height: 100%' : ''}}" 
+ #vid class="player" 
+ autoplay 
+ muted 
+ playsinline 
+ preload="auto" loop
+  (loadstart)="loadstart.emit();loading = true" 
+  (loadedmetadata)="loadedmetadata.emit()"
+  (canplay)="canplay.emit();loading = false;" 
+  (playing)="playing.emit()" 
+  (timeupdate)="timeupdate.emit()"
+  (seeking)="seeking.emit()" 
+  (seeked)="seeked.emit()" 
+  (ratechange)="ratechange.emit()" 
+  (ended)="ended.emit()"
+  (error)="error.emit($event);loading = false" 
+  [autoplayMute]="true" poster="">
+  <source [src]="src | safeUrl" type="video/mp4" />
+</video>

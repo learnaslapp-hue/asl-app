@@ -320,3 +320,12 @@ ion-loading {
 .modal-safe-botom {
   padding-bottom: calc(var(--safe-bottom, 0))!important;
 }
+
+
+.alert-button-cancel {
+  color: var(--ion-color-medium);
+}
+.alert-button-confirm {
+  color: var(--ion-color-danger);
+  font-weight: 600;
+}

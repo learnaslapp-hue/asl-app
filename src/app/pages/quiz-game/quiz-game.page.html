@@ -1,0 +1,81 @@
+<!-- src/app/quiz-game/quiz-game.page.html -->
+<ion-header class="ion-no-border">
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="/quiz"></ion-back-button>
+    </ion-buttons>
+
+    <ion-buttons *ngIf="q?.level === status?.currentLevel" slot="end">
+      <ion-chip><ion-label>Level {{ status?.currentLevel }}</ion-label></ion-chip>
+    </ion-buttons>
+  </ion-toolbar>
+  <ion-toolbar>
+    <div style="padding: 0px 20px;font-size: rem;"><span>{{ q?.group }}</span></div>
+    <div style="padding: 0px 20px;font-size: rem;"><h4>{{ q?.name }}</h4></div>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content *ngIf="q as quiz">
+  <div class="card prompt">
+
+    <!-- prompt media/text -->
+    <ng-container [ngSwitch]="quiz.questionType">
+      <div *ngSwitchCase="'text'" class="prompt-text">{{ quiz.data }}</div>
+
+      <!-- <video *ngSwitchCase="'single-video'" autoplay muted playsinline preload="auto" loop class="media">
+        <source [src]="source + quiz.data | safeUrl" type="video/mp4" />
+      </video> -->
+
+      <div *ngSwitchCase="'single-video'">
+        <app-video-player style="max-height: 200px;position: relative;" [src]="source + quiz.data"></app-video-player>
+      </div>
+
+
+      <img *ngSwitchCase="'single-image'" [src]="quiz.data" class="media" alt="prompt" />
+
+      <ng-container *ngSwitchCase="'multiple-video'">
+        <div class="grid-video">
+          <ng-container *ngFor="let v of quiz?.data; let i = index">
+            <div class="media-wrapper">
+              <span>#{{i + 1}}</span>
+              <!-- <video autoplay muted playsinline preload="auto" loop class="media">
+                <source [src]="source + v | safeUrl" type="video/mp4" />
+              </video> -->
+
+              <app-video-player [src]="source + v"></app-video-player>
+
+            </div>
+          </ng-container>
+        </div>
+      </ng-container>
+
+
+      <div *ngSwitchDefault class="prompt-text">Unsupported type</div>
+    </ng-container>
+  </div>
+
+  <div class="options ion-padding">
+    <button class="option" style="{{opt.type !== 'video' ? 'height: 56px;' : ''}}" *ngFor="let opt of quiz.options; trackBy: trackById" [class.selected]="selected===opt.id"
+      [class.correct]="answered && opt.id===quiz.correctOptionId"
+      [class.incorrect]="answered && selected===opt.id && opt.id!==quiz.correctOptionId" (click)="pick(opt)">
+      <ng-container [ngSwitch]="opt.type">
+        <img *ngSwitchCase="'image'" [src]="opt.url" alt="{{opt.key}}" />
+        <!-- <video *ngSwitchCase="'video'" autoplay muted playsinline preload="auto" loop
+          [attr.controls]="!answered?null:true">
+          <source [src]="source + opt.url" type="video/mp4" />
+        </video> -->
+
+        <app-video-player style="max-height: 200px;position: relative;" *ngSwitchCase="'video'" [src]="source + opt.url"></app-video-player>
+
+
+      </ng-container>
+      <div class="label">{{ opt.key }}</div>
+    </button>
+  </div>
+
+  <div class="footer ion-padding">
+    <ion-button expand="block" shape="round" style="height: 56px;" [disabled]="!answered" (click)="next()">
+      {{ correct ? 'Great! Back to Levels' : 'Try Another' }}
+    </ion-button>
+  </div>
+</ion-content>

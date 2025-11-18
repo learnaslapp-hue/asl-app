@@ -2,6 +2,7 @@
 import { Injectable } from '@angular/core';
 import { Storage } from '@ionic/storage-angular';
 import { User } from '../model/user';
+import { APIKeyManagement } from '../model/api-key-management';
 
 @Injectable({ providedIn: 'root' })
 export class StorageService {
@@ -63,6 +64,15 @@ export class StorageService {
 
    async getCameraFacing(): Promise<'user' | 'environment'> {
     return this.getItem('camera_facing');
+  }
+
+  async getSavedAPIKey(): Promise<APIKeyManagement | null> {
+    const res = await this.getItem<APIKeyManagement>('apiKey');
+    return res ?? null;
+  }
+
+  async saveAPIKey(value: APIKeyManagement): Promise<void> {
+    await this.setItem('apiKey', value);
   }
 
   // Set value
